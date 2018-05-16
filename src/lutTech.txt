@@ -1,0 +1,6703 @@
+
+***** Tritanium *****
+ComponentID = 0	 TypeID = 5 (Armor)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 50 	Shields: 0 	Mass: 60
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 10
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Crobmnium *****
+ComponentID = 1	 TypeID = 5 (Armor)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 3 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	6
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 75 	Shields: 0 	Mass: 56
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 13
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Carbonic Armor *****
+ComponentID = 2	 TypeID = 5 (Armor)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 4
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	5
+  Boranium 	0
+      Fuel 	0
+Armor: 100 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 15
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Strobnium *****
+ComponentID = 3	 TypeID = 5 (Armor)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 6 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 120 	Shields: 0 	Mass: 54
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 18
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Organic Armor *****
+ComponentID = 4	 TypeID = 5 (Armor)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 7
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+Armor: 175 	Shields: 0 	Mass: 15
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Kelarium *****
+ComponentID = 5	 TypeID = 5 (Armor)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 9 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	9
+ Germanium 	0
+  Boranium 	1
+      Fuel 	0
+Armor: 180 	Shields: 0 	Mass: 50
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 25
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Fielded Kelarium *****
+ComponentID = 6	 TypeID = 5 (Armor)
+PRTs: Inner Strength
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 4 WE 0 PR 0 CO 10 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Armor: 175 	Shields: 0 	Mass: 50
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 26
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Depleted Neutronium *****
+ComponentID = 7	 TypeID = 5 (Armor)
+PRTs: Super Stealth
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 10 EL 3 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Armor: 200 	Shields: 0 	Mass: 50
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 28
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Neutronium *****
+ComponentID = 8	 TypeID = 5 (Armor)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 12 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	11
+ Germanium 	1
+  Boranium 	2
+      Fuel 	0
+Armor: 275 	Shields: 0 	Mass: 45
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 30
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Valanium *****
+ComponentID = 9	 TypeID = 5 (Armor)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 16 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	15
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 500 	Shields: 0 	Mass: 40
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 50
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Superlatanium *****
+ComponentID = 10	 TypeID = 5 (Armor)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 24 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	25
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 1500 	Shields: 0 	Mass: 30
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Laser *****
+ComponentID = 11	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	6
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 9 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 1 Damage Rates: 10 10 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** X-Ray Laser *****
+ComponentID = 12	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 3 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	6
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 9 	Techtree ID: 0	ResourceCostBase: 6
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 1 Damage Rates: 16 16 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mini Gun *****
+ComponentID = 13	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 5 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	16
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 3
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 12 	Techtree ID: 0	ResourceCostBase: 10
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 2 Damage Rates: 13 13 13 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Yakimora Light Phaser *****
+ComponentID = 14	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 6 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	8
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 9 	Techtree ID: 0	ResourceCostBase: 7
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 1 Damage Rates: 26 26 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Blackjack *****
+ComponentID = 15	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 7 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	16
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 10
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 10 	Techtree ID: 0	ResourceCostBase: 7
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 0 Damage Rates: 90 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Phaser Bazooka *****
+ComponentID = 16	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 8 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	8
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 7 	Techtree ID: 0	ResourceCostBase: 11
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 2 Damage Rates: 26 26 26 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Pulsed Sapper *****
+ComponentID = 17	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 5 WE 9 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	4
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 14 	Techtree ID: 0	ResourceCostBase: 12
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack (shields only): Range: 3 Damage Rates: 82 82 82 82 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Colloidal Phaser *****
+ComponentID = 18	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 10 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	14
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 5 	Techtree ID: 0	ResourceCostBase: 18
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 3 Damage Rates: 26 26 26 26 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Gatling Gun *****
+ComponentID = 19	 TypeID = 4 (Weapon)
+PRTs: Inner Strength
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 11 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 3
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 12 	Techtree ID: 0	ResourceCostBase: 13
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack (Gatling): Range: 2 Damage Rates: 31 31 31 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mini Blaster *****
+ComponentID = 20	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 12 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 9 	Techtree ID: 0	ResourceCostBase: 9
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 1 Damage Rates: 66 66 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Bludgeon *****
+ComponentID = 21	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 13 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	22
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 10
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 10 	Techtree ID: 0	ResourceCostBase: 9
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 0 Damage Rates: 231 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mark IV Blaster *****
+ComponentID = 22	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 14 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	12
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 7 	Techtree ID: 0	ResourceCostBase: 15
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 2 Damage Rates: 66 66 66 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Phased Sapper *****
+ComponentID = 23	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 8 WE 15 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 14 	Techtree ID: 0	ResourceCostBase: 16
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack (shields only): Range: 3 Damage Rates: 211 211 211 211 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Heavy Blaster *****
+ComponentID = 24	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 16 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 5 	Techtree ID: 0	ResourceCostBase: 25
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 3 Damage Rates: 66 66 66 66 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Gatling Neutrino Cannon *****
+ComponentID = 25	 TypeID = 4 (Weapon)
+PRTs: Warmonger
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 17 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	28
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 3
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 13 	Techtree ID: 0	ResourceCostBase: 17
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack (Gatling): Range: 2 Damage Rates: 80 80 80 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Myopic Disrupter *****
+ComponentID = 26	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 18 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	14
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 9 	Techtree ID: 0	ResourceCostBase: 12
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 1 Damage Rates: 169 169 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Blunderbuss *****
+ComponentID = 27	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 19 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	30
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 10
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 11 	Techtree ID: 0	ResourceCostBase: 13
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 0 Damage Rates: 592 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Disrupter *****
+ComponentID = 28	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 20 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	16
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 8 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 2 Damage Rates: 169 169 169 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Syncro Sapper *****
+ComponentID = 29	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 11 WE 21 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	8
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 14 	Techtree ID: 0	ResourceCostBase: 21
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack (shields only): Range: 3 Damage Rates: 541 541 541 541 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mega Disrupter *****
+ComponentID = 30	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 22 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	30
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 6 	Techtree ID: 0	ResourceCostBase: 33
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 3 Damage Rates: 169 169 169 169 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Big Mutha Cannon *****
+ComponentID = 31	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 23 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	36
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 3
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 13 	Techtree ID: 0	ResourceCostBase: 23
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack (Gatling): Range: 2 Damage Rates: 204 204 204 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Streaming Pulverizer *****
+ComponentID = 32	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 24 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 9 	Techtree ID: 0	ResourceCostBase: 16
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 1 Damage Rates: 433 433 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Anti-Matter Pulverizer *****
+ComponentID = 33	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 26 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	22
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 8 	Techtree ID: 0	ResourceCostBase: 27
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack : Range: 2 Damage Rates: 433 433 433 
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Lady Finger Bomb *****
+ComponentID = 34	 TypeID = 8 (Bomb)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 2 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 40
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Dumb Bomb: 2 infrastructure, 6 % population(0 min)
+Colonization: Incapable
+
+***** Black Cat Bomb *****
+ComponentID = 35	 TypeID = 8 (Bomb)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 5 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 45
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 7
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Dumb Bomb: 4 infrastructure, 9 % population(0 min)
+Colonization: Incapable
+
+***** M-70 Bomb *****
+ComponentID = 36	 TypeID = 8 (Bomb)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 8 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	22
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 50
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 9
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Dumb Bomb: 6 infrastructure, 12 % population(0 min)
+Colonization: Incapable
+
+***** M-80 Bomb *****
+ComponentID = 37	 TypeID = 8 (Bomb)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 11 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	24
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 55
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 12
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Dumb Bomb: 7 infrastructure, 17 % population(0 min)
+Colonization: Incapable
+
+***** Cherry Bomb *****
+ComponentID = 38	 TypeID = 8 (Bomb)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 14 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	25
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 52
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 11
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Dumb Bomb: 10 infrastructure, 25 % population(0 min)
+Colonization: Incapable
+
+***** LBU-17 Bomb *****
+ComponentID = 39	 TypeID = 8 (Bomb)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 5 PR 0 CO 0 EL 8 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	25
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 30
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 7
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Dumb Bomb: 16 infrastructure, 2 % population(0 min)
+Colonization: Incapable
+
+***** LBU-32 Bomb *****
+ComponentID = 40	 TypeID = 8 (Bomb)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 10 PR 0 CO 0 EL 10 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	15
+  Boranium 	15
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 35
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 10
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Dumb Bomb: 28 infrastructure, 3 % population(0 min)
+Colonization: Incapable
+
+***** LBU-74 Bomb *****
+ComponentID = 41	 TypeID = 8 (Bomb)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 15 PR 0 CO 0 EL 12 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	15
+  Boranium 	24
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 45
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 14
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Dumb Bomb: 45 infrastructure, 4 % population(0 min)
+Colonization: Incapable
+
+***** Retro Bomb *****
+ComponentID = 42	 TypeID = 8 (Bomb)
+PRTs: Claim Adjuster
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 10 PR 0 CO 0 EL 0 BI 12
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	15
+ Germanium 	10
+  Boranium 	15
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 45
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 1 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 50
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Dumb Bomb: 0 infrastructure, 0 % population(0 min)
+Colonization: Incapable
+
+***** Smart Bomb *****
+ComponentID = 43	 TypeID = 8 (Bomb)
+PRTs: Jack of all Trades, Alternate Reality, Interstellar Traveller, Packet Physicist, Space Demolition, Claim Adjuster, Warmonger, Super Stealth, Hyper-Expansionist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 5 PR 0 CO 0 EL 0 BI 7
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	22
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 50
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 27
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Smart Bomb: 0 infrastructure, 13 % population(0 min)
+Colonization: Incapable
+
+***** Neutron Bomb *****
+ComponentID = 44	 TypeID = 8 (Bomb)
+PRTs: Jack of all Trades, Alternate Reality, Interstellar Traveller, Packet Physicist, Space Demolition, Claim Adjuster, Warmonger, Super Stealth, Hyper-Expansionist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 10 PR 0 CO 0 EL 0 BI 10
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	30
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 57
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 30
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Smart Bomb: 0 infrastructure, 22 % population(0 min)
+Colonization: Incapable
+
+***** Enrivhed Neutron Bomb *****
+ComponentID = 45	 TypeID = 8 (Bomb)
+PRTs: Jack of all Trades, Alternate Reality, Interstellar Traveller, Packet Physicist, Space Demolition, Claim Adjuster, Warmonger, Super Stealth, Hyper-Expansionist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 15 PR 0 CO 0 EL 0 BI 12
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	36
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 64
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 25
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Smart Bomb: 0 infrastructure, 35 % population(0 min)
+Colonization: Incapable
+
+***** Peerless Bomb *****
+ComponentID = 46	 TypeID = 8 (Bomb)
+PRTs: Jack of all Trades, Alternate Reality, Interstellar Traveller, Packet Physicist, Space Demolition, Claim Adjuster, Warmonger, Super Stealth, Hyper-Expansionist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 22 PR 0 CO 0 EL 0 BI 15
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	33
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 55
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 32
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Smart Bomb: 0 infrastructure, 50 % population(0 min)
+Colonization: Incapable
+
+***** Annihilator Bomb *****
+ComponentID = 47	 TypeID = 8 (Bomb)
+PRTs: Jack of all Trades, Alternate Reality, Interstellar Traveller, Packet Physicist, Space Demolition, Claim Adjuster, Warmonger, Super Stealth, Hyper-Expansionist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 26 PR 0 CO 0 EL 0 BI 17
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	30
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 50
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 28
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Smart Bomb: 0 infrastructure, 70 % population(0 min)
+Colonization: Incapable
+
+***** Transport Cloaking *****
+ComponentID = 48	 TypeID = 2 (Electrical)
+PRTs: Super Stealth
+LRTs: ALL
+HULLs: Small Freighter, Medium Freighter, Large Freighter, Super Freighter
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 300 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 3
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Stealth Cloak *****
+ComponentID = 49	 TypeID = 2 (Electrical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 2 WE 0 PR 0 CO 0 EL 5 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 70 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Super-Stealth Cloak *****
+ComponentID = 50	 TypeID = 2 (Electrical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 4 WE 0 PR 0 CO 0 EL 10 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	8
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 3
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 140 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 15
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Ultra-Stealth Cloak *****
+ComponentID = 51	 TypeID = 2 (Electrical)
+PRTs: Super Stealth
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 10 WE 0 PR 0 CO 0 EL 12 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	10
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 5
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 540 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 25
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Battle Computer *****
+ComponentID = 52	 TypeID = 2 (Electrical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	15
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 20 	Thrust: 0
+BaseInit: 1 	Techtree ID: 0	ResourceCostBase: 6
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Battle Super Computer *****
+ComponentID = 53	 TypeID = 2 (Electrical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 5 WE 0 PR 0 CO 0 EL 11 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	25
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 30 	Thrust: 0
+BaseInit: 2 	Techtree ID: 0	ResourceCostBase: 14
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Battle Nexus *****
+ComponentID = 54	 TypeID = 2 (Electrical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 10 WE 0 PR 0 CO 0 EL 19 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	30
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 50 	Thrust: 0
+BaseInit: 3 	Techtree ID: 0	ResourceCostBase: 12
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Jammer 10 *****
+ComponentID = 55	 TypeID = 2 (Electrical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 2 WE 0 PR 0 CO 0 EL 6 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 10 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 6
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Jammer 20 *****
+ComponentID = 56	 TypeID = 2 (Electrical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 4 WE 0 PR 0 CO 0 EL 10 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	5
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 20 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Jammer 30 *****
+ComponentID = 57	 TypeID = 2 (Electrical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 8 WE 0 PR 0 CO 0 EL 16 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 30 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Jammer 50 *****
+ComponentID = 58	 TypeID = 2 (Electrical)
+PRTs: Inner Strength
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 16 WE 0 PR 0 CO 0 EL 22 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	7
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 50 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Energy Capacitor *****
+ComponentID = 59	 TypeID = 2 (Electrical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 7 WE 0 PR 0 CO 0 EL 4 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	8
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 10
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Flux Capacitor *****
+ComponentID = 60	 TypeID = 2 (Electrical)
+PRTs: Hyper-Expansionist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 14 WE 0 PR 0 CO 0 EL 8 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	8
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 20
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Energy Dampener *****
+ComponentID = 61	 TypeID = 2 (Electrical)
+PRTs: Space Demolition
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 14 WE 0 PR 8 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	0
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 4
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 50
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Tachyon Detector *****
+ComponentID = 62	 TypeID = 2 (Electrical)
+PRTs: Inner Strength
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 8 WE 0 PR 0 CO 0 EL 14 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	0
+  Boranium 	5
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 5
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 70
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Anti-Matter Generator *****
+ComponentID = 63	 TypeID = 2 (Electrical)
+PRTs: Interstellar Traveller
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 12 PR 0 CO 0 EL 0 BI 7
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	3
+  Boranium 	3
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 10
+FuelCap: 0 	CargoCap: 0 	FuelGen: 200
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 10
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Settler's Delight *****
+ComponentID = 64	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	1
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 2
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 5
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0   0   0   0   0   0 140 275 480 576 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Quick Jump 5 *****
+ComponentID = 65	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	3
+ Germanium 	1
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 4
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 3
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 5
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0  25 100 100 100 180 500 800 900 1080 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Fuel Mizer *****
+ComponentID = 66	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: Improved Fuel Efficiency
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 2 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 6
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 11
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 6
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0   0   0   0  35 120 175 235 360 420 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Long Hump 6 *****
+ComponentID = 67	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 3 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	1
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 9
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 6
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 6
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0  20  60 100 100 105 450 750 900 1080 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Daddy Long Legs 7 *****
+ComponentID = 68	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 5 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	11
+ Germanium 	3
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 13
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 12
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 7
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0  20  60  70 100 100 110 600 750 900 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Alpha Drive 8 *****
+ComponentID = 69	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 7 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	16
+ Germanium 	3
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 17
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 28
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 8
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0  15  50  60  70 100 100 115 700 840 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Trans-Galactic Drive *****
+ComponentID = 70	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 9 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	9
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 50
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 9
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0  15  35  45  55  70  80  90 100 120 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Interscape-10 *****
+ComponentID = 71	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 11 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	18
+ Germanium 	10
+  Boranium 	25
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 60
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 10 BattleSpeed 10
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0  10  30  40  50  60  70  80  90 100 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Trans-Star-10 *****
+ComponentID = 72	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 23 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	3
+ Germanium 	3
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 5
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 10
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 10 BattleSpeed 10
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0   5  15  20  25  30  35  40  45  50 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Radiating Hydro-Ram Scoop *****
+ComponentID = 73	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: !No Ram Scoop Engines
+HULLs: ALL
+TechLevel: EN 2 WE 0 PR 6 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	3
+ Germanium 	9
+  Boranium 	2
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 10
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 8
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine)(Radiation Hazard): Safe Speed 9 BattleSpeed 7
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0   0   0   0   0   0 165 375 600 720 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Sub-Galactic Fuel Scoop *****
+ComponentID = 74	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: !No Ram Scoop Engines
+HULLs: ALL
+TechLevel: EN 2 WE 0 PR 8 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	4
+ Germanium 	7
+  Boranium 	4
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 20
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 12
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 8
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0   0   0   0   0  85 105 210 380 456 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Trans-Galactic Fuel Scoop *****
+ComponentID = 75	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: !No Ram Scoop Engines
+HULLs: ALL
+TechLevel: EN 3 WE 0 PR 9 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	12
+  Boranium 	4
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 19
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 18
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 9
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0   0   0   0   0   0  88 100 145 174 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Trans-Galactic Super Scoop *****
+ComponentID = 76	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: !No Ram Scoop Engines
+HULLs: ALL
+TechLevel: EN 4 WE 0 PR 12 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	6
+ Germanium 	16
+  Boranium 	4
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 18
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 24
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 9 BattleSpeed 9
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0   0   0   0   0   0   0  65  90 108 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Trans-Galactic Mizer Scoop *****
+ComponentID = 77	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: !No Ram Scoop Engines
+HULLs: ALL
+TechLevel: EN 4 WE 0 PR 16 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	13
+  Boranium 	2
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 11
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 10 BattleSpeed 10
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0   0   0   0   0   0   0   0  70  84 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Galaxy Scoop *****
+ComponentID = 78	 TypeID = 3 (Engine)
+PRTs: ALL
+LRTs: !No Ram Scoop Engines
+HULLs: ALL
+TechLevel: EN 5 WE 0 PR 20 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	4
+ Germanium 	9
+  Boranium 	2
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 8
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 12
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability (Scoop Engine): Safe Speed 10 BattleSpeed 10
+Warp Factor  1   2   3   4   5   6   7   8   9   10
+Fuel Usage    0   0   0   0   0   0   0   0   0  50 
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Colonization Module *****
+ComponentID = 79	 TypeID = 1 (Mechanical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	12
+ Germanium 	10
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 32
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 10
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Basic Colonizer
+
+***** Orbital Construction Module *****
+ComponentID = 80	 TypeID = 1 (Mechanical)
+PRTs: Alternate Reality
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	15
+  Boranium 	15
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 50
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Alternate Reality Colonizer
+
+***** Cargo Pod *****
+ComponentID = 81	 TypeID = 1 (Mechanical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 3 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 5
+FuelCap: 0 	CargoCap: 50 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 10
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Super Cargo Pod *****
+ComponentID = 82	 TypeID = 1 (Mechanical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 3 WE 0 PR 0 CO 9 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 7
+FuelCap: 0 	CargoCap: 100 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 15
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Fuel Tank *****
+ComponentID = 83	 TypeID = 1 (Mechanical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	6
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 3
+FuelCap: 250 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 4
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Super Fuel Tank *****
+ComponentID = 84	 TypeID = 1 (Mechanical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 6 WE 0 PR 4 CO 14 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 8
+FuelCap: 500 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 8
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Maneuvering Jet *****
+ComponentID = 85	 TypeID = 1 (Mechanical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 2 WE 0 PR 3 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	5
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 5
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 1
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 10
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Overthruster *****
+ComponentID = 86	 TypeID = 1 (Mechanical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 5 WE 0 PR 12 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	8
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 5
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 2
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Beam Deflector *****
+ComponentID = 87	 TypeID = 1 (Mechanical)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 6 WE 6 PR 0 CO 6 EL 6 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	10
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 10 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 8
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Viewer 50 *****
+ComponentID = 88	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Viewer 90 *****
+ComponentID = 89	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 1 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Scoper 150 *****
+ComponentID = 90	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 3 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Scoper 220 *****
+ComponentID = 91	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 6 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Scoper 280 *****
+ComponentID = 92	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 8 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Snooper 320X *****
+ComponentID = 93	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: !No Advanced Scanners
+HULLs: ALL
+TechLevel: EN 3 WE 0 PR 0 CO 0 EL 10 BI 3
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Snooper 400X *****
+ComponentID = 94	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: !No Advanced Scanners
+HULLs: ALL
+TechLevel: EN 4 WE 0 PR 0 CO 0 EL 13 BI 6
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Snooper 500X *****
+ComponentID = 95	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: !No Advanced Scanners
+HULLs: ALL
+TechLevel: EN 5 WE 0 PR 0 CO 0 EL 16 BI 7
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Snooper 620X *****
+ComponentID = 96	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: !No Advanced Scanners
+HULLs: ALL
+TechLevel: EN 7 WE 0 PR 0 CO 0 EL 23 BI 9
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** SDI *****
+ComponentID = 97	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 10 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** MissleBattery *****
+ComponentID = 98	 TypeID = 11 (Planetary System)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 5 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 20 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Laser Battery *****
+ComponentID = 99	 TypeID = 11 (Planetary System)
+PRTs: Jack of all Trades, Alternate Reality, Interstellar Traveller, Packet Physicist, Space Demolition, Inner Strength, Claim Adjuster, Super Stealth, Hyper-Expansionist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 10 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 24 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Planetary Shield *****
+ComponentID = 100	 TypeID = 11 (Planetary System)
+PRTs: Jack of all Trades, Alternate Reality, Interstellar Traveller, Packet Physicist, Space Demolition, Inner Strength, Claim Adjuster, Super Stealth, Hyper-Expansionist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 16 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 30 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Neutron Shield *****
+ComponentID = 101	 TypeID = 11 (Planetary System)
+PRTs: Jack of all Trades, Alternate Reality, Interstellar Traveller, Packet Physicist, Space Demolition, Inner Strength, Claim Adjuster, Super Stealth, Hyper-Expansionist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 23 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 38 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Factory *****
+ComponentID = 102	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 10 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mine *****
+ComponentID = 103	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 10 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Defense *****
+ComponentID = 104	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Planetary Scanner *****
+ComponentID = 105	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	70
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Alchemy *****
+ComponentID = 106	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 4
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Packet *****
+ComponentID = 107	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 0
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Ironium Packet *****
+ComponentID = 108	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	100
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 100
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 0
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Boraniam Packet *****
+ComponentID = 109	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	100
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 100
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 0
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Germanium Packet *****
+ComponentID = 110	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	100
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 100
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 0
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Combined Packet *****
+ComponentID = 111	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	100
+ Germanium 	100
+  Boranium 	100
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 300
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 0
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Terraform *****
+ComponentID = 112	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Radiation Terraform +/- 3 *****
+ComponentID = 113	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 1 PR 0 CO 0 EL 0 BI 1
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	3
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Radiation Terraform +/- 7 *****
+ComponentID = 114	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 5 PR 0 CO 0 EL 0 BI 2
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	7
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Radiation Terraform +/- 11 *****
+ComponentID = 115	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 11 PR 0 CO 0 EL 0 BI 3
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	11
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Radiation Terraform +/- 15 *****
+ComponentID = 116	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 15 PR 0 CO 0 EL 0 BI 4
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	15
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Temperature Terraform +/- 3 *****
+ComponentID = 117	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 1 WE 0 PR 0 CO 0 EL 0 BI 1
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	3	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Temperature Terraform +/- 7 *****
+ComponentID = 118	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 5 WE 0 PR 0 CO 0 EL 0 BI 2
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	7	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Temperature Terraform +/- 11 *****
+ComponentID = 119	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 11 WE 0 PR 0 CO 0 EL 0 BI 3
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	11	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Temperature Terraform +/- 15 *****
+ComponentID = 120	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 15 WE 0 PR 0 CO 0 EL 0 BI 4
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	15	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Gravity Terraform +/- 3 *****
+ComponentID = 121	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 1 CO 0 EL 0 BI 1
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	3	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Gravity Terraform +/- 7 *****
+ComponentID = 122	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 5 CO 0 EL 0 BI 2
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	7	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Gravity Terraform +/- 11 *****
+ComponentID = 123	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 11 CO 0 EL 0 BI 3
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	11	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Gravity Terraform +/- 15 *****
+ComponentID = 124	 TypeID = 12 (Planetary Buildable)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 15 CO 0 EL 0 BI 5
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	0
+ Germanium 	0
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 100
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	15	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Alpha Torpedo *****
+ComponentID = 125	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	9
+ Germanium 	3
+  Boranium 	3
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 4 Damage: 5  Accuracy: 35
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Beta Torpedo *****
+ComponentID = 126	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 5 PR 1 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	18
+ Germanium 	4
+  Boranium 	6
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 1 	Techtree ID: 0	ResourceCostBase: 6
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 4 Damage: 12  Accuracy: 45
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Delta Torpedo *****
+ComponentID = 127	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 10 PR 2 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	22
+ Germanium 	5
+  Boranium 	8
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 1 	Techtree ID: 0	ResourceCostBase: 8
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 4 Damage: 26  Accuracy: 60
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Epsilon Torpedo *****
+ComponentID = 128	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 14 PR 3 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	30
+ Germanium 	6
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 2 	Techtree ID: 0	ResourceCostBase: 10
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 5 Damage: 48  Accuracy: 65
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Rho Torpedo *****
+ComponentID = 129	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 18 PR 4 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	34
+ Germanium 	8
+  Boranium 	12
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 2 	Techtree ID: 0	ResourceCostBase: 12
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 5 Damage: 90  Accuracy: 75
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Upsilon Torpedo *****
+ComponentID = 130	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 22 PR 5 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	40
+ Germanium 	9
+  Boranium 	14
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 3 	Techtree ID: 0	ResourceCostBase: 15
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 5 Damage: 169  Accuracy: 75
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Omega Torpedo *****
+ComponentID = 131	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 26 PR 6 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	52
+ Germanium 	12
+  Boranium 	18
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 4 	Techtree ID: 0	ResourceCostBase: 18
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 5 Damage: 316  Accuracy: 80
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Anti Matter Torpedo *****
+ComponentID = 132	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 11 PR 12 CO 0 EL 0 BI 21
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	3
+ Germanium 	1
+  Boranium 	8
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 8
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 50
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 6 Damage: 60  Accuracy: 85
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Jihad Missle *****
+ComponentID = 133	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 12 PR 6 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	37
+ Germanium 	9
+  Boranium 	13
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 35
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 13
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 5 Damage: 85 (Capital Ship) Accuracy: 20
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Juggernaut Missle *****
+ComponentID = 134	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 16 PR 8 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	48
+ Germanium 	11
+  Boranium 	16
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 35
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 1 	Techtree ID: 0	ResourceCostBase: 16
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 5 Damage: 150 (Capital Ship) Accuracy: 20
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Doomsday Missle *****
+ComponentID = 135	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 20 PR 10 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	60
+ Germanium 	13
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 35
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 2 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 6 Damage: 280 (Capital Ship) Accuracy: 25
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Armageddon Missle *****
+ComponentID = 136	 TypeID = 4 (Weapon)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 24 PR 10 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	67
+ Germanium 	16
+  Boranium 	23
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 35
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 3 	Techtree ID: 0	ResourceCostBase: 24
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Range: 6 Damage: 525 (Capital Ship) Accuracy: 30
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mole-skin Shield *****
+ComponentID = 137	 TypeID = 6 (Sheild)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	1
+ Germanium 	1
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 25 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 4
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Cow-hide Shield *****
+ComponentID = 138	 TypeID = 6 (Sheild)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 3 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 40 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 5
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Wolverine Diffuse Shield *****
+ComponentID = 139	 TypeID = 6 (Sheild)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 6 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	3
+ Germanium 	3
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 60 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 6
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Croby Sharmor *****
+ComponentID = 140	 TypeID = 6 (Sheild)
+PRTs: Inner Strength
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 7 WE 0 PR 0 CO 4 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	7
+ Germanium 	4
+  Boranium 	0
+      Fuel 	0
+Armor: 60 	Shields: 60 	Mass: 10
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 15
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Shadow Shield *****
+ComponentID = 141	 TypeID = 6 (Sheild)
+PRTs: Super Stealth
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 7 WE 0 PR 0 CO 0 EL 3 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	3
+ Germanium 	3
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 75 	Mass: 2
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 35 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 7
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Bear Neutrino Barrier *****
+ComponentID = 142	 TypeID = 6 (Sheild)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 10 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	4
+ Germanium 	4
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 100 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 8
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Gorilla Delagator *****
+ComponentID = 143	 TypeID = 6 (Sheild)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 14 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	5
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 175 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 11
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Elephant Hide Fortress *****
+ComponentID = 144	 TypeID = 6 (Sheild)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 18 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	10
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 300 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 15
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Complete Phase Shield *****
+ComponentID = 145	 TypeID = 6 (Sheild)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 22 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	12
+ Germanium 	15
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 500 	Mass: 1
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 20
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mine Dispenser 40 *****
+ComponentID = 146	 TypeID = 7 (Minelayer)
+PRTs: Space Demolition
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	8
+  Boranium 	10
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 25
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 45
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 40 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mine Dispenser 50 *****
+ComponentID = 147	 TypeID = 7 (Minelayer)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 2 WE 0 PR 0 CO 0 EL 0 BI 4
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	10
+  Boranium 	12
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 30
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 55
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 50 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mine Dispenser 80 *****
+ComponentID = 148	 TypeID = 7 (Minelayer)
+PRTs: Space Demolition
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 3 WE 0 PR 0 CO 0 EL 0 BI 7
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	10
+  Boranium 	14
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 30
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 65
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 80 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mine Dispenser 130 *****
+ComponentID = 149	 TypeID = 7 (Minelayer)
+PRTs: Space Demolition
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 6 WE 0 PR 0 CO 0 EL 0 BI 12
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	10
+  Boranium 	18
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 30
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 80
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 130 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Heavy Dispenser 50 *****
+ComponentID = 150	 TypeID = 7 (Minelayer)
+PRTs: Space Demolition
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 5 WE 0 PR 0 CO 0 EL 0 BI 3
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	50
+ Germanium 	20
+  Boranium 	2
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 10
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 50
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 50 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Heavy Dispenser 110 *****
+ComponentID = 151	 TypeID = 7 (Minelayer)
+PRTs: Space Demolition
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 9 WE 0 PR 0 CO 0 EL 0 BI 5
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	70
+ Germanium 	30
+  Boranium 	2
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 15
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 70
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 110 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Heavy Dispenser 200 *****
+ComponentID = 152	 TypeID = 7 (Minelayer)
+PRTs: Space Demolition
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 14 WE 0 PR 0 CO 0 EL 0 BI 7
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	90
+ Germanium 	45
+  Boranium 	2
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 20
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 90
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 200 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Speed Trap 20 *****
+ComponentID = 153	 TypeID = 7 (Minelayer)
+PRTs: Space Demolition, Inner Strength
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 2 CO 0 EL 0 BI 2
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	30
+ Germanium 	12
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 100
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 60
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 20 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Speed Trap 30 *****
+ComponentID = 154	 TypeID = 7 (Minelayer)
+PRTs: Space Demolition
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 3 CO 0 EL 0 BI 6
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	32
+ Germanium 	14
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 135
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 72
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 30 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Speed Trap 50 *****
+ComponentID = 155	 TypeID = 7 (Minelayer)
+PRTs: Space Demolition
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 5 CO 0 EL 0 BI 11
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	40
+ Germanium 	15
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 140
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 80
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mass Driver 5 *****
+ComponentID = 156	 TypeID = 0 (Orbital)
+PRTs: Packet Physicist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 4 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	15
+ Germanium 	12
+  Boranium 	12
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 5 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 42
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mass Driver 6 *****
+ComponentID = 157	 TypeID = 0 (Orbital)
+PRTs: Packet Physicist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 7 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	18
+ Germanium 	15
+  Boranium 	15
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 6 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 104
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Mass Deiver 7 *****
+ComponentID = 158	 TypeID = 0 (Orbital)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 9 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	80
+ Germanium 	80
+  Boranium 	80
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 7 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 410
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Super Driver 8 *****
+ComponentID = 159	 TypeID = 0 (Orbital)
+PRTs: Packet Physicist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 11 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	21
+ Germanium 	18
+  Boranium 	18
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 8 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 226
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Super Driver 9 *****
+ComponentID = 160	 TypeID = 0 (Orbital)
+PRTs: Packet Physicist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 13 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	23
+ Germanium 	19
+  Boranium 	19
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 9 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 311
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Ultra Driver 10 *****
+ComponentID = 161	 TypeID = 0 (Orbital)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 15 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	100
+ Germanium 	100
+  Boranium 	100
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 10 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 968
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Ultra Driver 11 *****
+ComponentID = 162	 TypeID = 0 (Orbital)
+PRTs: Packet Physicist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 17 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	24
+ Germanium 	20
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 11 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 484
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Ultra Driver 12 *****
+ComponentID = 163	 TypeID = 0 (Orbital)
+PRTs: Packet Physicist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 20 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	24
+ Germanium 	20
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 12 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 576
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Ultra Driver 13 *****
+ComponentID = 164	 TypeID = 0 (Orbital)
+PRTs: Packet Physicist
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 24 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	24
+ Germanium 	20
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 13 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 676
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: 0 Heavy Mines per year
+Minelaying: 0 SpeedTrap Mines per year
+Minelaying: 0 Standard Mines per year
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Robo-Midget-Miner *****
+ComponentID = 165	 TypeID = 10 (RemoteMine)
+PRTs: ALL
+LRTs: Advanced Remote Mining, !Only Basic Remote Mining
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 80
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 5 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 30
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Robo-Mini_Miner *****
+ComponentID = 166	 TypeID = 10 (RemoteMine)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 2 EL 1 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	18
+ Germanium 	4
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 240
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 4 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 60
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Robo-Miner *****
+ComponentID = 167	 TypeID = 10 (RemoteMine)
+PRTs: ALL
+LRTs: !Only Basic Remote Mining
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 4 EL 2 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	19
+ Germanium 	4
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 240
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 12 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 64
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Robo-Maxi-Miner *****
+ComponentID = 168	 TypeID = 10 (RemoteMine)
+PRTs: ALL
+LRTs: !Only Basic Remote Mining
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 7 EL 4 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	22
+ Germanium 	5
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 240
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 18 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 72
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Robo-Super-Miner *****
+ComponentID = 169	 TypeID = 10 (RemoteMine)
+PRTs: ALL
+LRTs: !Only Basic Remote Mining
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 12 EL 6 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	25
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 240
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 27 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 84
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Robo-Ultra-Miner *****
+ComponentID = 170	 TypeID = 10 (RemoteMine)
+PRTs: ALL
+LRTs: Advanced Remote Mining, !Only Basic Remote Mining
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 15 EL 8 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	13
+ Germanium 	4
+  Boranium 	0
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 80
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 25 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 48
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Orbital Adjuster *****
+ComponentID = 171	 TypeID = 10 (RemoteMine)
+PRTs: Claim Adjuster
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 0 CO 0 EL 0 BI 6
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	21
+ Germanium 	21
+  Boranium 	21
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 80
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 15 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 1 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 42
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpgate: none
+Bombing: Incapable
+Colonization: Incapable
+
+***** Stargate 100/250 *****
+ComponentID = 172	 TypeID = 0 (Orbital)
+PRTs: Interstellar Traveller
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 5 CO 5 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	36
+ Germanium 	15
+  Boranium 	15
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 144
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpdate: 100 ly. /250 kT
+Bombing: Incapable
+Colonization: Incapable
+
+***** Stargate any/300 *****
+ComponentID = 173	 TypeID = 0 (Orbital)
+PRTs: Interstellar Traveller
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 6 CO 10 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	38
+ Germanium 	15
+  Boranium 	15
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 190
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpdate: 0 ly. /300 kT
+Bombing: Incapable
+Colonization: Incapable
+
+***** Stargate 150/600 *****
+ComponentID = 174	 TypeID = 0 (Orbital)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 11 CO 7 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	48
+ Germanium 	19
+  Boranium 	19
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 480
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpdate: 150 ly. /600 kT
+Bombing: Incapable
+Colonization: Incapable
+
+***** Stargate 300/500 *****
+ComponentID = 175	 TypeID = 0 (Orbital)
+PRTs: ALL
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 9 CO 13 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	44
+ Germanium 	18
+  Boranium 	18
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 528
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpdate: 300 ly. /500 kT
+Bombing: Incapable
+Colonization: Incapable
+
+***** Stargate 100/any *****
+ComponentID = 176	 TypeID = 0 (Orbital)
+PRTs: Interstellar Traveller
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 16 CO 12 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	50
+ Germanium 	20
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 700
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpdate: 100 ly. /0 kT
+Bombing: Incapable
+Colonization: Incapable
+
+***** Stargate any/800 *****
+ComponentID = 177	 TypeID = 0 (Orbital)
+PRTs: Interstellar Traveller
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 12 CO 18 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	50
+ Germanium 	20
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 700
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpdate: 0 ly. /800 kT
+Bombing: Incapable
+Colonization: Incapable
+
+***** Stargtate any/any *****
+ComponentID = 178	 TypeID = 0 (Orbital)
+PRTs: Interstellar Traveller
+LRTs: ALL
+HULLs: ALL
+TechLevel: EN 0 WE 0 PR 19 CO 24 EL 0 BI 0
+
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	50
+ Germanium 	20
+  Boranium 	20
+      Fuel 	0
+Armor: 0 	Shields: 0 	Mass: 0
+FuelCap: 0 	CargoCap: 0 	FuelGen: 0
+Cloak: 0 	Jam: 0 	Reflection: 0 	Capcitance: 0
+RemoteMine: 0 	RemoteTForm: 0 	EnergyDampener: 0
+Pickpocket: 0 	Robberbaron: 0 	TachyonDetection: 0
+PacketAccelertion: 0 	AccuracyImprv: 0 	Thrust: 0
+BaseInit: 0 	Techtree ID: 0	ResourceCostBase: 800
+Defense: 0 	Planet Mine Rate: 0 	 Res Gen Rate: 0 	Min Gen Rate: 0
+Terraform ability (grav, temp, rad) =	0	0	0
+Minelaying: Incapable
+Engine Capability: None
+Beam Attack: Incapable
+Missle Attack: Incapable
+Scanning: Incapable
+Jumpdate: 0 ly. /0 kT
+Bombing: Incapable
+Colonization: Incapable
+
+Ship Hull:		Small Freighter
+ObjectID: 2000	OwnerID: 0	HullClass: 1
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 25	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 70	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 130	FuelGen: 0	Mass: 25
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	12
+ Germanium 	17
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	12
+ Germanium 	17
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+Base Res. Cost: 20	TotalResourceCost: 20
+Repair: 0	TechTreeID(BaseHullID): 1	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Armor Sheild , 0 0(empty) of 1 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Medium Freighter
+ObjectID: 2001	OwnerID: 0	HullClass: 1
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 50	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 210	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 450	FuelGen: 0	Mass: 60
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	19
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	19
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 3 EL 0 BI 0
+Base Res. Cost: 40	TotalResourceCost: 40
+Repair: 0	TechTreeID(BaseHullID): 2	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Armor Sheild , 0 0(empty) of 1 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Large Freighter
+ObjectID: 2002	OwnerID: 0	HullClass: 1
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 150	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 1200	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 2600	FuelGen: 0	Mass: 125
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	35
+ Germanium 	21
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	35
+ Germanium 	21
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 8 EL 0 BI 0
+Base Res. Cost: 100	TotalResourceCost: 100
+Repair: 0	TechTreeID(BaseHullID): 3	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 2 Engine , 0 0(empty) of 2 Armor Sheild , 0 0(empty) of 2 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Super Freighter
+ObjectID: 2003	OwnerID: 0	HullClass: 1
+PRTs: Inner Strength
+LRTs: ALL
+Armor DPs: 400	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 3000	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 8000	FuelGen: 0	Mass: 175
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	45
+ Germanium 	21
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	45
+ Germanium 	21
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 13 EL 0 BI 0
+Base Res. Cost: 125	TotalResourceCost: 125
+Repair: 0	TechTreeID(BaseHullID): 4	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Armor Sheild , 0 0(empty) of 1 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Scout
+ObjectID: 2004	OwnerID: 0	HullClass: 2
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 20	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 50	FuelGen: 0	Mass: 8
+BaseInit: 1	Init: 1
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	4
+ Germanium 	4
+  Boranium 	2
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	4
+ Germanium 	4
+  Boranium 	2
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+Base Res. Cost: 10	TotalResourceCost: 10
+Repair: 0	TechTreeID(BaseHullID): 5	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 1 Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Frigate
+ObjectID: 2005	OwnerID: 0	HullClass: 2
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 45	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 125	FuelGen: 0	Mass: 8
+BaseInit: 4	Init: 4
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	4
+ Germanium 	4
+  Boranium 	2
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	4
+ Germanium 	4
+  Boranium 	2
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 6 EL 0 BI 0
+Base Res. Cost: 12	TotalResourceCost: 12
+Repair: 0	TechTreeID(BaseHullID): 6	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 2 Armor Sheild , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 2 Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Destroyer
+ObjectID: 2006	OwnerID: 0	HullClass: 2
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 200	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 280	FuelGen: 0	Mass: 30
+BaseInit: 3	Init: 3
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	15
+ Germanium 	5
+  Boranium 	3
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	15
+ Germanium 	5
+  Boranium 	3
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 3 EL 0 BI 0
+Base Res. Cost: 35	TotalResourceCost: 35
+Repair: 0	TechTreeID(BaseHullID): 7	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Mechanical , 0 0(empty) of 1 Electrical , 0 0(empty) of 2 Armor , 0 0(empty) of 1 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 1 Orbital Weapon 
+Engine Capability: None
+
+
+
+Ship Hull:		Cruiser
+ObjectID: 2007	OwnerID: 0	HullClass: 3
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 700	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 600	FuelGen: 0	Mass: 90
+BaseInit: 5	Init: 5
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	40
+ Germanium 	8
+  Boranium 	5
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	40
+ Germanium 	8
+  Boranium 	5
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 9 EL 0 BI 0
+Base Res. Cost: 85	TotalResourceCost: 85
+Repair: 0	TechTreeID(BaseHullID): 8	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 2 Engine , 0 0(empty) of 1 Mechanical Electrical Sheild , 0 0(empty) of 1 Mechanical Electrical Sheild , 0 0(empty) of 2 Weapon , 0 0(empty) of 2 Weapon , 0 0(empty) of 2 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 2 Armor Sheild 
+Engine Capability: None
+
+
+
+Ship Hull:		Battle Cruiser
+ObjectID: 2008	OwnerID: 0	HullClass: 3
+PRTs: Warmonger
+LRTs: ALL
+Armor DPs: 1000	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 1400	FuelGen: 0	Mass: 120
+BaseInit: 5	Init: 5
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	55
+ Germanium 	12
+  Boranium 	8
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	55
+ Germanium 	12
+  Boranium 	8
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 10 EL 0 BI 0
+Base Res. Cost: 120	TotalResourceCost: 120
+Repair: 0	TechTreeID(BaseHullID): 9	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 2 Engine , 0 0(empty) of 2 Mechanical Electrical Sheild , 0 0(empty) of 2 Mechanical Electrical Sheild , 0 0(empty) of 3 Weapon , 0 0(empty) of 3 Weapon , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 4 Armor Sheild 
+Engine Capability: None
+
+
+
+Ship Hull:		Battleship
+ObjectID: 2009	OwnerID: 0	HullClass: 3
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 2000	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 2800	FuelGen: 0	Mass: 222
+BaseInit: 10	Init: 10
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	120
+ Germanium 	20
+  Boranium 	25
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	120
+ Germanium 	20
+  Boranium 	25
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 13 EL 0 BI 0
+Base Res. Cost: 225	TotalResourceCost: 225
+Repair: 0	TechTreeID(BaseHullID): 10	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 4 Engine , 0 0(empty) of 2 Weapon , 0 0(empty) of 2 Weapon , 0 0(empty) of 6 Weapon , 0 0(empty) of 6 Weapon , 0 0(empty) of 4 Weapon , 0 0(empty) of 3 Electrical , 0 0(empty) of 3 Electrical , 0 0(empty) of 6 Armor , 0 0(empty) of 8 Sheild , 0 0(empty) of 1 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Dreadnought
+ObjectID: 2010	OwnerID: 0	HullClass: 3
+PRTs: Warmonger
+LRTs: ALL
+Armor DPs: 4500	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 4500	FuelGen: 0	Mass: 250
+BaseInit: 10	Init: 10
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	140
+ Germanium 	25
+  Boranium 	30
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	140
+ Germanium 	25
+  Boranium 	30
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 16 EL 0 BI 0
+Base Res. Cost: 275	TotalResourceCost: 275
+Repair: 0	TechTreeID(BaseHullID): 11	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 5 Engine , 0 0(empty) of 4 Armor Sheild , 0 0(empty) of 4 Armor Sheild , 0 0(empty) of 6 Weapon , 0 0(empty) of 6 Weapon , 0 0(empty) of 8 Weapon , 0 0(empty) of 8 Weapon , 0 0(empty) of 5 Weapon Sheild , 0 0(empty) of 5 Weapon Sheild , 0 0(empty) of 4 Electrical , 0 0(empty) of 4 Electrical , 0 0(empty) of 8 Armor , 0 0(empty) of 2 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Privateer
+ObjectID: 2011	OwnerID: 0	HullClass: 4
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 150	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 250	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 650	FuelGen: 0	Mass: 65
+BaseInit: 3	Init: 3
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	50
+ Germanium 	2
+  Boranium 	3
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	50
+ Germanium 	2
+  Boranium 	3
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 4 EL 0 BI 0
+Base Res. Cost: 50	TotalResourceCost: 50
+Repair: 0	TechTreeID(BaseHullID): 12	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 1 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 2 Armor Sheild , 0 0(empty) of 1 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Rogue
+ObjectID: 2012	OwnerID: 0	HullClass: 4
+PRTs: Super Stealth
+LRTs: ALL
+Armor DPs: 450	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 500	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 2250	FuelGen: 0	Mass: 75
+BaseInit: 4	Init: 4
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	80
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	80
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 8 EL 0 BI 0
+Base Res. Cost: 60	TotalResourceCost: 60
+Repair: 0	TechTreeID(BaseHullID): 13	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Orbital , 0 0(empty) of 1 Electrical , 0 0(empty) of 2 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 2 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 2 Mechanical Electrical Minelayer , 0 0(empty) of 2 Mechanical Electrical , 0 0(empty) of 3 Armor Sheild , 0 0(empty) of 1 Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Galleon
+ObjectID: 2013	OwnerID: 0	HullClass: 4
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 900	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 1000	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 2500	FuelGen: 0	Mass: 125
+BaseInit: 4	Init: 4
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	70
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	70
+ Germanium 	5
+  Boranium 	5
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 11 EL 0 BI 0
+Base Res. Cost: 105	TotalResourceCost: 105
+Repair: 0	TechTreeID(BaseHullID): 14	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 4 Engine , 0 0(empty) of 2 Armor Sheild , 0 0(empty) of 2 Armor Sheild , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 2 Mechanical Electrical Minelayer , 0 0(empty) of 2 Mechanical Electrical , 0 0(empty) of 2 Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Mini-Colony Ship
+ObjectID: 2014	OwnerID: 0	HullClass: 5
+PRTs: Hyper-Expansionist
+LRTs: ALL
+Armor DPs: 10	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 10	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 150	FuelGen: 0	Mass: 8
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	2
+ Germanium 	2
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+Base Res. Cost: 3	TotalResourceCost: 3
+Repair: 0	TechTreeID(BaseHullID): 15	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Mechanical 
+Engine Capability: None
+
+
+
+Ship Hull:		Colony Ship
+ObjectID: 2015	OwnerID: 0	HullClass: 5
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 20	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 25	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 200	FuelGen: 0	Mass: 20
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	15
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	15
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+Base Res. Cost: 20	TotalResourceCost: 20
+Repair: 0	TechTreeID(BaseHullID): 16	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Mechanical 
+Engine Capability: None
+
+
+
+Ship Hull:		Mini Bomber
+ObjectID: 2016	OwnerID: 0	HullClass: 6
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 50	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 120	FuelGen: 0	Mass: 28
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	10
+  Boranium 	5
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	10
+  Boranium 	5
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 1 EL 0 BI 0
+Base Res. Cost: 35	TotalResourceCost: 35
+Repair: 0	TechTreeID(BaseHullID): 17	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Bomb 
+Engine Capability: None
+
+
+
+Ship Hull:		B-17 Bomber
+ObjectID: 2017	OwnerID: 0	HullClass: 6
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 175	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 400	FuelGen: 0	Mass: 69
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	55
+ Germanium 	10
+  Boranium 	10
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	55
+ Germanium 	10
+  Boranium 	10
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 6 EL 0 BI 0
+Base Res. Cost: 150	TotalResourceCost: 150
+Repair: 0	TechTreeID(BaseHullID): 18	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 2 Engine , 0 0(empty) of 4 Bomb , 0 0(empty) of 4 Bomb , 0 0(empty) of 1 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Stealth Bomber
+ObjectID: 2018	OwnerID: 0	HullClass: 6
+PRTs: Super Stealth
+LRTs: ALL
+Armor DPs: 225	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 750	FuelGen: 0	Mass: 70
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	55
+ Germanium 	15
+  Boranium 	10
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	55
+ Germanium 	15
+  Boranium 	10
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 8 EL 0 BI 0
+Base Res. Cost: 175	TotalResourceCost: 175
+Repair: 0	TechTreeID(BaseHullID): 19	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 2 Orbital Engine Bomb , 0 0(empty) of 4 Bomb , 0 0(empty) of 1 Mechanical Electrical Scanner , 0 0(empty) of 3 Electrical 
+Engine Capability: None
+
+
+
+Ship Hull:		B-52 Bomber
+ObjectID: 2019	OwnerID: 0	HullClass: 6
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 450	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 750	FuelGen: 0	Mass: 110
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	90
+ Germanium 	10
+  Boranium 	15
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	90
+ Germanium 	10
+  Boranium 	15
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 15 EL 0 BI 0
+Base Res. Cost: 280	TotalResourceCost: 280
+Repair: 0	TechTreeID(BaseHullID): 20	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 3 Engine , 0 0(empty) of 4 Bomb , 0 0(empty) of 4 Bomb , 0 0(empty) of 4 Bomb , 0 0(empty) of 4 Bomb , 0 0(empty) of 2 Sheild , 0 0(empty) of 2 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Midget Miner
+ObjectID: 2020	OwnerID: 0	HullClass: 7
+PRTs: ALL
+LRTs: Advanced Remote Mining
+Armor DPs: 100	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 210	FuelGen: 0	Mass: 10
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	3
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	3
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+Base Res. Cost: 20	TotalResourceCost: 20
+Repair: 0	TechTreeID(BaseHullID): 21	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 2 RemoteMine 
+Engine Capability: None
+
+
+
+Ship Hull:		Mini-Miner
+ObjectID: 2021	OwnerID: 0	HullClass: 7
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 130	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 210	FuelGen: 0	Mass: 80
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	25
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	25
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 2 EL 0 BI 0
+Base Res. Cost: 50	TotalResourceCost: 50
+Repair: 0	TechTreeID(BaseHullID): 22	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 RemoteMine , 0 0(empty) of 1 RemoteMine , 0 0(empty) of 1 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Miner
+ObjectID: 2022	OwnerID: 0	HullClass: 7
+PRTs: ALL
+LRTs: Advanced Remote Mining
+Armor DPs: 475	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 500	FuelGen: 0	Mass: 110
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	32
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	32
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 6 EL 0 BI 0
+Base Res. Cost: 110	TotalResourceCost: 110
+Repair: 0	TechTreeID(BaseHullID): 23	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 2 Engine , 0 0(empty) of 2 RemoteMine , 0 0(empty) of 2 RemoteMine , 0 0(empty) of 1 RemoteMine , 0 0(empty) of 1 RemoteMine , 0 0(empty) of 2 Mechanical Electrical Armor Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Maxi-Miner
+ObjectID: 2023	OwnerID: 0	HullClass: 7
+PRTs: ALL
+LRTs: !Only Basic Remote Mining
+Armor DPs: 1400	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 850	FuelGen: 0	Mass: 110
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	32
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	32
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 11 EL 0 BI 0
+Base Res. Cost: 140	TotalResourceCost: 140
+Repair: 0	TechTreeID(BaseHullID): 24	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 3 Engine , 0 0(empty) of 4 RemoteMine , 0 0(empty) of 4 RemoteMine , 0 0(empty) of 1 RemoteMine , 0 0(empty) of 1 RemoteMine , 0 0(empty) of 2 Mechanical Electrical Armor Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Ultra-Miner
+ObjectID: 2024	OwnerID: 0	HullClass: 7
+PRTs: ALL
+LRTs: Advanced Remote Mining
+Armor DPs: 1500	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 1300	FuelGen: 0	Mass: 100
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	30
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	30
+ Germanium 	6
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 14 EL 0 BI 0
+Base Res. Cost: 130	TotalResourceCost: 130
+Repair: 0	TechTreeID(BaseHullID): 25	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 2 Engine , 0 0(empty) of 4 RemoteMine , 0 0(empty) of 4 RemoteMine , 0 0(empty) of 2 RemoteMine , 0 0(empty) of 2 RemoteMine , 0 0(empty) of 3 Mechanical Electrical Armor Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Fuel Transport
+ObjectID: 2025	OwnerID: 0	HullClass: 8
+PRTs: Inner Strength
+LRTs: ALL
+Armor DPs: 5	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 750	FuelGen: 200	Mass: 12
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	5
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	10
+ Germanium 	5
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 4 EL 0 BI 0
+Base Res. Cost: 50	TotalResourceCost: 50
+Repair: 25	TechTreeID(BaseHullID): 26	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 1 Sheild 
+Engine Capability: None
+
+
+
+Ship Hull:		Super-Fuel Transport
+ObjectID: 2026	OwnerID: 0	HullClass: 8
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 12	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 2250	FuelGen: 200	Mass: 111
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	8
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	8
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 7 EL 0 BI 0
+Base Res. Cost: 70	TotalResourceCost: 70
+Repair: 25	TechTreeID(BaseHullID): 27	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 2 Engine , 0 0(empty) of 2 Sheild , 0 0(empty) of 1 Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Mini Mine Layer
+ObjectID: 2027	OwnerID: 0	HullClass: 9
+PRTs: Space Demolition
+LRTs: ALL
+Armor DPs: 60	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 400	FuelGen: 0	Mass: 10
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	5
+  Boranium 	2
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	8
+ Germanium 	5
+  Boranium 	2
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+Base Res. Cost: 20	TotalResourceCost: 20
+Repair: 0	TechTreeID(BaseHullID): 28	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 1 Engine , 0 0(empty) of 2 Minelayer , 0 0(empty) of 2 Minelayer , 0 0(empty) of 1 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Super Mine Layer
+ObjectID: 2028	OwnerID: 0	HullClass: 9
+PRTs: Space Demolition
+LRTs: ALL
+Armor DPs: 1200	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 2200	FuelGen: 0	Mass: 30
+BaseInit: 0	Init: 0
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	9
+  Boranium 	3
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	20
+ Germanium 	9
+  Boranium 	3
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 15 EL 0 BI 0
+Base Res. Cost: 30	TotalResourceCost: 30
+Repair: 0	TechTreeID(BaseHullID): 29	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 3 Engine , 0 0(empty) of 8 Minelayer , 0 0(empty) of 8 Minelayer , 0 0(empty) of 3 Armor Sheild , 0 0(empty) of 3 Mechanical Electrical Scanner , 0 0(empty) of 3 Mechanical Electrical Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Nubian
+ObjectID: 2029	OwnerID: 0	HullClass: 3
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 5000	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 5000	FuelGen: 0	Mass: 100
+BaseInit: 2	Init: 2
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	75
+ Germanium 	12
+  Boranium 	12
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	75
+ Germanium 	12
+  Boranium 	12
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 26 EL 0 BI 0
+Base Res. Cost: 150	TotalResourceCost: 150
+Repair: 0	TechTreeID(BaseHullID): 30	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 3 Engine , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 3 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Metamorph
+ObjectID: 2030	OwnerID: 0	HullClass: 3
+PRTs: Hyper-Expansionist
+LRTs: ALL
+Armor DPs: 500	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 300	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 700	FuelGen: 0	Mass: 85
+BaseInit: 2	Init: 2
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	50
+ Germanium 	12
+  Boranium 	12
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	50
+ Germanium 	12
+  Boranium 	12
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 10 EL 0 BI 0
+Base Res. Cost: 120	TotalResourceCost: 120
+Repair: 0	TechTreeID(BaseHullID): 31	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 1	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 3 Engine , 0 0(empty) of 0 Orbital Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 8 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 2 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 2 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 2 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner , 0 0(empty) of 1 Mechanical Electrical Weapon Armor Sheild Minelayer Scanner 
+Engine Capability: None
+
+
+
+Ship Hull:		Orbital Fort
+ObjectID: 2031	OwnerID: 0	HullClass: 10
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 100	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 0	FuelGen: 0	Mass: 0
+BaseInit: 10	Init: 10
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	24
+ Germanium 	34
+  Boranium 	0
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	24
+ Germanium 	34
+  Boranium 	0
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+Base Res. Cost: 80	TotalResourceCost: 80
+Repair: 0	TechTreeID(BaseHullID): 32	DesignHullID: 0
+Docking Cap.: 0	Fleeting Status: 0	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 12 Weapon , 0 0(empty) of 12 Weapon , 0 0(empty) of 12 Armor Sheild , 0 0(empty) of 12 Armor Sheild , 0 0(empty) of 1 Orbital Electrical 
+Engine Capability: None
+
+
+
+Ship Hull:		Space Dock
+ObjectID: 2032	OwnerID: 0	HullClass: 10
+PRTs: ALL
+LRTs: Improced Starbases
+Armor DPs: 250	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 0	FuelGen: 0	Mass: 0
+BaseInit: 12	Init: 12
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	40
+ Germanium 	50
+  Boranium 	10
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	40
+ Germanium 	50
+  Boranium 	10
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 4 EL 0 BI 0
+Base Res. Cost: 200	TotalResourceCost: 200
+Repair: 0	TechTreeID(BaseHullID): 33	DesignHullID: 0
+Docking Cap.: 200	Fleeting Status: 0	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 16 Weapon , 0 0(empty) of 16 Weapon , 0 0(empty) of 24 Armor Sheild , 0 0(empty) of 24 Sheild , 0 0(empty) of 2 Electrical , 0 0(empty) of 2 Electrical , 0 0(empty) of 1 Orbital Electrical 
+Engine Capability: None
+
+
+
+Ship Hull:		Space Station
+ObjectID: 2033	OwnerID: 0	HullClass: 10
+PRTs: ALL
+LRTs: ALL
+Armor DPs: 500	Shield Max: 0	Shields: 0
+Jam: 0	CargoCapacity: 0	CloakBase: 0
+Quantity: 0	CombatMove: 0.00	CombatRating: 0
+FuelCap: 0	FuelGen: 0	Mass: 0
+BaseInit: 14	Init: 14
+Base Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	240
+ Germanium 	500
+  Boranium 	160
+      Fuel 	0
+Total Mineral Cost
+Cargo Type 	Amount
+ Colonists 	0
+   Ironium 	240
+ Germanium 	500
+  Boranium 	160
+      Fuel 	0
+EN 0 WE 0 PR 0 CO 0 EL 0 BI 0
+Base Res. Cost: 1200	TotalResourceCost: 1200
+Repair: 0	TechTreeID(BaseHullID): 34	DesignHullID: 0
+Docking Cap.: -1	Fleeting Status: 0	OwnerID: 0
+HULLSLOTS: 0 0(empty) of 16 Weapon , 0 0(empty) of 16 Weapon , 0 0(empty) of 16 Weapon , 0 0(empty) of 16 Weapon , 0 0(empty) of 16 Sheild , 0 0(empty) of 16 Sheild , 0 0(empty) of 16 Armor Sheild , 0 0(empty) of 16 Armor Sheild , 0 0(empty) of 3 Electrical , 0 0(empty) of 3 Electrical , 0 0(empty) of 1 Orbital Electrical , 0 0(empty) of 1 Orbital Electrical 
+Engine Capability: None
+
+

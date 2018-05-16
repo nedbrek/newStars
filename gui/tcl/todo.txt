@@ -1,0 +1,28 @@
+------------------------------------------------------------------------------
+-----Bugs
+Assertion (design != NULL) line 1011, on cancel for new design
+Seg fault on changing order point at move waypoint
+
+-----Need To Have : Base Features
+debris list
+messages : scrolling
+orders : changing existing
+race wizard : all costs extra at 3
+race wizard : save race
+race wizard : spend extra points
+ship designer : Enemy Designs
+
+-----Should Have : Base Features
+planet stats (resources, mining rates, maxes, est pop growth)
+ship designer : Delete Design
+ship designer : Edit Design
+
+-----Nice To Have : Base Features
+messages : filters
+ship designer : Drag to move component
+ship designer : Ship/Starbase selector
+ship designer : Help
+
+-----Nice To Have : New Features
+show minefield intercept in gui during fleet waypoint add
+

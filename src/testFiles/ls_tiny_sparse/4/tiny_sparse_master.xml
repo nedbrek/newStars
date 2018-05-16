@@ -1,0 +1,3502 @@
+<?xml version="1.0"?>
+   <NSTARS_UNIV DIMENSIONS="2" X="400" Y="400">
+      <UNIV_HDR>
+         <STAR_COUNT>2</STAR_COUNT>
+      </UNIV_HDR>
+      <GAME_YEAR>2404</GAME_YEAR>
+      <TECH_COSTS>50 80 130 210 340 550 890 1440 2330 3770 6100 9870 13850 18040 22440 27050 31870 36900 42140 47590 53250 59120 65200 71490 77990 84700</TECH_COSTS>
+      <COMPONENTFILENAME>newStarsComponents.xml</COMPONENTFILENAME>
+      <HULLFILENAME>newStarsHulls.xml</HULLFILENAME>
+      <PLAYERFILEBASENAME>tiny_sparse</PLAYERFILEBASENAME>
+      <MASTER_COPY>1</MASTER_COPY>
+      <NUMBER_OF_PLAYERS>2</NUMBER_OF_PLAYERS>
+      <PLAYERDATA>
+         <RACELIST>
+            <RACE>
+               <SINGULARNAME>Ugly Duckling</SINGULARNAME>
+               <PLURALNAME>Baby Swans</PLURALNAME>
+               <GROWTHRATE>18</GROWTHRATE>
+               <OWNERID>1</OWNERID>
+               <HAB TYPE="gtr 1.0">50 50 50</HAB>
+               <TOLERANCE TYPE="gtr 1.0">35 35 35</TOLERANCE>
+               <IMMUNITY TYPE="gtr 1.0">0 0 0</IMMUNITY>
+               <TERRAABILITY TYPE="gtr 1.0">3 3 3</TERRAABILITY>
+               <TECHCOSTMULTIPLIER>2 0 2 0 2 2</TECHCOSTMULTIPLIER>
+               <TECHMININGFACTORBREAK>0 0 0 0 0 0</TECHMININGFACTORBREAK>
+               <TECHRESOURCEFACTORBREAK>0 0 0 0 0 0</TECHRESOURCEFACTORBREAK>
+               <PRTVECTOR>1 0 0 0 0 0 0 0 0 0</PRTVECTOR>
+               <LRTVECTOR>0 0 0 0 0 0 0 1 0 1 1 1 0 0</LRTVECTOR>
+               <FACTORYMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 4 0 0</FACTORYMINERALCOST>
+               <MINEMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</MINEMINERALCOST>
+               <FACTORYOUTPUT>10</FACTORYOUTPUT>
+               <MINEOUTPUT>13</MINEOUTPUT>
+               <FACTORYRESOURCECOST>10</FACTORYRESOURCECOST>
+               <MINERESOURCECOST>5</MINERESOURCECOST>
+               <FACTORYBUILDFACTOR>14</FACTORYBUILDFACTOR>
+               <MINEBUILDFACTOR>10</MINEBUILDFACTOR>
+               <POPULATIONRESOURCEUNIT>1100</POPULATIONRESOURCEUNIT>
+               <POPULATIONMININGUNIT>0</POPULATIONMININGUNIT>
+               <POPULATIONRESOURCEFACTOR>1</POPULATIONRESOURCEFACTOR>
+               <POPULATIONMININGFACTOR>0</POPULATIONMININGFACTOR>
+               <EXPENSIVESTARTAT3>0</EXPENSIVESTARTAT3>
+               <EXTRAPOINTALLOCATION>0</EXTRAPOINTALLOCATION>
+            </RACE>
+         </RACELIST>
+         <CURRENTTECHLEVEL>3 3 3 3 3 3</CURRENTTECHLEVEL>
+         <CURRENTRESEARCH>0 0 0 74 0 0</CURRENTRESEARCH>
+         <RESEARCHALLOCATION>0 0 0 100 0 0</RESEARCHALLOCATION>
+         <RESEARCHNEXTSAME>0</RESEARCHNEXTSAME>
+         <RESEARCHNEXTLOWEST>1</RESEARCHNEXTLOWEST>
+         <RESEARCHNEXTID>0</RESEARCHNEXTID>
+         <RESEARCHTECHHOLDBACK>15</RESEARCHTECHHOLDBACK>
+         <RESOURCESALLOCATEDTORESEARCH>25</RESOURCESALLOCATEDTORESEARCH>
+         <RESEARCHTECHID>3</RESEARCHTECHID>
+         <FLEET>
+            <NAME>Long Range Scout #1274205627917</NAME>
+            <OBJECTID>1274205627917</OBJECTID>
+            <OWNERID>1</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>176</X_COORD>
+            <Y_COORD>209</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 235 0</CARGOMANIFEST>
+            <ORDERLIST>
+               <ORDER>
+                  <PLAYERNUMBER>1</PLAYERNUMBER>
+                  <ORDERNUMBER>1</ORDERNUMBER>
+                  <ORDERSTRING>Move to</ORDERSTRING>
+                  <ORDERID>1</ORDERID>
+                  <OBJECTID>1274205627917</OBJECTID>
+                  <TARGETID>0</TARGETID>
+                  <X_COORD>197</X_COORD>
+                  <Y_COORD>271</Y_COORD>
+                  <EXTRADATA>0</EXTRADATA>
+                  <WARPFACTOR>6</WARPFACTOR>
+                  <USEJUMPGATE>0</USEJUMPGATE>
+                  <WHICHJUMPGATE>0</WHICHJUMPGATE>
+                  <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               </ORDER>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2034</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>0</CARGOCAPACITY>
+            <FUELCAPACITY>300</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>6</LASTSPEED>
+            <LASTDIRECTION>847416042</LASTDIRECTION>
+            <MASS>25</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Long Range Scout</NAME>
+                  <OBJECTID>1274205627917</OBJECTID>
+                  <OWNERID>1</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>1 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>1.00</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>0</SHIELDMAX>
+                  <SHIELDS>0</SHIELDS>
+                  <ARMOR>20</ARMOR>
+                  <FUELCAPACITY>300</FUELCAPACITY>
+                  <CARGOCAPACITY>0</CARGOCAPACITY>
+                  <MASS>25</MASS>
+                  <BASERESOURCECOST>23</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>23</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>1</INITIATIVE>
+                  <BASEINITIATIVE>1</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>1</ISACTIVE>
+                     <BATTLESPEED>6</BATTLESPEED>
+                     <MAXSAFESPEED>9</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>2</HULLCLASS>
+                  <BASEHULLID>5</BASEHULLID>
+                  <DESIGNHULLID>33554433</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>0</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>1 67 1 ENG : 1 83 1 ME EL WE AR SH ML SC : 1 126 1 SC</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <FLEET>
+            <NAME>Armed Probe #1339845579629</NAME>
+            <OBJECTID>1339845579629</OBJECTID>
+            <OWNERID>1</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>213</X_COORD>
+            <Y_COORD>41</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 34 0</CARGOMANIFEST>
+            <ORDERLIST>
+               <ORDER>
+                  <PLAYERNUMBER>1</PLAYERNUMBER>
+                  <ORDERNUMBER>1</ORDERNUMBER>
+                  <ORDERSTRING>Move to</ORDERSTRING>
+                  <ORDERID>1</ORDERID>
+                  <OBJECTID>1339845579629</OBJECTID>
+                  <TARGETID>0</TARGETID>
+                  <X_COORD>232</X_COORD>
+                  <Y_COORD>32</Y_COORD>
+                  <EXTRADATA>0</EXTRADATA>
+                  <WARPFACTOR>6</WARPFACTOR>
+                  <USEJUMPGATE>0</USEJUMPGATE>
+                  <WHICHJUMPGATE>0</WHICHJUMPGATE>
+                  <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               </ORDER>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2034</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>0</CARGOCAPACITY>
+            <FUELCAPACITY>50</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>6</LASTSPEED>
+            <LASTDIRECTION>-295578940</LASTDIRECTION>
+            <MASS>23</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Armed Probe</NAME>
+                  <OBJECTID>1339845579629</OBJECTID>
+                  <OWNERID>1</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>1 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>1.00</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>0</SHIELDMAX>
+                  <SHIELDS>0</SHIELDS>
+                  <ARMOR>20</ARMOR>
+                  <FUELCAPACITY>50</FUELCAPACITY>
+                  <CARGOCAPACITY>0</CARGOCAPACITY>
+                  <MASS>23</MASS>
+                  <BASERESOURCECOST>25</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>25</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">12 8 7 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">12 8 7 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>1</INITIATIVE>
+                  <BASEINITIATIVE>1</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>1</ISACTIVE>
+                     <BATTLESPEED>6</BATTLESPEED>
+                     <MAXSAFESPEED>9</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>2</HULLCLASS>
+                  <BASEHULLID>5</BASEHULLID>
+                  <DESIGNHULLID>50331649</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>0</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>1 67 1 ENG : 1 12 1 ME EL WE AR SH ML SC : 1 126 1 SC</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <FLEET>
+            <NAME>Santa Maria #1138879964928</NAME>
+            <OBJECTID>1138879964928</OBJECTID>
+            <OWNERID>1</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>101</X_COORD>
+            <Y_COORD>108</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 184 25</CARGOMANIFEST>
+            <ORDERLIST>
+               <ORDER>
+                  <PLAYERNUMBER>1</PLAYERNUMBER>
+                  <ORDERNUMBER>2</ORDERNUMBER>
+                  <ORDERSTRING>Move to</ORDERSTRING>
+                  <ORDERID>1</ORDERID>
+                  <OBJECTID>1138879964928</OBJECTID>
+                  <TARGETID>0</TARGETID>
+                  <X_COORD>145</X_COORD>
+                  <Y_COORD>164</Y_COORD>
+                  <EXTRADATA>0</EXTRADATA>
+                  <WARPFACTOR>6</WARPFACTOR>
+                  <USEJUMPGATE>0</USEJUMPGATE>
+                  <WHICHJUMPGATE>0</WHICHJUMPGATE>
+                  <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               </ORDER>
+               <ORDER>
+                  <PLAYERNUMBER>1</PLAYERNUMBER>
+                  <ORDERNUMBER>3</ORDERNUMBER>
+                  <ORDERSTRING>Colonize</ORDERSTRING>
+                  <ORDERID>7</ORDERID>
+                  <OBJECTID>1138879964928</OBJECTID>
+                  <TARGETID>7</TARGETID>
+                  <X_COORD>145</X_COORD>
+                  <Y_COORD>164</Y_COORD>
+                  <EXTRADATA>0</EXTRADATA>
+                  <WARPFACTOR>0</WARPFACTOR>
+                  <USEJUMPGATE>0</USEJUMPGATE>
+                  <WHICHJUMPGATE>0</WHICHJUMPGATE>
+                  <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               </ORDER>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2034</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>25</CARGOCAPACITY>
+            <FUELCAPACITY>200</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>6</LASTSPEED>
+            <LASTDIRECTION>613505899</LASTDIRECTION>
+            <MASS>86</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Santa Maria</NAME>
+                  <OBJECTID>1138879964928</OBJECTID>
+                  <OWNERID>1</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>1 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>1.00</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>0</SHIELDMAX>
+                  <SHIELDS>0</SHIELDS>
+                  <ARMOR>20</ARMOR>
+                  <FUELCAPACITY>200</FUELCAPACITY>
+                  <CARGOCAPACITY>25</CARGOCAPACITY>
+                  <MASS>61</MASS>
+                  <BASERESOURCECOST>36</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>36</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">27 10 26 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">27 10 26 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>0</INITIATIVE>
+                  <BASEINITIATIVE>0</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>1</ISACTIVE>
+                     <BATTLESPEED>6</BATTLESPEED>
+                     <MAXSAFESPEED>9</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>5</HULLCLASS>
+                  <BASEHULLID>16</BASEHULLID>
+                  <DESIGNHULLID>67108865</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>0</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>1 67 1 ENG : 1 79 1 ME</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <FLEET>
+            <NAME>Teamster #1184372354219</NAME>
+            <OBJECTID>1184372354219</OBJECTID>
+            <OWNERID>1</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>78</X_COORD>
+            <Y_COORD>80</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 450 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2034</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>210</CARGOCAPACITY>
+            <FUELCAPACITY>450</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>0</LASTSPEED>
+            <LASTDIRECTION>0</LASTDIRECTION>
+            <MASS>130</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Teamster</NAME>
+                  <OBJECTID>1184372354219</OBJECTID>
+                  <OWNERID>1</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>1 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>0.75</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>0</SHIELDMAX>
+                  <SHIELDS>0</SHIELDS>
+                  <ARMOR>125</ARMOR>
+                  <FUELCAPACITY>450</FUELCAPACITY>
+                  <CARGOCAPACITY>210</CARGOCAPACITY>
+                  <MASS>130</MASS>
+                  <BASERESOURCECOST>62</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>62</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">34 0 22 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">34 0 22 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>0</INITIATIVE>
+                  <BASEINITIATIVE>0</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>1</ISACTIVE>
+                     <BATTLESPEED>6</BATTLESPEED>
+                     <MAXSAFESPEED>9</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>1</HULLCLASS>
+                  <BASEHULLID>2</BASEHULLID>
+                  <DESIGNHULLID>83886081</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>0</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 3 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>1 67 1 ENG : 1 1 1 AR SH : 1 126 1 ME EL SC</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <FLEET>
+            <NAME>Stalwart Defender #1346313939706</NAME>
+            <OBJECTID>1346313939706</OBJECTID>
+            <OWNERID>1</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>221</X_COORD>
+            <Y_COORD>104</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 390 0</CARGOMANIFEST>
+            <ORDERLIST>
+               <ORDER>
+                  <PLAYERNUMBER>1</PLAYERNUMBER>
+                  <ORDERNUMBER>1</ORDERNUMBER>
+                  <ORDERSTRING>Move to</ORDERSTRING>
+                  <ORDERID>1</ORDERID>
+                  <OBJECTID>1346313939706</OBJECTID>
+                  <TARGETID>0</TARGETID>
+                  <X_COORD>252</X_COORD>
+                  <Y_COORD>110</Y_COORD>
+                  <EXTRADATA>0</EXTRADATA>
+                  <WARPFACTOR>6</WARPFACTOR>
+                  <USEJUMPGATE>0</USEJUMPGATE>
+                  <WHICHJUMPGATE>0</WHICHJUMPGATE>
+                  <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               </ORDER>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2034</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>0</CARGOCAPACITY>
+            <FUELCAPACITY>530</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>6</LASTSPEED>
+            <LASTDIRECTION>142880825</LASTDIRECTION>
+            <MASS>186</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Stalwart Defender</NAME>
+                  <OBJECTID>1346313939706</OBJECTID>
+                  <OWNERID>1</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>1 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>0.50</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>0</SHIELDMAX>
+                  <SHIELDS>0</SHIELDS>
+                  <ARMOR>350</ARMOR>
+                  <FUELCAPACITY>530</FUELCAPACITY>
+                  <CARGOCAPACITY>0</CARGOCAPACITY>
+                  <MASS>186</MASS>
+                  <BASERESOURCECOST>91</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>91</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">50 12 26 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">50 12 26 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>4</INITIATIVE>
+                  <BASEINITIATIVE>3</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>1</ISACTIVE>
+                     <BATTLESPEED>6</BATTLESPEED>
+                     <MAXSAFESPEED>9</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>2</HULLCLASS>
+                  <BASEHULLID>7</BASEHULLID>
+                  <DESIGNHULLID>117440513</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>0</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 3 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>1 67 1 ENG : 1 83 1 ME : 1 52 1 EL : 2 1 2 AR : 1 126 1 ME EL WE AR SH ML SC : 1 12 1 WE : 1 141 1 WE</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <FLEET>
+            <NAME>Starbase</NAME>
+            <OBJECTID>1318900722600</OBJECTID>
+            <OWNERID>1</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>78</X_COORD>
+            <Y_COORD>80</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2034</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>0</CARGOCAPACITY>
+            <FUELCAPACITY>0</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>0</LASTSPEED>
+            <LASTDIRECTION>0</LASTDIRECTION>
+            <MASS>0</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Starbase</NAME>
+                  <OBJECTID>16777217</OBJECTID>
+                  <OWNERID>1</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>0 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>0.00</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>800</SHIELDMAX>
+                  <SHIELDS>800</SHIELDS>
+                  <ARMOR>500</ARMOR>
+                  <FUELCAPACITY>0</FUELCAPACITY>
+                  <CARGOCAPACITY>0</CARGOCAPACITY>
+                  <MASS>0</MASS>
+                  <BASERESOURCECOST>744</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>744</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>14</INITIATIVE>
+                  <BASEINITIATIVE>14</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>0</ISACTIVE>
+                     <BATTLESPEED>0</BATTLESPEED>
+                     <MAXSAFESPEED>0</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>10</HULLCLASS>
+                  <BASEHULLID>34</BASEHULLID>
+                  <DESIGNHULLID>16777217</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>-1</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>8 11 16 WE : 8 11 16 WE : 8 11 16 WE : 8 11 16 WE : 8 153 16 SH : 8 153 16 SH : 8 153 16 AR SH : 8 153 16 AR SH : 0 0 3 EL : 0 0 3 EL : 0 0 1 ORB EL : 0 0 1 ORB EL</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <FLEET>
+            <NAME>Long Range Scout #1099857924542</NAME>
+            <OBJECTID>1099857924542</OBJECTID>
+            <OWNERID>1</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>62</X_COORD>
+            <Y_COORD>127</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 273 0</CARGOMANIFEST>
+            <ORDERLIST>
+               <ORDER>
+                  <PLAYERNUMBER>1</PLAYERNUMBER>
+                  <ORDERNUMBER>1</ORDERNUMBER>
+                  <ORDERSTRING>Move to</ORDERSTRING>
+                  <ORDERID>1</ORDERID>
+                  <OBJECTID>1099857924542</OBJECTID>
+                  <TARGETID>0</TARGETID>
+                  <X_COORD>38</X_COORD>
+                  <Y_COORD>200</Y_COORD>
+                  <EXTRADATA>0</EXTRADATA>
+                  <WARPFACTOR>7</WARPFACTOR>
+                  <USEJUMPGATE>0</USEJUMPGATE>
+                  <WHICHJUMPGATE>0</WHICHJUMPGATE>
+                  <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               </ORDER>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2034</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>0</CARGOCAPACITY>
+            <FUELCAPACITY>300</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>7</LASTSPEED>
+            <LASTDIRECTION>1293679329</LASTDIRECTION>
+            <MASS>25</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Long Range Scout</NAME>
+                  <OBJECTID>1099857924542</OBJECTID>
+                  <OWNERID>1</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>1 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>1.00</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>0</SHIELDMAX>
+                  <SHIELDS>0</SHIELDS>
+                  <ARMOR>20</ARMOR>
+                  <FUELCAPACITY>300</FUELCAPACITY>
+                  <CARGOCAPACITY>0</CARGOCAPACITY>
+                  <MASS>25</MASS>
+                  <BASERESOURCECOST>23</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>23</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>1</INITIATIVE>
+                  <BASEINITIATIVE>1</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>1</ISACTIVE>
+                     <BATTLESPEED>6</BATTLESPEED>
+                     <MAXSAFESPEED>9</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>2</HULLCLASS>
+                  <BASEHULLID>5</BASEHULLID>
+                  <DESIGNHULLID>33554433</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>0</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>1 67 1 ENG : 1 83 1 ME EL WE AR SH ML SC : 1 126 1 SC</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <BATTLES />
+         <ENEMY_PLAYER_LIST>
+            <ENEMY_PLAYER>
+               <SINGULARNAME>War Pig</SINGULARNAME>
+               <PLURALNAME>War Pigs</PLURALNAME>
+               <OWNERID>2</OWNERID>
+            </ENEMY_PLAYER>
+         </ENEMY_PLAYER_LIST>
+         <PLAYER_RELATIONS>
+            <PR_ELEMENT>0 1</PR_ELEMENT>
+            <PR_ELEMENT>1 2</PR_ELEMENT>
+         </PLAYER_RELATIONS>
+         <ENEMY_FLEETS>
+         </ENEMY_FLEETS>
+         <DESIGNLIST>
+            <HULL>
+               <NAME>Starbase</NAME>
+               <OBJECTID>16777217</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>0 </FLEETABLE>
+               <QUANTITY>1</QUANTITY>
+               <COMBATMOVE>0.00</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>800</SHIELDMAX>
+               <SHIELDS>800</SHIELDS>
+               <ARMOR>500</ARMOR>
+               <FUELCAPACITY>0</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>0</MASS>
+               <BASERESOURCECOST>744</BASERESOURCECOST>
+               <TOTALRESOURCECOST>744</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</TOTALMINERALCOST>
+               <INITIATIVE>14</INITIATIVE>
+               <BASEINITIATIVE>14</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>0</ISACTIVE>
+                  <BATTLESPEED>0</BATTLESPEED>
+                  <MAXSAFESPEED>0</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>10</HULLCLASS>
+               <BASEHULLID>34</BASEHULLID>
+               <DESIGNHULLID>16777217</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>-1</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>8 11 16 WE : 8 11 16 WE : 8 11 16 WE : 8 11 16 WE : 8 153 16 SH : 8 153 16 SH : 8 153 16 AR SH : 8 153 16 AR SH : 0 0 3 EL : 0 0 3 EL : 0 0 1 ORB EL : 0 0 1 ORB EL</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+            <HULL>
+               <NAME>Long Range Scout</NAME>
+               <OBJECTID>33554433</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>3</QUANTITY>
+               <COMBATMOVE>1.00</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>20</ARMOR>
+               <FUELCAPACITY>300</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>25</MASS>
+               <BASERESOURCECOST>23</BASERESOURCECOST>
+               <TOTALRESOURCECOST>23</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</TOTALMINERALCOST>
+               <INITIATIVE>1</INITIATIVE>
+               <BASEINITIATIVE>1</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>6</BATTLESPEED>
+                  <MAXSAFESPEED>9</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>2</HULLCLASS>
+               <BASEHULLID>5</BASEHULLID>
+               <DESIGNHULLID>33554433</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 67 1 ENG : 1 83 1 ME EL WE AR SH ML SC : 1 126 1 SC</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+            <HULL>
+               <NAME>Armed Probe</NAME>
+               <OBJECTID>50331649</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>1</QUANTITY>
+               <COMBATMOVE>1.00</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>20</ARMOR>
+               <FUELCAPACITY>50</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>23</MASS>
+               <BASERESOURCECOST>25</BASERESOURCECOST>
+               <TOTALRESOURCECOST>25</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">12 8 7 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">12 8 7 0 0</TOTALMINERALCOST>
+               <INITIATIVE>1</INITIATIVE>
+               <BASEINITIATIVE>1</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>6</BATTLESPEED>
+                  <MAXSAFESPEED>9</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>2</HULLCLASS>
+               <BASEHULLID>5</BASEHULLID>
+               <DESIGNHULLID>50331649</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 67 1 ENG : 1 12 1 ME EL WE AR SH ML SC : 1 126 1 SC</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+            <HULL>
+               <NAME>Santa Maria</NAME>
+               <OBJECTID>67108865</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>1</QUANTITY>
+               <COMBATMOVE>1.00</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>20</ARMOR>
+               <FUELCAPACITY>200</FUELCAPACITY>
+               <CARGOCAPACITY>25</CARGOCAPACITY>
+               <MASS>61</MASS>
+               <BASERESOURCECOST>36</BASERESOURCECOST>
+               <TOTALRESOURCECOST>36</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">27 10 26 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">27 10 26 0 0</TOTALMINERALCOST>
+               <INITIATIVE>0</INITIATIVE>
+               <BASEINITIATIVE>0</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>6</BATTLESPEED>
+                  <MAXSAFESPEED>9</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>5</HULLCLASS>
+               <BASEHULLID>16</BASEHULLID>
+               <DESIGNHULLID>67108865</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 67 1 ENG : 1 79 1 ME</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+            <HULL>
+               <NAME>Teamster</NAME>
+               <OBJECTID>83886081</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>1</QUANTITY>
+               <COMBATMOVE>0.75</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>125</ARMOR>
+               <FUELCAPACITY>450</FUELCAPACITY>
+               <CARGOCAPACITY>210</CARGOCAPACITY>
+               <MASS>130</MASS>
+               <BASERESOURCECOST>62</BASERESOURCECOST>
+               <TOTALRESOURCECOST>62</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">34 0 22 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">34 0 22 0 0</TOTALMINERALCOST>
+               <INITIATIVE>0</INITIATIVE>
+               <BASEINITIATIVE>0</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>6</BATTLESPEED>
+                  <MAXSAFESPEED>9</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>1</HULLCLASS>
+               <BASEHULLID>2</BASEHULLID>
+               <DESIGNHULLID>83886081</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 3 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 67 1 ENG : 1 1 1 AR SH : 1 126 1 ME EL SC</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+            <HULL>
+               <NAME>Cotton Picker</NAME>
+               <OBJECTID>100663297</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>0</QUANTITY>
+               <COMBATMOVE>0.50</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>130</ARMOR>
+               <FUELCAPACITY>210</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>574</MASS>
+               <BASERESOURCECOST>259</BASERESOURCECOST>
+               <TOTALRESOURCECOST>259</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">93 0 23 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">93 0 23 0 0</TOTALMINERALCOST>
+               <INITIATIVE>0</INITIATIVE>
+               <BASEINITIATIVE>0</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>6</BATTLESPEED>
+                  <MAXSAFESPEED>9</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>7</HULLCLASS>
+               <BASEHULLID>22</BASEHULLID>
+               <DESIGNHULLID>100663297</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 2 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 67 1 ENG : 1 182 1 RM : 1 182 1 RM : 1 126 1 ME EL SC</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+            <HULL>
+               <NAME>Stalwart Defender</NAME>
+               <OBJECTID>117440513</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>1</QUANTITY>
+               <COMBATMOVE>0.50</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>350</ARMOR>
+               <FUELCAPACITY>530</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>186</MASS>
+               <BASERESOURCECOST>91</BASERESOURCECOST>
+               <TOTALRESOURCECOST>91</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">50 12 26 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">50 12 26 0 0</TOTALMINERALCOST>
+               <INITIATIVE>4</INITIATIVE>
+               <BASEINITIATIVE>3</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>6</BATTLESPEED>
+                  <MAXSAFESPEED>9</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 20 60 100 100 105 450 750 900 1080</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>2</HULLCLASS>
+               <BASEHULLID>7</BASEHULLID>
+               <DESIGNHULLID>117440513</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 3 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 67 1 ENG : 1 83 1 ME : 1 52 1 EL : 2 1 2 AR : 1 126 1 ME EL WE AR SH ML SC : 1 12 1 WE : 1 141 1 WE</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+         </DESIGNLIST>
+         <ENEMY_DESIGNS>
+            <HULL>
+               <NAME />                <OBJECTID>33554434</OBJECTID>
+               <OWNERID>2</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>0</QUANTITY>
+               <COMBATMOVE>0.00</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>0</ARMOR>
+               <FUELCAPACITY>0</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>15</MASS>
+               <BASERESOURCECOST>0</BASERESOURCECOST>
+               <TOTALRESOURCECOST>0</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</TOTALMINERALCOST>
+               <INITIATIVE>0</INITIATIVE>
+               <BASEINITIATIVE>0</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>0</ISACTIVE>
+                  <BATTLESPEED>0</BATTLESPEED>
+                  <MAXSAFESPEED>0</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>2</HULLCLASS>
+               <BASEHULLID>5</BASEHULLID>
+               <DESIGNHULLID>33554434</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>0 0 1 ENG : 0 0 1 ME EL WE AR SH ML SC : 0 0 1 SC</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+         </ENEMY_DESIGNS>
+         <BATTLE_ORDER_LIST>
+            <BATTLE_ORDER>
+               <NAME>Default Battle Orders</NAME>
+               <OBJECTID>2034</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>0</GAMEOBJECTTYPE>
+               <PRIMARY_TARGET>1</PRIMARY_TARGET>
+               <SECONDARY_TARGET>1</SECONDARY_TARGET>
+               <TACTICS>4</TACTICS>
+               <ATTACK_NONE>0</ATTACK_NONE>
+               <ATTACK_ENEMIES>1</ATTACK_ENEMIES>
+               <ATTACK_NEUTRALS_AND_ENEMIES>1</ATTACK_NEUTRALS_AND_ENEMIES>
+               <ATTACK_EVERYONE>0</ATTACK_EVERYONE>
+               <ATTACK_SPECIFIC_PLAYER>0</ATTACK_SPECIFIC_PLAYER>
+               <ATTACK_PLAYER_ID>0</ATTACK_PLAYER_ID>
+               <DUMP_CARGO>0</DUMP_CARGO>
+            </BATTLE_ORDER>
+         </BATTLE_ORDER_LIST>
+         <PLANET_LIST>
+            <PLANET>
+               <NAME>Zarquon</NAME>
+               <OBJECTID>1</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>38</X_COORD>
+               <Y_COORD>200</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Dharma</NAME>
+               <OBJECTID>2</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>51</X_COORD>
+               <Y_COORD>368</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>409</NAME>
+               <OBJECTID>3</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>72</X_COORD>
+               <Y_COORD>285</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Finale</NAME>
+               <OBJECTID>4</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>78</X_COORD>
+               <Y_COORD>80</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">805 915 667 0 1530</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>1</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">74 71 92 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">13 45 10 1</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">153 214 62 1</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">50 50 50 50 50 50</HAB>
+               <POP_REMAINDER>78</POP_REMAINDER>
+               <RESOURCESGENERATED>184</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>1318900722600</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2404</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Notlob</NAME>
+               <OBJECTID>5</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>116</X_COORD>
+               <Y_COORD>344</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>PiR2</NAME>
+               <OBJECTID>6</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>133</X_COORD>
+               <Y_COORD>89</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">71 80 84 85 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">15 13 85 15 13 85</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2402</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Quark</NAME>
+               <OBJECTID>7</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>145</X_COORD>
+               <Y_COORD>164</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">83 96 44 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">50 34 45 50 34 45</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2403</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Split</NAME>
+               <OBJECTID>8</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>161</X_COORD>
+               <Y_COORD>328</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Dyson</NAME>
+               <OBJECTID>9</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>183</X_COORD>
+               <Y_COORD>338</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>PCP</NAME>
+               <OBJECTID>10</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>187</X_COORD>
+               <Y_COORD>178</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">65 94 82 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">39 86 3 39 86 3</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2403</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Waco</NAME>
+               <OBJECTID>11</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>188</X_COORD>
+               <Y_COORD>191</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">103 11 64 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">31 35 3 31 35 3</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2404</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Lithium</NAME>
+               <OBJECTID>12</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>197</X_COORD>
+               <Y_COORD>270</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Montgomery</NAME>
+               <OBJECTID>13</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>232</X_COORD>
+               <Y_COORD>32</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">69 88 19 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">66 54 6 66 54 6</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2404</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Tull</NAME>
+               <OBJECTID>14</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>241</X_COORD>
+               <Y_COORD>105</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">3 14 81 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">53 22 27 53 22 27</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2404</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Infinity Junction</NAME>
+               <OBJECTID>15</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>258</X_COORD>
+               <Y_COORD>102</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Pervo</NAME>
+               <OBJECTID>16</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>278</X_COORD>
+               <Y_COORD>306</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Glenn</NAME>
+               <OBJECTID>17</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>286</X_COORD>
+               <Y_COORD>174</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Foamytap</NAME>
+               <OBJECTID>18</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>294</X_COORD>
+               <Y_COORD>125</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Nu</NAME>
+               <OBJECTID>19</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>331</X_COORD>
+               <Y_COORD>312</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Nastrond</NAME>
+               <OBJECTID>20</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>343</X_COORD>
+               <Y_COORD>156</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Ricketts</NAME>
+               <OBJECTID>21</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>359</X_COORD>
+               <Y_COORD>163</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>McIntyre</NAME>
+               <OBJECTID>22</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>366</X_COORD>
+               <Y_COORD>217</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Clover</NAME>
+               <OBJECTID>23</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>377</X_COORD>
+               <Y_COORD>335</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Zebra</NAME>
+               <OBJECTID>24</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>383</X_COORD>
+               <Y_COORD>237</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+         </PLANET_LIST>
+      </PLAYERDATA>
+      <PLAYERDATA>
+         <RACELIST>
+            <RACE>
+               <SINGULARNAME>War Pig</SINGULARNAME>
+               <PLURALNAME>War Pigs</PLURALNAME>
+               <GROWTHRATE>18</GROWTHRATE>
+               <OWNERID>2</OWNERID>
+               <HAB TYPE="gtr 1.0">46 50 62</HAB>
+               <TOLERANCE TYPE="gtr 1.0">26 26 15</TOLERANCE>
+               <IMMUNITY TYPE="gtr 1.0">0 1 0</IMMUNITY>
+               <TERRAABILITY TYPE="gtr 1.0">0 0 0</TERRAABILITY>
+               <TECHCOSTMULTIPLIER>2 0 2 0 2 2</TECHCOSTMULTIPLIER>
+               <TECHMININGFACTORBREAK>0 0 0 0 0 0</TECHMININGFACTORBREAK>
+               <TECHRESOURCEFACTORBREAK>0 0 0 0 0 0</TECHRESOURCEFACTORBREAK>
+               <PRTVECTOR>0 0 0 0 0 0 0 1 0 0</PRTVECTOR>
+               <LRTVECTOR>0 0 0 0 0 0 0 1 0 1 1 1 0 0</LRTVECTOR>
+               <FACTORYMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 4 0 0</FACTORYMINERALCOST>
+               <MINEMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</MINEMINERALCOST>
+               <FACTORYOUTPUT>12</FACTORYOUTPUT>
+               <MINEOUTPUT>12</MINEOUTPUT>
+               <FACTORYRESOURCECOST>10</FACTORYRESOURCECOST>
+               <MINERESOURCECOST>5</MINERESOURCECOST>
+               <FACTORYBUILDFACTOR>14</FACTORYBUILDFACTOR>
+               <MINEBUILDFACTOR>11</MINEBUILDFACTOR>
+               <POPULATIONRESOURCEUNIT>1100</POPULATIONRESOURCEUNIT>
+               <POPULATIONMININGUNIT>0</POPULATIONMININGUNIT>
+               <POPULATIONRESOURCEFACTOR>1</POPULATIONRESOURCEFACTOR>
+               <POPULATIONMININGFACTOR>0</POPULATIONMININGFACTOR>
+               <EXPENSIVESTARTAT3>0</EXPENSIVESTARTAT3>
+               <EXTRAPOINTALLOCATION>0</EXTRAPOINTALLOCATION>
+            </RACE>
+         </RACELIST>
+         <CURRENTTECHLEVEL>1 6 1 0 0 0</CURRENTTECHLEVEL>
+         <CURRENTRESEARCH>0 0 0 0 0 0</CURRENTRESEARCH>
+         <RESEARCHALLOCATION>100 0 0 0 0 0</RESEARCHALLOCATION>
+         <RESEARCHNEXTSAME>0</RESEARCHNEXTSAME>
+         <RESEARCHNEXTLOWEST>1</RESEARCHNEXTLOWEST>
+         <RESEARCHNEXTID>0</RESEARCHNEXTID>
+         <RESEARCHTECHHOLDBACK>0</RESEARCHTECHHOLDBACK>
+         <RESOURCESALLOCATEDTORESEARCH>0</RESOURCESALLOCATEDTORESEARCH>
+         <RESEARCHTECHID>0</RESEARCHTECHID>
+         <FLEET>
+            <NAME>Armed Probe #2443026239740</NAME>
+            <OBJECTID>2443026239740</OBJECTID>
+            <OWNERID>2</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>331</X_COORD>
+            <Y_COORD>312</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 12 0</CARGOMANIFEST>
+            <ORDERLIST>
+               <ORDER>
+                  <PLAYERNUMBER>2</PLAYERNUMBER>
+                  <ORDERNUMBER>3</ORDERNUMBER>
+                  <ORDERSTRING>Move to</ORDERSTRING>
+                  <ORDERID>1</ORDERID>
+                  <OBJECTID>2443026239740</OBJECTID>
+                  <TARGETID>0</TARGETID>
+                  <X_COORD>377</X_COORD>
+                  <Y_COORD>335</Y_COORD>
+                  <EXTRADATA>0</EXTRADATA>
+                  <WARPFACTOR>6</WARPFACTOR>
+                  <USEJUMPGATE>0</USEJUMPGATE>
+                  <WHICHJUMPGATE>0</WHICHJUMPGATE>
+                  <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               </ORDER>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2035</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>0</CARGOCAPACITY>
+            <FUELCAPACITY>50</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>6</LASTSPEED>
+            <LASTDIRECTION>80051471</LASTDIRECTION>
+            <MASS>15</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Armed Probe</NAME>
+                  <OBJECTID>2443026239740</OBJECTID>
+                  <OWNERID>2</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>1 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>1.25</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>0</SHIELDMAX>
+                  <SHIELDS>0</SHIELDS>
+                  <ARMOR>20</ARMOR>
+                  <FUELCAPACITY>50</FUELCAPACITY>
+                  <CARGOCAPACITY>0</CARGOCAPACITY>
+                  <MASS>15</MASS>
+                  <BASERESOURCECOST>21</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>21</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">8 10 6 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">8 10 6 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>1</INITIATIVE>
+                  <BASEINITIATIVE>1</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>1</ISACTIVE>
+                     <BATTLESPEED>5</BATTLESPEED>
+                     <MAXSAFESPEED>9</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0 25 100 100 100 180 500 800 900 1080</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>2</HULLCLASS>
+                  <BASEHULLID>5</BASEHULLID>
+                  <DESIGNHULLID>33554434</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>0</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>1 65 1 ENG : 1 14 1 ME EL WE AR SH ML SC : 1 125 1 SC</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <FLEET>
+            <NAME>Santa Maria #2210264718085</NAME>
+            <OBJECTID>2210264718085</OBJECTID>
+            <OWNERID>2</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>197</X_COORD>
+            <Y_COORD>270</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 200 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2035</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>25</CARGOCAPACITY>
+            <FUELCAPACITY>200</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>0</LASTSPEED>
+            <LASTDIRECTION>0</LASTDIRECTION>
+            <MASS>56</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Santa Maria</NAME>
+                  <OBJECTID>2210264718085</OBJECTID>
+                  <OWNERID>2</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>1 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>1.25</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>0</SHIELDMAX>
+                  <SHIELDS>0</SHIELDS>
+                  <ARMOR>20</ARMOR>
+                  <FUELCAPACITY>200</FUELCAPACITY>
+                  <CARGOCAPACITY>25</CARGOCAPACITY>
+                  <MASS>56</MASS>
+                  <BASERESOURCECOST>33</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>33</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">25 10 26 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">25 10 26 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>0</INITIATIVE>
+                  <BASEINITIATIVE>0</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>1</ISACTIVE>
+                     <BATTLESPEED>5</BATTLESPEED>
+                     <MAXSAFESPEED>9</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0 25 100 100 100 180 500 800 900 1080</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>5</HULLCLASS>
+                  <BASEHULLID>16</BASEHULLID>
+                  <DESIGNHULLID>50331650</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>0</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>1 65 1 ENG : 1 79 1 ME</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <FLEET>
+            <NAME>Starbase</NAME>
+            <OBJECTID>2262075582330</OBJECTID>
+            <OWNERID>2</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>197</X_COORD>
+            <Y_COORD>270</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2035</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>0</CARGOCAPACITY>
+            <FUELCAPACITY>0</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>0</LASTSPEED>
+            <LASTDIRECTION>0</LASTDIRECTION>
+            <MASS>0</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Starbase</NAME>
+                  <OBJECTID>16777218</OBJECTID>
+                  <OWNERID>2</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>0 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>0.00</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>800</SHIELDMAX>
+                  <SHIELDS>800</SHIELDS>
+                  <ARMOR>500</ARMOR>
+                  <FUELCAPACITY>0</FUELCAPACITY>
+                  <CARGOCAPACITY>0</CARGOCAPACITY>
+                  <MASS>0</MASS>
+                  <BASERESOURCECOST>744</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>744</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>14</INITIATIVE>
+                  <BASEINITIATIVE>14</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>0</ISACTIVE>
+                     <BATTLESPEED>0</BATTLESPEED>
+                     <MAXSAFESPEED>0</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>10</HULLCLASS>
+                  <BASEHULLID>34</BASEHULLID>
+                  <DESIGNHULLID>16777218</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>-1</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>8 11 16 WE : 8 11 16 WE : 8 11 16 WE : 8 11 16 WE : 8 153 16 SH : 8 153 16 SH : 8 153 16 AR SH : 8 153 16 AR SH : 0 0 3 EL : 0 0 3 EL : 0 0 1 ORB EL : 0 0 1 ORB EL</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <FLEET>
+            <NAME>Smaugarian Peeping Tom #2199369552318</NAME>
+            <OBJECTID>2199369552318</OBJECTID>
+            <OWNERID>2</OWNERID>
+            <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+            <X_COORD>197</X_COORD>
+            <Y_COORD>270</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 300 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <BATTLE_ORDER_ID>2035</BATTLE_ORDER_ID>
+            <FLEET_ID>0</FLEET_ID>
+            <CARGOCAPACITY>0</CARGOCAPACITY>
+            <FUELCAPACITY>300</FUELCAPACITY>
+            <TOPSPEED>10</TOPSPEED>
+            <SAFESPEED>9</SAFESPEED>
+            <LASTSPEED>0</LASTSPEED>
+            <LASTDIRECTION>0</LASTDIRECTION>
+            <MASS>17</MASS>
+            <SHIPLIST>
+               <HULL>
+                  <NAME>Smaugarian Peeping Tom</NAME>
+                  <OBJECTID>2199369552318</OBJECTID>
+                  <OWNERID>2</OWNERID>
+                  <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                  <FLEETABLE>1 </FLEETABLE>
+                  <QUANTITY>1</QUANTITY>
+                  <COMBATMOVE>1.25</COMBATMOVE>
+                  <COMBATRATING>0</COMBATRATING>
+                  <SHIELDMAX>0</SHIELDMAX>
+                  <SHIELDS>0</SHIELDS>
+                  <ARMOR>20</ARMOR>
+                  <FUELCAPACITY>300</FUELCAPACITY>
+                  <CARGOCAPACITY>0</CARGOCAPACITY>
+                  <MASS>17</MASS>
+                  <BASERESOURCECOST>18</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>18</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">14 2 6 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">14 2 6 0 0</TOTALMINERALCOST>
+                  <INITIATIVE>1</INITIATIVE>
+                  <BASEINITIATIVE>1</BASEINITIATIVE>
+                  <CLOAK>0</CLOAK>
+                  <JAM>0</JAM>
+                  <FUELGEN>0</FUELGEN>
+                  <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                  <WARPENGINECOMPONENT>
+                     <ISACTIVE>1</ISACTIVE>
+                     <BATTLESPEED>5</BATTLESPEED>
+                     <MAXSAFESPEED>9</MAXSAFESPEED>
+                     <FUELCONSUMPTIONVECTOR>0 25 100 100 100 180 500 800 900 1080</FUELCONSUMPTIONVECTOR>
+                     <ISSCOOP>0</ISSCOOP>
+                     <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                  </WARPENGINECOMPONENT>
+                  <HULLCLASS>2</HULLCLASS>
+                  <BASEHULLID>5</BASEHULLID>
+                  <DESIGNHULLID>2443026239741</DESIGNHULLID>
+                  <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                  <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                  <DOCKCAPACITY>0</DOCKCAPACITY>
+                  <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                  <HULLSLOTS>1 65 1 ENG : 1 83 1 ME EL WE AR SH ML SC : 1 125 1 SC</HULLSLOTS>
+                  <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                  <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+               </HULL>
+            </SHIPLIST>
+         </FLEET>
+         <BATTLES />
+         <ENEMY_PLAYER_LIST>
+            <ENEMY_PLAYER>
+               <SINGULARNAME>Ugly Duckling</SINGULARNAME>
+               <PLURALNAME>Baby Swans</PLURALNAME>
+               <OWNERID>1</OWNERID>
+            </ENEMY_PLAYER>
+         </ENEMY_PLAYER_LIST>
+         <PLAYER_RELATIONS>
+            <PR_ELEMENT>0 1</PR_ELEMENT>
+            <PR_ELEMENT>2 2</PR_ELEMENT>
+         </PLAYER_RELATIONS>
+         <ENEMY_FLEETS>
+            <FLEET>
+               <NAME />                <OBJECTID>1274205627917</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
+               <X_COORD>176</X_COORD>
+               <Y_COORD>209</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 235 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <BATTLE_ORDER_ID>0</BATTLE_ORDER_ID>
+               <FLEET_ID>0</FLEET_ID>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <FUELCAPACITY>0</FUELCAPACITY>
+               <TOPSPEED>0</TOPSPEED>
+               <SAFESPEED>0</SAFESPEED>
+               <LASTSPEED>6</LASTSPEED>
+               <LASTDIRECTION>847416042</LASTDIRECTION>
+               <MASS>25</MASS>
+               <SHIPLIST>
+                  <HULL>
+                     <NAME />                      <OBJECTID>1274205627917</OBJECTID>
+                     <OWNERID>1</OWNERID>
+                     <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+                     <FLEETABLE>1 </FLEETABLE>
+                     <QUANTITY>1</QUANTITY>
+                     <COMBATMOVE>0.00</COMBATMOVE>
+                     <COMBATRATING>0</COMBATRATING>
+                     <SHIELDMAX>0</SHIELDMAX>
+                     <SHIELDS>0</SHIELDS>
+                     <ARMOR>0</ARMOR>
+                     <FUELCAPACITY>0</FUELCAPACITY>
+                     <CARGOCAPACITY>0</CARGOCAPACITY>
+                     <MASS>25</MASS>
+                     <BASERESOURCECOST>0</BASERESOURCECOST>
+                     <TOTALRESOURCECOST>0</TOTALRESOURCECOST>
+                     <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</MINERALCOSTBASE>
+                     <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</TOTALMINERALCOST>
+                     <INITIATIVE>0</INITIATIVE>
+                     <BASEINITIATIVE>0</BASEINITIATIVE>
+                     <CLOAK>0</CLOAK>
+                     <JAM>0</JAM>
+                     <FUELGEN>0</FUELGEN>
+                     <DAMAGEREPAIR>0</DAMAGEREPAIR>
+                     <WARPENGINECOMPONENT>
+                        <ISACTIVE>0</ISACTIVE>
+                        <BATTLESPEED>0</BATTLESPEED>
+                        <MAXSAFESPEED>0</MAXSAFESPEED>
+                        <FUELCONSUMPTIONVECTOR>0</FUELCONSUMPTIONVECTOR>
+                        <ISSCOOP>0</ISSCOOP>
+                        <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+                     </WARPENGINECOMPONENT>
+                     <HULLCLASS>2</HULLCLASS>
+                     <BASEHULLID>5</BASEHULLID>
+                     <DESIGNHULLID>33554433</DESIGNHULLID>
+                     <PERCENTDAMAGED>0</PERCENTDAMAGED>
+                     <NUMBERDAMAGED>0</NUMBERDAMAGED>
+                     <DOCKCAPACITY>0</DOCKCAPACITY>
+                     <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+                     <HULLSLOTS>0 0 1 ENG : 0 0 1 ME EL WE AR SH ML SC : 0 0 1 SC</HULLSLOTS>
+                     <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+                     <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+                  </HULL>
+               </SHIPLIST>
+            </FLEET>
+         </ENEMY_FLEETS>
+         <DESIGNLIST>
+            <HULL>
+               <NAME>Starbase</NAME>
+               <OBJECTID>16777218</OBJECTID>
+               <OWNERID>2</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>0 </FLEETABLE>
+               <QUANTITY>1</QUANTITY>
+               <COMBATMOVE>0.00</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>800</SHIELDMAX>
+               <SHIELDS>800</SHIELDS>
+               <ARMOR>500</ARMOR>
+               <FUELCAPACITY>0</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>0</MASS>
+               <BASERESOURCECOST>744</BASERESOURCECOST>
+               <TOTALRESOURCECOST>744</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</TOTALMINERALCOST>
+               <INITIATIVE>14</INITIATIVE>
+               <BASEINITIATIVE>14</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>0</ISACTIVE>
+                  <BATTLESPEED>0</BATTLESPEED>
+                  <MAXSAFESPEED>0</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>10</HULLCLASS>
+               <BASEHULLID>34</BASEHULLID>
+               <DESIGNHULLID>16777218</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>-1</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>8 11 16 WE : 8 11 16 WE : 8 11 16 WE : 8 11 16 WE : 8 153 16 SH : 8 153 16 SH : 8 153 16 AR SH : 8 153 16 AR SH : 0 0 3 EL : 0 0 3 EL : 0 0 1 ORB EL : 0 0 1 ORB EL</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+            <HULL>
+               <NAME>Armed Probe</NAME>
+               <OBJECTID>33554434</OBJECTID>
+               <OWNERID>2</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>1</QUANTITY>
+               <COMBATMOVE>1.25</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>20</ARMOR>
+               <FUELCAPACITY>50</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>15</MASS>
+               <BASERESOURCECOST>21</BASERESOURCECOST>
+               <TOTALRESOURCECOST>21</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">8 10 6 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">8 10 6 0 0</TOTALMINERALCOST>
+               <INITIATIVE>1</INITIATIVE>
+               <BASEINITIATIVE>1</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>5</BATTLESPEED>
+                  <MAXSAFESPEED>9</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 25 100 100 100 180 500 800 900 1080</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>2</HULLCLASS>
+               <BASEHULLID>5</BASEHULLID>
+               <DESIGNHULLID>33554434</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 65 1 ENG : 1 14 1 ME EL WE AR SH ML SC : 1 125 1 SC</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+            <HULL>
+               <NAME>Santa Maria</NAME>
+               <OBJECTID>50331650</OBJECTID>
+               <OWNERID>2</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>1</QUANTITY>
+               <COMBATMOVE>1.25</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>20</ARMOR>
+               <FUELCAPACITY>200</FUELCAPACITY>
+               <CARGOCAPACITY>25</CARGOCAPACITY>
+               <MASS>56</MASS>
+               <BASERESOURCECOST>33</BASERESOURCECOST>
+               <TOTALRESOURCECOST>33</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">25 10 26 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">25 10 26 0 0</TOTALMINERALCOST>
+               <INITIATIVE>0</INITIATIVE>
+               <BASEINITIATIVE>0</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>5</BATTLESPEED>
+                  <MAXSAFESPEED>9</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 25 100 100 100 180 500 800 900 1080</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>5</HULLCLASS>
+               <BASEHULLID>16</BASEHULLID>
+               <DESIGNHULLID>50331650</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 65 1 ENG : 1 79 1 ME</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+            <HULL>
+               <NAME>Smaugarian Peeping Tom</NAME>
+               <OBJECTID>2443026239741</OBJECTID>
+               <OWNERID>2</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>1</QUANTITY>
+               <COMBATMOVE>1.25</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>20</ARMOR>
+               <FUELCAPACITY>300</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>17</MASS>
+               <BASERESOURCECOST>18</BASERESOURCECOST>
+               <TOTALRESOURCECOST>18</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">14 2 6 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">14 2 6 0 0</TOTALMINERALCOST>
+               <INITIATIVE>1</INITIATIVE>
+               <BASEINITIATIVE>1</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>5</BATTLESPEED>
+                  <MAXSAFESPEED>9</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 25 100 100 100 180 500 800 900 1080</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>2</HULLCLASS>
+               <BASEHULLID>5</BASEHULLID>
+               <DESIGNHULLID>2443026239741</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 65 1 ENG : 1 83 1 ME EL WE AR SH ML SC : 1 125 1 SC</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+         </DESIGNLIST>
+         <ENEMY_DESIGNS>
+            <HULL>
+               <NAME />                <OBJECTID>33554433</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>0</QUANTITY>
+               <COMBATMOVE>0.00</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>0</ARMOR>
+               <FUELCAPACITY>0</FUELCAPACITY>
+               <CARGOCAPACITY>0</CARGOCAPACITY>
+               <MASS>25</MASS>
+               <BASERESOURCECOST>0</BASERESOURCECOST>
+               <TOTALRESOURCECOST>0</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</TOTALMINERALCOST>
+               <INITIATIVE>0</INITIATIVE>
+               <BASEINITIATIVE>0</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>0</ISACTIVE>
+                  <BATTLESPEED>0</BATTLESPEED>
+                  <MAXSAFESPEED>0</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>0</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>2</HULLCLASS>
+               <BASEHULLID>5</BASEHULLID>
+               <DESIGNHULLID>33554433</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 0 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>0 0 1 ENG : 0 0 1 ME EL WE AR SH ML SC : 0 0 1 SC</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+         </ENEMY_DESIGNS>
+         <BATTLE_ORDER_LIST>
+            <BATTLE_ORDER>
+               <NAME>Default Battle Orders</NAME>
+               <OBJECTID>2035</OBJECTID>
+               <OWNERID>2</OWNERID>
+               <GAMEOBJECTTYPE>0</GAMEOBJECTTYPE>
+               <PRIMARY_TARGET>1</PRIMARY_TARGET>
+               <SECONDARY_TARGET>1</SECONDARY_TARGET>
+               <TACTICS>4</TACTICS>
+               <ATTACK_NONE>0</ATTACK_NONE>
+               <ATTACK_ENEMIES>1</ATTACK_ENEMIES>
+               <ATTACK_NEUTRALS_AND_ENEMIES>1</ATTACK_NEUTRALS_AND_ENEMIES>
+               <ATTACK_EVERYONE>0</ATTACK_EVERYONE>
+               <ATTACK_SPECIFIC_PLAYER>0</ATTACK_SPECIFIC_PLAYER>
+               <ATTACK_PLAYER_ID>0</ATTACK_PLAYER_ID>
+               <DUMP_CARGO>0</DUMP_CARGO>
+            </BATTLE_ORDER>
+         </BATTLE_ORDER_LIST>
+         <PLANET_LIST>
+            <PLANET>
+               <NAME>Zarquon</NAME>
+               <OBJECTID>1</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>38</X_COORD>
+               <Y_COORD>200</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Dharma</NAME>
+               <OBJECTID>2</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>51</X_COORD>
+               <Y_COORD>368</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>409</NAME>
+               <OBJECTID>3</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>72</X_COORD>
+               <Y_COORD>285</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Finale</NAME>
+               <OBJECTID>4</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>78</X_COORD>
+               <Y_COORD>80</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Notlob</NAME>
+               <OBJECTID>5</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>116</X_COORD>
+               <Y_COORD>344</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>PiR2</NAME>
+               <OBJECTID>6</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>133</X_COORD>
+               <Y_COORD>89</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Quark</NAME>
+               <OBJECTID>7</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>145</X_COORD>
+               <Y_COORD>164</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Split</NAME>
+               <OBJECTID>8</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>161</X_COORD>
+               <Y_COORD>328</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Dyson</NAME>
+               <OBJECTID>9</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>183</X_COORD>
+               <Y_COORD>338</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>PCP</NAME>
+               <OBJECTID>10</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>187</X_COORD>
+               <Y_COORD>178</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Waco</NAME>
+               <OBJECTID>11</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>188</X_COORD>
+               <Y_COORD>191</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Lithium</NAME>
+               <OBJECTID>12</OBJECTID>
+               <OWNERID>2</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>197</X_COORD>
+               <Y_COORD>270</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">628 862 543 0 1560</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>1</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">74 71 92 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">10 57 10 1</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">171 218 63 1</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">46 50 62 46 50 62</HAB>
+               <POP_REMAINDER>28</POP_REMAINDER>
+               <RESOURCESGENERATED>210</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>2262075582330</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+                  <PLANETARYBUILDQUEUEENTRY>
+                     <AUTOBUILD>0</AUTOBUILD>
+                     <DESIGNID>0</DESIGNID>
+                     <ITEMTYPE>3</ITEMTYPE>
+                     <ORIGINALBUILDQUANTITY>1</ORIGINALBUILDQUANTITY>
+                     <OWNERID>2</OWNERID>
+                     <PERCENTCOMPLETE>50000</PERCENTCOMPLETE>
+                     <PLANETID>12</PLANETID>
+                     <REMAININGBUILDQUANTITY>1</REMAININGBUILDQUANTITY>
+                  </PLANETARYBUILDQUEUEENTRY>
+                  <PLANETARYBUILDQUEUEENTRY>
+                     <AUTOBUILD>1</AUTOBUILD>
+                     <DESIGNID>0</DESIGNID>
+                     <ITEMTYPE>3</ITEMTYPE>
+                     <ORIGINALBUILDQUANTITY>100</ORIGINALBUILDQUANTITY>
+                     <OWNERID>2</OWNERID>
+                     <PERCENTCOMPLETE>0</PERCENTCOMPLETE>
+                     <PLANETID>12</PLANETID>
+                     <REMAININGBUILDQUANTITY>100</REMAININGBUILDQUANTITY>
+                  </PLANETARYBUILDQUEUEENTRY>
+                  <PLANETARYBUILDQUEUEENTRY>
+                     <AUTOBUILD>1</AUTOBUILD>
+                     <DESIGNID>0</DESIGNID>
+                     <ITEMTYPE>4</ITEMTYPE>
+                     <ORIGINALBUILDQUANTITY>100</ORIGINALBUILDQUANTITY>
+                     <OWNERID>2</OWNERID>
+                     <PERCENTCOMPLETE>0</PERCENTCOMPLETE>
+                     <PLANETID>12</PLANETID>
+                     <REMAININGBUILDQUANTITY>100</REMAININGBUILDQUANTITY>
+                  </PLANETARYBUILDQUEUEENTRY>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2404</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Montgomery</NAME>
+               <OBJECTID>13</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>232</X_COORD>
+               <Y_COORD>32</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Tull</NAME>
+               <OBJECTID>14</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>241</X_COORD>
+               <Y_COORD>105</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Infinity Junction</NAME>
+               <OBJECTID>15</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>258</X_COORD>
+               <Y_COORD>102</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Pervo</NAME>
+               <OBJECTID>16</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>278</X_COORD>
+               <Y_COORD>306</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">75 74 70 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">48 51 35 48 51 35</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2402</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Glenn</NAME>
+               <OBJECTID>17</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>286</X_COORD>
+               <Y_COORD>174</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Foamytap</NAME>
+               <OBJECTID>18</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>294</X_COORD>
+               <Y_COORD>125</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Nu</NAME>
+               <OBJECTID>19</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>331</X_COORD>
+               <Y_COORD>312</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">59 4 40 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">86 81 13 86 81 13</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2404</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Nastrond</NAME>
+               <OBJECTID>20</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>343</X_COORD>
+               <Y_COORD>156</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Ricketts</NAME>
+               <OBJECTID>21</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>359</X_COORD>
+               <Y_COORD>163</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>McIntyre</NAME>
+               <OBJECTID>22</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>366</X_COORD>
+               <Y_COORD>217</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Clover</NAME>
+               <OBJECTID>23</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>377</X_COORD>
+               <Y_COORD>335</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Zebra</NAME>
+               <OBJECTID>24</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>383</X_COORD>
+               <Y_COORD>237</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+         </PLANET_LIST>
+      </PLAYERDATA>
+      <NONPLAYERFLEETDATA>
+      </NONPLAYERFLEETDATA>
+      <UNIVERSE_PLANET_LIST>
+         <PLANET>
+            <NAME>Zarquon</NAME>
+            <OBJECTID>1</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>38</X_COORD>
+            <Y_COORD>200</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">88 75 78 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">46 50 62 46 50 62</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Dharma</NAME>
+            <OBJECTID>2</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>51</X_COORD>
+            <Y_COORD>368</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">13 100 68 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">37 92 88 37 92 88</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>409</NAME>
+            <OBJECTID>3</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>72</X_COORD>
+            <Y_COORD>285</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">43 7 89 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">56 78 15 56 78 15</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Finale</NAME>
+            <OBJECTID>4</OBJECTID>
+            <OWNERID>1</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>78</X_COORD>
+            <Y_COORD>80</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">805 915 667 0 1530</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>1</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">74 71 92 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">13 45 10 1</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">153 214 62 1</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">50 50 50 50 50 50</HAB>
+            <POP_REMAINDER>78</POP_REMAINDER>
+            <RESOURCESGENERATED>184</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>1318900722600</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Notlob</NAME>
+            <OBJECTID>5</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>116</X_COORD>
+            <Y_COORD>344</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">21 22 97 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">27 66 69 27 66 69</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>PiR2</NAME>
+            <OBJECTID>6</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>133</X_COORD>
+            <Y_COORD>89</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">71 80 84 85 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">15 13 85 15 13 85</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Quark</NAME>
+            <OBJECTID>7</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>145</X_COORD>
+            <Y_COORD>164</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">83 96 44 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">50 34 45 50 34 45</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Split</NAME>
+            <OBJECTID>8</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>161</X_COORD>
+            <Y_COORD>328</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">57 3 12 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">78 41 20 78 41 20</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Dyson</NAME>
+            <OBJECTID>9</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>183</X_COORD>
+            <Y_COORD>338</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">42 9 8 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">45 68 9 45 68 9</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>PCP</NAME>
+            <OBJECTID>10</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>187</X_COORD>
+            <Y_COORD>178</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">65 94 82 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">39 86 3 39 86 3</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Waco</NAME>
+            <OBJECTID>11</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>188</X_COORD>
+            <Y_COORD>191</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">103 11 64 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">31 35 3 31 35 3</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Lithium</NAME>
+            <OBJECTID>12</OBJECTID>
+            <OWNERID>2</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>197</X_COORD>
+            <Y_COORD>270</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">628 862 543 0 1560</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>1</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">74 71 92 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">10 57 10 1</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">171 218 63 1</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">46 50 62 46 50 62</HAB>
+            <POP_REMAINDER>28</POP_REMAINDER>
+            <RESOURCESGENERATED>210</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>2262075582330</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+               <PLANETARYBUILDQUEUEENTRY>
+                  <AUTOBUILD>0</AUTOBUILD>
+                  <DESIGNID>0</DESIGNID>
+                  <ITEMTYPE>3</ITEMTYPE>
+                  <ORIGINALBUILDQUANTITY>1</ORIGINALBUILDQUANTITY>
+                  <OWNERID>2</OWNERID>
+                  <PERCENTCOMPLETE>50000</PERCENTCOMPLETE>
+                  <PLANETID>12</PLANETID>
+                  <REMAININGBUILDQUANTITY>1</REMAININGBUILDQUANTITY>
+               </PLANETARYBUILDQUEUEENTRY>
+               <PLANETARYBUILDQUEUEENTRY>
+                  <AUTOBUILD>1</AUTOBUILD>
+                  <DESIGNID>0</DESIGNID>
+                  <ITEMTYPE>3</ITEMTYPE>
+                  <ORIGINALBUILDQUANTITY>100</ORIGINALBUILDQUANTITY>
+                  <OWNERID>2</OWNERID>
+                  <PERCENTCOMPLETE>0</PERCENTCOMPLETE>
+                  <PLANETID>12</PLANETID>
+                  <REMAININGBUILDQUANTITY>100</REMAININGBUILDQUANTITY>
+               </PLANETARYBUILDQUEUEENTRY>
+               <PLANETARYBUILDQUEUEENTRY>
+                  <AUTOBUILD>1</AUTOBUILD>
+                  <DESIGNID>0</DESIGNID>
+                  <ITEMTYPE>4</ITEMTYPE>
+                  <ORIGINALBUILDQUANTITY>100</ORIGINALBUILDQUANTITY>
+                  <OWNERID>2</OWNERID>
+                  <PERCENTCOMPLETE>0</PERCENTCOMPLETE>
+                  <PLANETID>12</PLANETID>
+                  <REMAININGBUILDQUANTITY>100</REMAININGBUILDQUANTITY>
+               </PLANETARYBUILDQUEUEENTRY>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Montgomery</NAME>
+            <OBJECTID>13</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>232</X_COORD>
+            <Y_COORD>32</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">69 88 19 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">66 54 6 66 54 6</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Tull</NAME>
+            <OBJECTID>14</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>241</X_COORD>
+            <Y_COORD>105</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">3 14 81 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">53 22 27 53 22 27</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Infinity Junction</NAME>
+            <OBJECTID>15</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>258</X_COORD>
+            <Y_COORD>102</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">23 65 87 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">88 82 44 88 82 44</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Pervo</NAME>
+            <OBJECTID>16</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>278</X_COORD>
+            <Y_COORD>306</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">75 74 70 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">48 51 35 48 51 35</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Glenn</NAME>
+            <OBJECTID>17</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>286</X_COORD>
+            <Y_COORD>174</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">50 50 50 50 50 50</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Foamytap</NAME>
+            <OBJECTID>18</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>294</X_COORD>
+            <Y_COORD>125</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">12 12 72 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">53 53 32 53 53 32</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Nu</NAME>
+            <OBJECTID>19</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>331</X_COORD>
+            <Y_COORD>312</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">59 4 40 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">86 81 13 86 81 13</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Nastrond</NAME>
+            <OBJECTID>20</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>343</X_COORD>
+            <Y_COORD>156</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">18 86 97 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">83 81 15 83 81 15</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Ricketts</NAME>
+            <OBJECTID>21</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>359</X_COORD>
+            <Y_COORD>163</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">57 77 94 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">43 80 3 43 80 3</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>McIntyre</NAME>
+            <OBJECTID>22</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>366</X_COORD>
+            <Y_COORD>217</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">74 14 41 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">82 16 82 82 16 82</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Clover</NAME>
+            <OBJECTID>23</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>377</X_COORD>
+            <Y_COORD>335</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">6 82 65 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">82 6 6 82 6 6</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Zebra</NAME>
+            <OBJECTID>24</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>383</X_COORD>
+            <Y_COORD>237</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">2 60 93 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">43 53 85 43 53 85</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>0</YEARDATAGATHERED>
+         </PLANET>
+      </UNIVERSE_PLANET_LIST>
+   </NSTARS_UNIV>

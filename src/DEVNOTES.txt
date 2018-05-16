@@ -1,0 +1,10 @@
+Host client generates new game file
+	Include race defs
+	Include universe specs (size, density, etc)
+
+newStars -n <new game file>
+	Reads universe specs
+	Generates new planet list
+	Reads race defs
+	Produces turn 2400, master and players
+

@@ -1,0 +1,129 @@
+   # return player number
+   newStars $::ns_open     <filename>
+   newStars $::ns_generate <filename> [1:newGame]
+
+   newStars $::ns_universe $::ns_getX
+   newStars $::ns_universe $::ns_getY
+   newStars $::ns_universe $::ns_getYear
+?   newStars $::ns_universe $::ns_getName
+
+   newStars $::ns_race $::ns_loadPre <idx>
+   newStars $::ns_race $::ns_getName
+   newStars $::ns_race $::ns_getXML
+   newStars $::ns_race $::ns_getPoints
+   newStars $::ns_race $::ns_habCenter <habType> <amount>
+   newStars $::ns_race $::ns_habWidth  <habType> <amount>
+   newStars $::ns_race $::ns_habImmune <habType> <bool>
+   newStars $::ns_race $::ns_open <filename>
+   newStars $::ns_race $::ns_setXML <xml>
+
+   newStars $::ns_planet <placeableId> $::ns_getX
+   newStars $::ns_planet <placeableId> $::ns_getY
+   newStars $::ns_planet <placeableId> $::ns_getName
+   newStars $::ns_planet <placeableId> $::ns_getOwnerId
+   newStars $::ns_planet <placeableId> $::ns_getHab <terra:0/1>
+   newStars $::ns_planet <placeableId> $::ns_getScan <name:1/range:0>
+   newStars $::ns_planet <placeableId> $::ns_getXML
+   newStars $::ns_planet <placeableId> $::ns_setXML <xml>
+
+   # get/set planet warp speed and fleet order speed
+   newStars $::ns_planet <placeableId> $::ns_speed <fleet:oid> [setVal]
+
+   newStars $::ns_planet <placeableId> $::ns_getNumFleets
+   newStars $::ns_planet <placeableId> $::ns_getFleetIdFromIndex <idx>
+
+   newStars $::ns_planet <placeableId> $::ns_getNumOrders
+   newStars $::ns_planet <placeableId> $::ns_getOrderNameFromIndex <idx>
+   newStars $::ns_planet <placeableId> $::ns_getOrderXMLfromIndex  <idx>
+   newStars $::ns_planet <placeableId> $::ns_deleteAtIndex         <idx>
+
+   # IdGen
+   newStars $::ns_planet <placeableId> $::ns_generate
+   newStars $::ns_design $::ns_generate
+
+   newStars $::ns_planet <fleetId>  $::ns_design
+   newStars $::ns_planet <fleetId>  $::ns_design <idx> $::ns_getName
+   newStars $::ns_planet <fleetId>  $::ns_design <idx> $::ns_getNumFleets
+   newStars $::ns_planet <fleetId>  $::ns_getPlanetId
+   newStars $::ns_planet <fleetId>  $::ns_addAtIndex <shipOff> $::ns_addAtIndex <fromFleetId> <ct>
+   newStars $::ns_planet <fleetId>  $::ns_addAtIndex <idx> $::ns_orderMove <x> <y>
+   newStars $::ns_planet <fleetId>  $::ns_addAtIndex <idx> $::ns_orderColonize
+   newStars $::ns_planet <fleetId>  $::ns_addAtIndex <idx> $::ns_orderTransport [1:unload/else:load]
+   newStars $::ns_planet <planetId> $::ns_addAtIndex <idx> <autobuild:0/1> <buildType> [shipid]
+   newStars $::ns_planet <planetId> $::ns_orderMove $sel <-1/+1>
+   newStars $::ns_planet <fleetId>  $::ns_orderTransport <fleetId> <itemidx> <newval>
+
+   newStars $::ns_orders <fleetId> <orderidx> $::ns_orderTransport <itemidx> <newval>
+   newStars $::ns_orders <fleetId> <orderidx> $::ns_getX
+   newStars $::ns_orders <fleetId> <orderidx> $::ns_getY
+
+   newStars $::ns_component <idx> $::ns_getXML
+   newStars $::ns_component <idx> $::ns_getName
+
+   newStars $::ns_message   <idx> $::ns_getXML
+
+   newStars $::ns_save <filename>
+
+   newStars $::ns_hull <offset> $::ns_getXML
+   newStars $::ns_hull <offset> $::ns_getName
+
+   newStars $::ns_design $::ns_loadPre <group:0/1/2> <id>
+   newStars $::ns_design $::ns_loadPre scout <name> [armed]
+   newStars $::ns_design $::ns_addAtIndex    <idx> <cmpId>
+   newStars $::ns_design $::ns_deleteAtIndex <idx/slot> [idx]
+   newStars $::ns_design $::ns_save
+   newStars $::ns_design $::ns_getXML
+   newStars $::ns_design $::ns_getName
+   newStars $::ns_design $::ns_setName
+
+   newStars $::ns_player $::ns_getName        <id>
+   newStars $::ns_player $::ns_playerRelation <id> <0:get/1:set> [val]
+   newStars $::ns_player $::ns_researchTax    [setVal]
+
+----------------------------
+$::numMessages
+$::numPlayers
+$::curResearch
+$::nextResearch
+$::currentTech(0..5)
+
+$::designMap(i) <objectId>
+$::numDesigns
+
+$::enemyDesMap(i) <objectId>
+$::numEnemyDesigns
+
+$::hullMap(i) <offset>
+$::numHulls
+
+$::planetMap(i) <objectId>
+$::numPlanets
+
+# all my fleets anywhere
+$::allFleetMap(i) <objectId>
+
+# first fleets in space
+$::fleetMap(i) <objectId>
+
+# all enemy fleets anywhere
+$::allEnemyMap(i) <objectId>
+
+# enemy fleets in space
+$::enemyFleetMap(i) <objectId>
+
+# all mine fields
+$::mineFieldList(i) <objectId>
+$::numMinefields
+
+# all packets
+$::packetList(i) <objectId>
+$::numPackets
+
+$::componentIdxList(i) <idx>
+$::numComponents
+$::numAllComponents
+
+--------------
+newStars $::ns_planet $planetId $::ns_getOrderNameFromIndex <idx>
+A Name(with spaces) quantity percent_complete
+

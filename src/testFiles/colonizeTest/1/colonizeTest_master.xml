@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+   <NSTARS_UNIV DIMENSIONS="2" X="400" Y="400">
+      <UNIV_HDR>
+         <STAR_COUNT>2</STAR_COUNT>
+      </UNIV_HDR>
+      <GAME_YEAR>2403</GAME_YEAR>
+      <TECH_COSTS>50 80 130 210 340 550 890 1440 2330 3770 6100 9870 13850 18040 22440 27050 31870 36900 42140 47590 53250 59120 65200 71490 77990 84700</TECH_COSTS>
+      <COMPONENTFILENAME>newStarsComponents.xml</COMPONENTFILENAME>
+      <HULLFILENAME>newStarsHulls.xml</HULLFILENAME>
+      <PLAYERFILEBASENAME>colonizeTest</PLAYERFILEBASENAME>
+      <MASTER_COPY>1</MASTER_COPY>
+      <NUMBER_OF_PLAYERS>1</NUMBER_OF_PLAYERS>
+      <PLAYERDATA>
+         <RACELIST>
+            <RACE>
+               <SINGULARNAME>Ugly Duckling</SINGULARNAME>
+               <PLURALNAME>Baby Swans</PLURALNAME>
+               <GROWTHRATE>18</GROWTHRATE>
+               <OWNERID>1</OWNERID>
+               <HAB TYPE="gtr 1.0">50 50 50</HAB>
+               <TOLERANCE TYPE="gtr 1.0">35 35 35</TOLERANCE>
+               <IMMUNITY TYPE="gtr 1.0">0 0 0</IMMUNITY>
+               <TERRAABILITY TYPE="gtr 1.0">15 15 15</TERRAABILITY>
+               <TECHCOSTMULTIPLIER>2 2 2 2 2 2</TECHCOSTMULTIPLIER>
+               <TECHMININGFACTORBREAK>10 10 10 10 10 10</TECHMININGFACTORBREAK>
+               <TECHRESOURCEFACTORBREAK>10 10 10 10 10 10</TECHRESOURCEFACTORBREAK>
+               <PRTVECTOR>1 0 0 0 0 0 0 0 0 0</PRTVECTOR>
+               <LRTVECTOR>0 1 0 0 1 0 1 1 1 0 0 0 0 0</LRTVECTOR>
+               <FACTORYMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 10 0 0</FACTORYMINERALCOST>
+               <MINEMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</MINEMINERALCOST>
+               <FACTORYOUTPUT>10</FACTORYOUTPUT>
+               <MINEOUTPUT>10</MINEOUTPUT>
+               <FACTORYRESOURCECOST>10</FACTORYRESOURCECOST>
+               <MINERESOURCECOST>5</MINERESOURCECOST>
+               <FACTORYBUILDFACTOR>10</FACTORYBUILDFACTOR>
+               <MINEBUILDFACTOR>10</MINEBUILDFACTOR>
+               <POPULATIONRESOURCEUNIT>1000</POPULATIONRESOURCEUNIT>
+               <POPULATIONMININGUNIT>1000</POPULATIONMININGUNIT>
+               <POPULATIONRESOURCEFACTOR>10</POPULATIONRESOURCEFACTOR>
+               <POPULATIONMININGFACTOR>0</POPULATIONMININGFACTOR>
+               <EXPENSIVESTARTAT3>0</EXPENSIVESTARTAT3>
+               <EXTRAPOINTALLOCATION>0</EXTRAPOINTALLOCATION>
+            </RACE>
+         </RACELIST>
+         <CURRENTTECHLEVEL>26 26 26 26 26 26</CURRENTTECHLEVEL>
+         <CURRENTRESEARCH>10 10 10 10 10 10</CURRENTRESEARCH>
+         <RESEARCHALLOCATION>100 0 0 0 0 0</RESEARCHALLOCATION>
+         <RESEARCHNEXTSAME>0</RESEARCHNEXTSAME>
+         <RESEARCHNEXTLOWEST>1</RESEARCHNEXTLOWEST>
+         <RESEARCHTECHHOLDBACK>0</RESEARCHTECHHOLDBACK>
+         <RESOURCESALLOCATEDTORESEARCH>8000</RESOURCESALLOCATEDTORESEARCH>
+         <RESEARCHTECHID>0</RESEARCHTECHID>
+         <ENEMY_PLAYER_LIST>
+         </ENEMY_PLAYER_LIST>
+         <ENEMY_FLEETS>
+         </ENEMY_FLEETS>
+         <DESIGNLIST>
+            <HULL>
+               <NAME>Large Freighter</NAME>
+               <OBJECTID>10002</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
+               <FLEETABLE>1 </FLEETABLE>
+               <QUANTITY>10</QUANTITY>
+               <COMBATMOVE>1.50</COMBATMOVE>
+               <COMBATRATING>0</COMBATRATING>
+               <SHIELDMAX>0</SHIELDMAX>
+               <SHIELDS>0</SHIELDS>
+               <ARMOR>150</ARMOR>
+               <FUELCAPACITY>2600</FUELCAPACITY>
+               <CARGOCAPACITY>1200</CARGOCAPACITY>
+               <MASS>165</MASS>
+               <BASERESOURCECOST>122</BASERESOURCECOST>
+               <TOTALRESOURCECOST>122</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">51 12 40 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">51 12 40 0 0</TOTALMINERALCOST>
+               <INITIATIVE>0</INITIATIVE>
+               <BASEINITIATIVE>0</BASEINITIATIVE>
+               <CLOAK>0</CLOAK>
+               <JAM>0</JAM>
+               <FUELGEN>0</FUELGEN>
+               <DAMAGEREPAIR>0</DAMAGEREPAIR>
+               <WARPENGINECOMPONENT>
+                  <ISACTIVE>1</ISACTIVE>
+                  <BATTLESPEED>10</BATTLESPEED>
+                  <MAXSAFESPEED>10</MAXSAFESPEED>
+                  <FUELCONSUMPTIONVECTOR>0 0 0 0 0 0 0 0 0 50</FUELCONSUMPTIONVECTOR>
+                  <ISSCOOP>1</ISSCOOP>
+                  <DANGEROUSRADIATION>0</DANGEROUSRADIATION>
+               </WARPENGINECOMPONENT>
+               <HULLCLASS>1</HULLCLASS>
+               <BASEHULLID>3</BASEHULLID>
+               <DESIGNHULLID>10002</DESIGNHULLID>
+               <PERCENTDAMAGED>0</PERCENTDAMAGED>
+               <NUMBERDAMAGED>0</NUMBERDAMAGED>
+               <DOCKCAPACITY>0</DOCKCAPACITY>
+               <STARSTECHLEVEL>0 0 0 8 0 0</STARSTECHLEVEL>
+               <HULLSLOTS>1 78 1 ENG : 0 0 1 AR SH : 1 79 1 ME EL SC</HULLSLOTS>
+               <ACCEPTABLEPRTS>1 1 1 1 1 1 1 1 1 1</ACCEPTABLEPRTS>
+               <ACCEPTABLELRTS>2 2 2 2 2 2 2 2 2 2 2 2 2 2</ACCEPTABLELRTS>
+            </HULL>
+         </DESIGNLIST>
+         <ENEMY_DESIGNS>
+         </ENEMY_DESIGNS>
+         <BATTLE_ORDER_LIST>
+            <BATTLE_ORDER>
+               <NAME>Default Battle Orders</NAME>
+               <OBJECTID>30000</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>0</GAMEOBJECTTYPE>
+               <PRIMARY_TARGET>1</PRIMARY_TARGET>
+               <SECONDARY_TARGET>1</SECONDARY_TARGET>
+               <TACTICS>4</TACTICS>
+               <ATTACK_NONE>0</ATTACK_NONE>
+               <ATTACK_ENEMIES>1</ATTACK_ENEMIES>
+               <ATTACK_NEUTRALS_AND_ENEMIES>1</ATTACK_NEUTRALS_AND_ENEMIES>
+               <ATTACK_EVERYONE>0</ATTACK_EVERYONE>
+               <ATTACK_SPECIFIC_PLAYER>0</ATTACK_SPECIFIC_PLAYER>
+               <ATTACK_PLAYER_ID>0</ATTACK_PLAYER_ID>
+               <DUMP_CARGO>0</DUMP_CARGO>
+            </BATTLE_ORDER>
+         </BATTLE_ORDER_LIST>
+         <PLANET_LIST>
+            <PLANET>
+               <NAME>Theodin King</NAME>
+               <OBJECTID>10</OBJECTID>
+               <OWNERID>1</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>26</X_COORD>
+               <Y_COORD>328</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">482 190 400 0 9440</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">70 100 90 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">1000 1000 100 1</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">50 50 50 50 50 50</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>9440</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>2403</YEARDATAGATHERED>
+            </PLANET>
+            <PLANET>
+               <NAME>Stoopid Elf Dude</NAME>
+               <OBJECTID>11</OBJECTID>
+               <OWNERID>0</OWNERID>
+               <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+               <X_COORD>270</X_COORD>
+               <Y_COORD>8</Y_COORD>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+               <ORDERLIST>
+               </ORDERLIST>
+               <IS_HOMEWORLD>0</IS_HOMEWORLD>
+               <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">0 0 0 0 0</MINERALCONCENTRATIONS>
+               <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+               <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+               <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">0 0 0 0 0 0</HAB>
+               <POP_REMAINDER>0</POP_REMAINDER>
+               <RESOURCESGENERATED>0</RESOURCESGENERATED>
+               <PACKETSPEED>0</PACKETSPEED>
+               <PACKETTARGET>0</PACKETTARGET>
+               <ROUTETARGET>0</ROUTETARGET>
+               <STARBASEID>0</STARBASEID>
+               <PLANETARYBUILDQUEUE>
+               </PLANETARYBUILDQUEUE>
+               <YEARDATAGATHERED>0</YEARDATAGATHERED>
+            </PLANET>
+         </PLANET_LIST>
+      </PLAYERDATA>
+      <NONPLAYERFLEETDATA>
+      </NONPLAYERFLEETDATA>
+      <UNIVERSE_PLANET_LIST>
+         <PLANET>
+            <NAME>Theodin King</NAME>
+            <OBJECTID>10</OBJECTID>
+            <OWNERID>1</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>26</X_COORD>
+            <Y_COORD>328</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">482 190 400 0 9440</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">70 100 90 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">1000 1000 100 1</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">50 50 50 50 50 50</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>9440</RESOURCESGENERATED>
+            <PACKETSPEED>0</PACKETSPEED>
+            <PACKETTARGET>0</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>2402</YEARDATAGATHERED>
+         </PLANET>
+         <PLANET>
+            <NAME>Stoopid Elf Dude</NAME>
+            <OBJECTID>11</OBJECTID>
+            <OWNERID>0</OWNERID>
+            <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
+            <X_COORD>270</X_COORD>
+            <Y_COORD>8</Y_COORD>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
+            <ORDERLIST>
+            </ORDERLIST>
+            <IS_HOMEWORLD>0</IS_HOMEWORLD>
+            <MINERALCONCENTRATIONS TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="PartsPerUnit">70 10 90 0 0</MINERALCONCENTRATIONS>
+            <INFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</INFRASTRUCTURE>
+            <MAXINFRASTRUCTURE TYPE="mines factories defenses scanner">0 0 0 0</MAXINFRASTRUCTURE>
+            <HAB TYPE="gtr 1.0" ORDER="ORIGINAL,CURRENT">380 3200 600 380 3200 600</HAB>
+            <POP_REMAINDER>0</POP_REMAINDER>
+            <RESOURCESGENERATED>0</RESOURCESGENERATED>
+            <PACKETSPEED>16</PACKETSPEED>
+            <PACKETTARGET>10</PACKETTARGET>
+            <ROUTETARGET>0</ROUTETARGET>
+            <STARBASEID>0</STARBASEID>
+            <PLANETARYBUILDQUEUE>
+            </PLANETARYBUILDQUEUE>
+            <YEARDATAGATHERED>2402</YEARDATAGATHERED>
+         </PLANET>
+      </UNIVERSE_PLANET_LIST>
+      <MESSAGE_DATA>
+         <RCPT>1</RCPT>
+         <FROM>0</FROM>
+         <MSG>You have colonized Theodin King</MSG>
+      </MESSAGE_DATA>
+   </NSTARS_UNIV>
