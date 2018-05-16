@@ -2,13 +2,13 @@
 #23456789012345678901234567890123456789012345678901234567890123456789012345678
 .PHONY: all clean debug_exe
 
-TCL_INC=/usr/include/tcl8.5
+MXML:=(User supplied)
+TCL_INC:=/usr/include/tcl8.6
 
 CC=g++
 SRCPATH=../../src
-CFLAGS=-c -g -Wall -I$(SRCPATH) -I$(TCL_INC) -DUSE_TCL_STUBS -fPIC
-#CFLAGS+=-mno-cygwin
-#LDFLAGS=-mno-cygwin
+CFLAGS=-c -g -Wall -I$(SRCPATH) -I$(TCL_INC) -I$(MXML) -DUSE_TCL_STUBS -fPIC
+LDFLAGS+=-L$(MXML)
 
 SOURCES=newStars.cpp planet.cpp race.cpp opt.cpp \
  universe.cpp fleet.cpp orders.cpp placeableObject.cpp technology.cpp \
@@ -49,7 +49,7 @@ bin/nstclgui.exe: $(OBJECTS) main.cpp
 #	@g++ -o $@ main.cpp $(OBJECTS) $(SRCPATH)/libmxml.a -ltcl -ltk
 
 nstclgui.so: $(OBJECTS)
-	@g++ $(LDFLAGS) -shared -o $@ $(OBJECTS) -lmxml -ltclstub8.5
+	@g++ $(LDFLAGS) -shared -o $@ -Wl,-rpath,\$$ORIGIN $(OBJECTS) -lmxml -ltclstub8.6
 
 Depend.Make: nstclgui.o
 	@g++ -MM $(CFLAGS) nstclgui.cpp > Depend.Make
