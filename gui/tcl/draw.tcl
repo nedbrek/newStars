@@ -55,7 +55,7 @@ proc drawPlanets {pane magnify} {
       if {[lindex $::paneFnSz $::magnidx] > 0} {
          set tName [$pane create text $x [expr $y + 10] -font $::paneFont \
  -text [newStars $::ns_planet $pid $::ns_getName] -fill white -anchor n]
-         $pane lower $tName inspaceobj
+         catch {$pane lower $tName inspaceobj}
 
          set ::planetMapId($tName) $pid
          set ::paneMapName($tName) "PLANET"
