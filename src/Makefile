@@ -1,9 +1,10 @@
 .PHONY: all clean reg
 
+MXML:=(User supplied)
+
 CC=g++
-CFLAGS=-c -g -Wall -fPIC
-#CFLAGS+=-mno-cygwin
-#LDFLAGS+=-mno-cygwin
+CPPFLAGS+=-c -g -Wall -fPIC -I$(MXML)
+LDFLAGS+=-L$(MXML)
 
 HEADERS=reconcile.h newStars.h planet.h classDef.h race.h opt.h actionDispatcher.h
 SOURCES=newStars.cpp planet.cpp race.cpp opt.cpp actionDispatcher.cpp \
@@ -21,10 +22,10 @@ gen_test.exe: gen_test.o $(OBJECTS) gen.o
 	@$(CC) $(LDFLAGS) $^ -lmxml -o $@
 
 $(EXECUTABLE): $(OBJECTS) main.o
-	@$(CC) $(LDFLAGS) $^ -lmxml -o $@
+	@$(CC) -o $@ -Wl,-rpath,\$$ORIGIN $(LDFLAGS) $^ -lmxml -lpthread
 
 .cpp.o:
-	@$(CC) $(CFLAGS) $< -o $@
+	@$(CC) $(CPPFLAGS) $< -o $@
 
 -include Depend.Make
 
