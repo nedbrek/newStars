@@ -25,7 +25,7 @@ all: nstclgui.so $(INXML) names.txt
 
 -include Depend.Make
 
-debug_exe: bin/nstclguid.exe
+debug_exe: nstclguid.exe
 
 names.txt: $(SRCPATH)/names.txt
 	@cp $< .
@@ -42,11 +42,11 @@ clean:
 .cpp.o:
 	@$(CC) $(CFLAGS) $< -o $@
 
-bin/nstclguid.exe: $(OBJECTS) main.cpp
-#	@g++ -g -o $@ main.cpp $(OBJECTS) $(SRCPATH)/libmxml.a /usr/src/tcltk-20060202-1/tk/win/Debug/tk84d.lib /usr/src/tcltk-20060202-1/tcl/win/Debug/tcl84d.lib
+nstclguid.exe: main.o nstclgui.so
+	@g++ -g -o $@ $(LDFLAGS) -Wl,-rpath,\$$ORIGIN $^ -lmxml -lpthread -ltcl8.6 -ltk8.6
 
-bin/nstclgui.exe: $(OBJECTS) main.cpp
-#	@g++ -o $@ main.cpp $(OBJECTS) $(SRCPATH)/libmxml.a -ltcl -ltk
+nstclgui.exe: main.o nstclgui.so
+	@g++ -o $@ $(LDFLAGS) -Wl,-rpath,\$$ORIGIN $^ -lmxml -lpthread -ltcl8.6 -ltk8.6
 
 nstclgui.so: $(OBJECTS)
 	@g++ $(LDFLAGS) -shared -o $@ -Wl,-rpath,\$$ORIGIN $(OBJECTS) -lmxml -ltclstub8.6
