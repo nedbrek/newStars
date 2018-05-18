@@ -1,11 +1,13 @@
+#undef USE_TCL_STUBS
 #include "tk.h"
 #include <string>
+#include <cstring>
 extern "C" int Nstclgui_Init(Tcl_Interp *interp);
 
 bool checkError(int status, Tcl_Interp *interp)
 {
    if( status == TCL_OK ) return false;
-   printf("ERROR: %s\n", interp->result);
+   printf("ERROR: %s\n", Tcl_GetStringResult(interp));
    return true;
 }
 
