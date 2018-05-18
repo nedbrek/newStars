@@ -245,7 +245,7 @@ bool PlaceableObject::parseXML(mxml_node_t *tree)
         tempOrder->parseXML(child);
 
         currentOrders.push_back(tempOrder);
-        child = mxmlFindElement(child, child, "ORDER", NULL, NULL, MXML_NO_DESCEND);
+        child = mxmlFindElement(child, tree, "ORDER", NULL, NULL, MXML_NO_DESCEND);
     }
 
     return true;
