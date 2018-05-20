@@ -188,7 +188,7 @@ bool Planet::parseXML(mxml_node_t *tree)
 
 		planetBuildQueue.push_back(tempOrder);
 
-		child = mxmlFindElement(child, child, "PLANETARYBUILDQUEUEENTRY", NULL, NULL, MXML_NO_DESCEND);
+		child = mxmlFindElement(child, tree, "PLANETARYBUILDQUEUEENTRY", NULL, NULL, MXML_NO_DESCEND);
 	}
 
 	unsigned tmpU = 0;
