@@ -590,7 +590,6 @@ void NewStarsTcl::setupMinefields(Parms &p)
       Minefield *mfp = *i;
       uint64_t tmp64 = formXYhash(mfp->getX(), mfp->getY());
 
-      bool firstInSpace = true;
       // check for other minefields
       std::map<uint64_t, std::vector<Minefield*> >::iterator coMf =
                mineFieldMap_.find(tmp64);
@@ -606,7 +605,6 @@ void NewStarsTcl::setupMinefields(Parms &p)
       {
          // in place with others
          coMf->second.push_back(mfp);
-         firstInSpace = false;
       }
 
       sprintf(arryIdx, "%d", ct);
@@ -1474,7 +1472,7 @@ bool NewStarsTcl::open(Parms &p)
    sprintf(buf, "%d", gameData_->theUniverse->numPlayers);
    Tcl_SetVar(p.getInterp(), "numPlayers", buf, TCL_GLOBAL_ONLY);
 
-   sprintf(buf, "%d", gameData_->playerMessageList.size());
+   sprintf(buf, "%zd", gameData_->playerMessageList.size());
    Tcl_SetVar(p.getInterp(), "numMessages", buf, TCL_GLOBAL_ONLY);
 
 	sprintf(buf, "%d", gameData_->playerList[playerIdx_]->researchTechID);
