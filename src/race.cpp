@@ -1602,7 +1602,6 @@ long habPointsRace(Race *whichRace)
 	double advantagePoints,tempLoopAccumulator,gravLoopAccumulator;
 	signed long radLoopAccumulator,planetDesir;
 	short terraformCapacity,deltaHabVector[3];
-	char testPlanetHab[3];
 		//order GTR
 
 	advantagePoints = 0.0;
@@ -1734,13 +1733,10 @@ long habPointsRace(Race *whichRace)
 					int proposedHabValue = 0;
 
 					findProposedHab(gravImmune,gravIter,numRangeSections.grav,startRange.grav,centerE.grav,habWidth.grav,terraformCapacity,proposedHabValue,deltaHabVector[0]);
-					testPlanetHab[0] = (char)proposedHabValue;
 					tempPlanet->currentEnvironment.grav = proposedHabValue;
 					findProposedHab(tempImmune,tempIter,numRangeSections.temp,startRange.temp,centerE.temp,habWidth.temp,terraformCapacity,proposedHabValue,deltaHabVector[1]);
-					testPlanetHab[1] = (char)proposedHabValue;
 					tempPlanet->currentEnvironment.temp = proposedHabValue;
 					findProposedHab(radImmune,radIter,numRangeSections.rad,startRange.rad,centerE.rad,habWidth.rad,terraformCapacity,proposedHabValue,deltaHabVector[2]);
-					testPlanetHab[2] = (char)proposedHabValue;
 					tempPlanet->currentEnvironment.rad = proposedHabValue;
 
 					planetDesir = planetValueCalcRace(tempPlanet->currentEnvironment,whichRace);

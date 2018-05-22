@@ -30,7 +30,7 @@ $(EXECUTABLE): $(OBJECTS) main.o
 -include Depend.Make
 
 clean:
-	@rm -f $(OBJECTS) $(EXECUTABLE) *~
+	@rm -f $(OBJECTS) $(EXECUTABLE) *~ main.o
 
 Depend.Make:
 	@g++ -MM *.cpp > Depend.Make
