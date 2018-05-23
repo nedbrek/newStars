@@ -1536,6 +1536,8 @@ void GameData::createFromParms(const char *rootPath, const UnivParms &up)
 
 		// store the player to global list
 		playerList.push_back(pdp);
+
+		rp->updateTerraformAbility(*this);
 	}
 	//Ned? why is this in universe?
 	theUniverse->numPlayers = playerList.size();
