@@ -39,7 +39,7 @@ proc findPlanetByName {name} {
 proc findFleetByName {name} {
    foreach i [array names ::allFleetMap] {
       set curFid $::allFleetMap($i)
-      if {[newStars $::ns_planet $curFid $::ns_getName] eq $name} {
+      if {[string match $name [newStars $::ns_planet $curFid $::ns_getName]]} {
          return $curFid
       }
    }
