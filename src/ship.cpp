@@ -556,14 +556,75 @@ void Ship::toXMLString(string &theString)
   theString += "</HULL>\n";
 }
 
+void miniturize(const PlayerData &ownerData, const StarsTechnology &req_tech, CargoManifest *mineral_cost_base, unsigned *resource_cost_base)
+{
+	const StarsTechnology &current_tech_level = ownerData.currentTechLevel;
+
+	// find min delta from req fields
+	unsigned min_delta = -1;
+
+	//foreach tech field
+	for(unsigned i = 0; i < numberOf_TECH; ++i)
+	{
+		if( req_tech.techLevels[i] > current_tech_level.techLevels[i] )
+		{
+			std::cerr << "Error in ship design" << std::endl;
+			exit(1);
+		}
+
+		const unsigned delta = current_tech_level.techLevels[i] - req_tech.techLevels[i];
+		if( delta < min_delta )
+			min_delta = delta;
+	}
+
+	const bool bet = ownerData.race->lrtVector[bleedingEdgeTechnology_LRT] > 0;
+	// miniturize according to min_delta
+	if( min_delta == 0 )
+	{
+		if( bet )
+		{
+			// bleeding edge tech doubles initial costs
+			*mineral_cost_base = (*mineral_cost_base) * 2;
+			*resource_cost_base *= 2;
+		}
+		return;
+	}
+
+	uint64_t mini_rate = 0;
+	if( bet )
+	{
+		mini_rate = 5 * min_delta;
+		if( mini_rate > 80 )
+			mini_rate = 80;
+	}
+	else
+	{
+		mini_rate = 4 * min_delta;
+		if( mini_rate > 72 )
+			mini_rate = 72;
+	}
+
+	// calculate reductions
+	const uint32_t red_cost = ((mini_rate * (*resource_cost_base)) + 50) / 100;
+
+	CargoManifest red_material;
+	red_material.cargoDetail[_ironium].amount = ((mini_rate * mineral_cost_base->cargoDetail[_ironium].amount) + 50) / 100;
+	red_material.cargoDetail[_boranium].amount = ((mini_rate * mineral_cost_base->cargoDetail[_boranium].amount) + 50) / 100;
+	red_material.cargoDetail[_germanium].amount  = ((mini_rate * mineral_cost_base->cargoDetail[_germanium].amount) + 50) / 100;
+
+	// apply them
+	(*resource_cost_base) -= red_cost;
+	(*mineral_cost_base) = (*mineral_cost_base) - red_material;
+}
+
 //update mineral and resource costs...
 void Ship::updateCostAndMass(GameData &gameData)
 {
    Ship *baseHull = gameData.hullList[baseHullID-1];
 
    CargoManifest mineralCost = baseHull->baseMineralCost;
-
    unsigned resourceCost = baseHull->baseResourceCost;
+
    unsigned massSum      = baseHull->mass;
    unsigned armorSum     = baseHull->armor;
    unsigned shieldSum    = baseHull->shields;
@@ -588,15 +649,26 @@ void Ship::updateCostAndMass(GameData &gameData)
 	const Race *const owner = gameData.getRaceById(ownerID);
 	const bool isWM = owner ? owner->prtVector[warMonger_PRT] != 0 : false;
 
+	const PlayerData *const ownerData = gameData.getPlayerData(ownerID);
+
+	// miniturize the hull
+	miniturize(*ownerData, baseHull->techLevel, &mineralCost, &resourceCost);
+
    for(unsigned i = 0; i < slotList.size(); i++)
    {
       ShipSlot *cSlot = slotList[i];
-      StructuralElement * element = gameData.componentList[cSlot->structureID];
+      const StructuralElement *const element = gameData.componentList[cSlot->structureID];
 		//Ned, need PRT cost adjustments...
 
-		mineralCost   = mineralCost + element->mineralCostBase  * cSlot->numberPopulated; //Ned, need +=
+		// make cost adjustments
+		CargoManifest mineral_cost_base = element->mineralCostBase;
+		unsigned resource_cost_base = element->resourceCostBase;
+		miniturize(*ownerData, element->techLevel, &mineral_cost_base, &resource_cost_base);
 
-		resourceCost  += element->resourceCostBase * cSlot->numberPopulated;
+		mineralCost = mineralCost + mineral_cost_base  * cSlot->numberPopulated; //Ned, need +=
+		resourceCost  += resource_cost_base * cSlot->numberPopulated;
+
+		// apply component to ship
       massSum       += element->mass             * cSlot->numberPopulated;
       armorSum      += element->armor            * cSlot->numberPopulated;
       shieldSum     += element->shields          * cSlot->numberPopulated;
@@ -648,11 +720,16 @@ void Ship::updateCostAndMass(GameData &gameData)
 	if( isSpaceStation )
 	{
 		// costs are halved
-		totalMineralCost  = totalMineralCost / 2;
-		baseMineralCost   = baseMineralCost  / 2;
+		CargoManifest round_up;
+		round_up.cargoDetail[_ironium].amount = 1;
+		round_up.cargoDetail[_boranium].amount = 1;
+		round_up.cargoDetail[_germanium].amount  = 1;
 
-		totalResourceCost >>= 1;
-		baseResourceCost  >>= 1;
+		totalMineralCost  = (totalMineralCost + round_up) / 2;
+		baseMineralCost   = (baseMineralCost + round_up)  / 2;
+
+		totalResourceCost = (totalResourceCost + 1) >> 1;
+		baseResourceCost  = (baseResourceCost + 1) >> 1;
 
 		mass = 0; // no mass
 	}
