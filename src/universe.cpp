@@ -259,8 +259,6 @@ void Universe::xmlPrelude(string &theString) const
 	//Ned, slowTech_
 
 	 std::ostringstream os;
-	 // XML version
-	 os << "<?xml version=\"1.0\"?>" << std::endl;
 
 	 // main wrapper, with width and height
 	 os << "<NSTARS_UNIV DIMENSIONS=\"2\" X=\"" << width << "\" ";

@@ -69,6 +69,8 @@ void generateFiles(const GameData &gameData, const char *path)
 		cerr << "Error when opening file: " << fName << " for output\n";
 		starsExit("main.cpp",-1);
 	}
+	// XML version
+	fileOut << "<?xml version=\"1.0\"?>" << std::endl;
 	fileOut << gameString;
 	fileOut.close();
 
@@ -2599,6 +2601,8 @@ void GameData::dumpPlayerFile(PlayerData *whichPlayer) const
 
     formattedTree = mxmlSaveAllocString(unformatedTree,whitespace_cb);
 
+	 // XML version
+	 fileOut << "<?xml version=\"1.0\"?>" << std::endl;
     fileOut <<formattedTree;
     fileOut.close();
    theUniverse->masterCopy = true;

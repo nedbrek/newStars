@@ -1403,11 +1403,15 @@ bool NewStarsTcl::save(Parms &p)
 
 	// construct the turn file XML
    std::string strBuf;
-   gameData_->dumpXMLToString(strBuf);
 
 	// write it out
 	FILE *ofile = fopen(fname, "w");
+	strBuf = "<?xml version=\"1.0\"?>\n";
    fwrite(strBuf.c_str(), 1, strBuf.length(), ofile);
+
+   gameData_->dumpXMLToString(strBuf);
+   fwrite(strBuf.c_str(), 1, strBuf.length(), ofile);
+
    fflush(ofile);
    fclose(ofile);
    return true;
