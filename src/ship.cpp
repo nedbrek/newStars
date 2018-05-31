@@ -652,7 +652,8 @@ void Ship::updateCostAndMass(GameData &gameData)
 	const PlayerData *const ownerData = gameData.getPlayerData(ownerID);
 
 	// miniturize the hull
-	miniturize(*ownerData, baseHull->techLevel, &mineralCost, &resourceCost);
+	if (ownerData)
+		miniturize(*ownerData, baseHull->techLevel, &mineralCost, &resourceCost);
 
    for(unsigned i = 0; i < slotList.size(); i++)
    {
@@ -663,7 +664,8 @@ void Ship::updateCostAndMass(GameData &gameData)
 		// make cost adjustments
 		CargoManifest mineral_cost_base = element->mineralCostBase;
 		unsigned resource_cost_base = element->resourceCostBase;
-		miniturize(*ownerData, element->techLevel, &mineral_cost_base, &resource_cost_base);
+		if (ownerData)
+			miniturize(*ownerData, element->techLevel, &mineral_cost_base, &resource_cost_base);
 
 		mineralCost = mineralCost + mineral_cost_base  * cSlot->numberPopulated; //Ned, need +=
 		resourceCost  += resource_cost_base * cSlot->numberPopulated;

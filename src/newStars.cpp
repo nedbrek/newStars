@@ -1818,7 +1818,7 @@ bool PlayerData::parseXML(mxml_node_t *const tree)
 
 	mxml_node_t *efList = mxmlFindElement(tree, tree, "ENEMY_FLEETS", NULL,
 	    NULL, MXML_DESCEND);
-	if( !efList || !parseFleets(efList->child, detectedEnemyFleetList, *gd_) )
+	if( !efList || !parseFleets(efList, detectedEnemyFleetList, *gd_) )
 	{
 		cerr << "Error parsing enemy fleet data!\n";
 		return false;
@@ -2813,9 +2813,6 @@ PlayerData* GameData::getPlayerData(unsigned targetID)
 			return cp;
 	}
 
-	std::cerr << "Error, could not find player data object in getPlayerData() id # "
-	    << targetID << std::endl;
-	starsExit("newstars.cpp", -1);
 	return NULL;
 }
 
@@ -2828,9 +2825,6 @@ const PlayerData* GameData::getPlayerData(unsigned targetID) const
 			return cp;
 	}
 
-	std::cerr << "Error, could not find player data object in getPlayerData() id # "
-	    << targetID << std::endl;
-	starsExit("newstars.cpp", -1);
 	return NULL;
 }
 
