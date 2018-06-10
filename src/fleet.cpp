@@ -874,7 +874,7 @@ bool Fleet::colonizeAction(GameData &gd)
 	return true;
 }
 
-bool Fleet::parseXML(mxml_node_t *tree, GameData &gd)
+bool Fleet::parseXML(mxml_node_t *tree, GameData &gd, bool enemy)
 {
   if( !PlaceableObject::parseXML(tree) )
     return false;
@@ -969,7 +969,8 @@ bool Fleet::parseXML(mxml_node_t *tree, GameData &gd)
      //*tempShip = *designShip;
      *tempShip = *readShip;
      tempShip->objectId = readShip->objectId;
-     designShip->quantity += readShip->quantity; //so we know how many are existant this turn
+     if (!enemy)
+         designShip->quantity += readShip->quantity; //so we know how many are existant this turn
      tempShip->quantity = readShip->quantity;
      tempShip->numberDamaged = readShip->numberDamaged;
      tempShip->percentDamaged = readShip->percentDamaged;
@@ -1320,7 +1321,7 @@ bool parseHulls(mxml_node_t *tree, vector<Ship*> &list, GameData &gd)
 // loop through and read in all the Fleets, and store them in the fleetList
 // we leave this list unsorted, since at this point I don't know what sort
 // field would make the most sense.
-bool parseFleets(mxml_node_t *tree, vector<Fleet*> &list, GameData &gd)
+bool parseFleets(mxml_node_t *tree, vector<Fleet*> &list, GameData &gd, bool enemy)
 {
   mxml_node_t *child = mxmlFindElement(tree, tree, "FLEET", NULL,
                                        NULL, MXML_DESCEND);
@@ -1330,7 +1331,7 @@ bool parseFleets(mxml_node_t *tree, vector<Fleet*> &list, GameData &gd)
   while( child )
     {
       Fleet *tempFleet = new Fleet();
-      tempFleet->parseXML(child, gd);
+      tempFleet->parseXML(child, gd, enemy);
       if (tempFleet->myType == gameObjectType_packet) //are we a mineral packet?
         {
           MassPacket *pack = new MassPacket(tempFleet);

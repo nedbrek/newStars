@@ -1755,7 +1755,7 @@ bool PlayerData::parseXML(mxml_node_t *const tree)
 		gameData.playerDesigns.push_back(designList[i]);
 	}
 
-	if( !parseFleets(tree, fleetList, gameData) )
+	if( !parseFleets(tree, fleetList, gameData, false) )
 	{
 		cerr << "Error parsing fleet data!\n";
 		return false;
@@ -1818,7 +1818,7 @@ bool PlayerData::parseXML(mxml_node_t *const tree)
 
 	mxml_node_t *efList = mxmlFindElement(tree, tree, "ENEMY_FLEETS", NULL,
 	    NULL, MXML_DESCEND);
-	if( !efList || !parseFleets(efList, detectedEnemyFleetList, *gd_) )
+	if( !efList || !parseFleets(efList, detectedEnemyFleetList, *gd_, true) )
 	{
 		cerr << "Error parsing enemy fleet data!\n";
 		return false;
@@ -2424,7 +2424,7 @@ bool GameData::parseTrees(mxml_node_t *uniTree,
 
     mxml_node_t *npcFleetNode = mxmlFindElement(uniTree, uniTree, "NONPLAYERFLEETDATA", NULL,NULL,MXML_DESCEND);
     if (npcFleetNode != NULL)
-        if( !parseFleets(npcFleetNode, fleetList,*this) )
+        if( !parseFleets(npcFleetNode, fleetList,*this, true) )
         {
             cerr << "Error parsing npcFleet data!\n";
             return false;

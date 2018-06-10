@@ -817,7 +817,7 @@ public: // methods
    Fleet(const Fleet &cFleet);
 	Fleet& operator=(const Fleet &b); // not implemented
 
-   bool          parseXML(mxml_node_t *tree, GameData &gd);  //parse data for itself out of this xml branch
+   bool          parseXML(mxml_node_t *tree, GameData &gd, bool enemy);  //parse data for itself out of this xml branch
    virtual void  toXMLString(string &theString) const;
 
    void          clean(GameData &gameData);
@@ -866,7 +866,7 @@ bool isIdentical(Fleet* fleetA, Fleet* fleetB);
 void fleetsToXMLString(vector<Fleet*> list, string &theString);
 void minefieldsToXMLString(vector<class Minefield*> list, string &theString);
 
-bool parseFleets      (mxml_node_t *tree, vector<Fleet*> &list, GameData &gd);
+bool parseFleets      (mxml_node_t *tree, vector<Fleet*> &list, GameData &gd, bool enemy);
 bool parseHulls       (mxml_node_t *tree, vector<Ship*> &list, GameData &gd);
 bool parseMineFields  (mxml_node_t *tree, vector<class Minefield*> &list, GameData &gd);
 bool parseBattleOrders(mxml_node_t *tree, vector<class BattleOrder*> &list, GameData &gd);
