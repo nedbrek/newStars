@@ -323,7 +323,7 @@ unsigned CargoManifest::getMass(void) const
 
 void CargoManifest::clear()
 {
-    for(unsigned i = 0; i < (unsigned)_massLessTypes; i++)
+    for(unsigned i = 0; i < (unsigned)_numCargoTypes; i++)
         cargoDetail[i].amount = 0;
 }
 
