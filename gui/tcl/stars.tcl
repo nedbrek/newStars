@@ -235,7 +235,12 @@ proc ubrPlanet {id} {
 	set reportAge [lindex [findXMLbyTag "YEARDATAGATHERED" $mainXML 2] 1]
 
 	if {$reportAge != 0} {
-		.tGui.fBottomRight.fPlanet.fRow2.lAge configure -text "Report from year: $reportAge"
+		set delta [expr {$::year - $reportAge}]
+		if {$delta == 0} {
+			.tGui.fBottomRight.fPlanet.fRow2.lAge configure -text "Report is current"
+		} else {
+			.tGui.fBottomRight.fPlanet.fRow2.lAge configure -text "Report from year: $reportAge (-$delta)"
+		}
 
 		set cargoXML [findXMLbyTag "CARGOMANIFEST" $mainXML 2]
 		set tuple [lindex $cargoXML 1]
