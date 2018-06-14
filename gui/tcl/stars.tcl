@@ -162,10 +162,14 @@ namespace eval updateBottomRight {
 	set oldId   ""
 
 	set width 250
+	set scale 5000.0
 
 	set plusColor(0) "#0000FF"
 	set plusColor(1) "#FF0000"
 	set plusColor(2) "#00FF00"
+	set plusColor(3) "#0000FF"
+	set plusColor(4) "#00FF00"
+	set plusColor(5) "#FFFF00"
 
 	set oldLine ""
 }
@@ -273,7 +277,10 @@ proc ubrPlanet {id} {
 			lappend coords [expr {$scaleX + 7}] 10
 			lappend coords $scaleX 17
 
-			.tGui.fBottomRight.fPlanet.fRow3.c$i create polygon {*}$coords -fill $updateBottomRight::plusColor($offset) -tags plus
+			.tGui.fBottomRight.fPlanet.fRow3.c$i create polygon {*}$coords -fill $updateBottomRight::plusColor($i) -tags plus
+
+			set cargoX [expr {[lindex $cargo_tuple $offset] / $updateBottomRight::scale * $updateBottomRight::width}]
+			.tGui.fBottomRight.fPlanet.fRow3.c$i create rectangle 0 18 $cargoX 2 -fill $updateBottomRight::plusColor($i) -tags bar
 		}
 
 		set hab    [newStars $::ns_planet $id $::ns_getHab 0]
