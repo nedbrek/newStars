@@ -161,9 +161,7 @@ namespace eval updateBottomRight {
 	set oldWhat ""
 	set oldId   ""
 
-	set envLabel(0) .tGui.fBottomRight.fPlanet.fRow3
-	set envLabel(1) .tGui.fBottomRight.fPlanet.fRow3
-	set envLabel(2) .tGui.fBottomRight.fPlanet.fRow3
+	set width 250
 
 	set plusColor(0) "#0000FF"
 	set plusColor(1) "#FF0000"
@@ -243,21 +241,39 @@ proc ubrPlanet {id} {
 		}
 
 		set cargoXML [findXMLbyTag "CARGOMANIFEST" $mainXML 2]
-		set tuple [lindex $cargoXML 1]
-		set col   [commify [expr [lindex $tuple 4] * 100]]
+		set cargo_tuple [lindex $cargoXML 1]
+		set col   [commify [expr [lindex $cargo_tuple 4] * 100]]
 		.tGui.fBottomRight.fPlanet.fRow1.lPop configure -text "Population: $col"
 
 		set habXML [findXMLbyTag "HAB" $mainXML 2]
 		set tuple [lindex $habXML 1]
 		for {set i 0} {$i < 3} {incr i} {
-			$updateBottomRight::envLabel($i).c$i delete plus
+			.tGui.fBottomRight.fPlanet.fRow3.c$i delete plus
 
 			set curEnv [lindex $tuple [expr $i + 3]]
 
-			drawPlus $updateBottomRight::envLabel($i).c$i [lindex $tuple $i] \
+			drawPlus .tGui.fBottomRight.fPlanet.fRow3.c$i [lindex $tuple $i] \
 			      $curEnv $updateBottomRight::plusColor($i)
 
-			$updateBottomRight::envLabel($i).lVal$i configure -text [makeHabText $i $curEnv]
+			.tGui.fBottomRight.fPlanet.fRow3.lVal$i configure -text [makeHabText $i $curEnv]
+		}
+
+		set concXML [findXMLbyTag "MINERALCONCENTRATIONS" $mainXML 2]
+		set tuple [lindex $concXML 1]
+		for {set i 3} {$i < 6} {incr i} {
+			.tGui.fBottomRight.fPlanet.fRow3.c$i delete plus
+			.tGui.fBottomRight.fPlanet.fRow3.c$i delete bar
+
+			set offset [expr {$i-3}]
+			set scaleX [expr {min(100, [lindex $tuple $offset]) / 100.0 * $updateBottomRight::width}]
+
+			set coords [list]
+			lappend coords [expr {$scaleX - 7}] 10
+			lappend coords $scaleX 3
+			lappend coords [expr {$scaleX + 7}] 10
+			lappend coords $scaleX 17
+
+			.tGui.fBottomRight.fPlanet.fRow3.c$i create polygon {*}$coords -fill $updateBottomRight::plusColor($offset) -tags plus
 		}
 
 		set hab    [newStars $::ns_planet $id $::ns_getHab 0]
@@ -267,12 +283,14 @@ proc ubrPlanet {id} {
 		.tGui.fBottomRight.fPlanet.fRow1.lVal configure -text "Unexplored"
 		.tGui.fBottomRight.fPlanet.fRow1.lPop configure -text ""
       .tGui.fBottomRight.fPlanet.fRow2.lAge configure -text ""
-      $updateBottomRight::envLabel(0).c0 delete plus
-      $updateBottomRight::envLabel(1).c1 delete plus
-      $updateBottomRight::envLabel(2).c2 delete plus
-      $updateBottomRight::envLabel(0).lVal0 configure -text ""
-      $updateBottomRight::envLabel(1).lVal1 configure -text ""
-      $updateBottomRight::envLabel(2).lVal2 configure -text ""
+		for {set i 0} {$i < 3} {incr i} {
+			.tGui.fBottomRight.fPlanet.fRow3.c$i delete plus
+			.tGui.fBottomRight.fPlanet.fRow3.lVal$i configure -text ""
+		}
+		for {set i 3} {$i < 6} {incr i} {
+			.tGui.fBottomRight.fPlanet.fRow3.c$i delete plus
+			.tGui.fBottomRight.fPlanet.fRow3.c$i delete bar
+		}
    }
 
    pack .tGui.fBottomRight.fPlanet -side top -expand 1 -fill x
@@ -1554,7 +1572,7 @@ proc setPlanetPrefs {} {
    set mainXML [lindex $raceXML 2]
 
    for {set i 0} {$i < 3} {incr i} {
-      $updateBottomRight::envLabel($i).c$i delete all
+      .tGui.fBottomRight.fPlanet.fRow3.c$i delete all
 
       set tmpXML [findXMLbyTag "IMMUNITY" $mainXML 2]
       set tuple  [lindex $tmpXML 1]
@@ -1569,7 +1587,7 @@ proc setPlanetPrefs {} {
          set tuple  [lindex $tmpXML 1]
          set rng    [lindex $tuple $i]
 
-         drawHabBar $updateBottomRight::envLabel($i).c$i $ctr $rng $raceWiz::envColor($i)
+         drawHabBar .tGui.fBottomRight.fPlanet.fRow3.c$i $ctr $rng $raceWiz::envColor($i)
       }
    }
 }
@@ -2732,6 +2750,7 @@ pack .tGui.fLoc.lX  -side left
 pack .tGui.fLoc.lY  -side left
 pack .tGui.fLoc.lN  -side left
 
+# bottom right info pane (shows selected item from galaxy pane: planet, fleet, etc)
 frame .tGui.fBottomRight
 label .tGui.fBottomRight.lT -text "Summary" -bd 1 -relief raised
 pack  .tGui.fBottomRight.lT -expand 1 -fill x -side top
@@ -2746,17 +2765,26 @@ frame .tGui.fBottomRight.fPlanet.fRow2
 pack [label .tGui.fBottomRight.fPlanet.fRow2.lAge -text "Report is current"] -side left
 
 frame .tGui.fBottomRight.fPlanet.fRow3
-grid [label  .tGui.fBottomRight.fPlanet.fRow3.lGrav -text "Gravity" -font $labelBoldFont] -row 0 -column 0
-grid [canvas .tGui.fBottomRight.fPlanet.fRow3.c0    -width 250 -height 20 -bg black]  -row 0 -column 1
-grid [label  .tGui.fBottomRight.fPlanet.fRow3.lVal0 -text "5.60 g"] -row 0 -column 2
+grid [label  .tGui.fBottomRight.fPlanet.fRow3.lGrav -text "Gravity" -font $labelBoldFont] -row 0 -column 0 -sticky e
+grid [canvas .tGui.fBottomRight.fPlanet.fRow3.c0    -width $updateBottomRight::width -height 20 -bg black]  -row 0 -column 1
+grid [label  .tGui.fBottomRight.fPlanet.fRow3.lVal0 -text "5.60 g"] -row 0 -column 2 -sticky e
 
-grid [label  .tGui.fBottomRight.fPlanet.fRow3.lTemp -text "Temperature" -font $labelBoldFont] -row 1 -column 0
-grid [canvas .tGui.fBottomRight.fPlanet.fRow3.c1    -width 250 -height 20 -bg black] -row 1 -column 1
-grid [label  .tGui.fBottomRight.fPlanet.fRow3.lVal1 -text "36 C"] -row 1 -column 2
+grid [label  .tGui.fBottomRight.fPlanet.fRow3.lTemp -text "Temperature" -font $labelBoldFont] -row 1 -column 0 -sticky e
+grid [canvas .tGui.fBottomRight.fPlanet.fRow3.c1    -width $updateBottomRight::width -height 20 -bg black] -row 1 -column 1
+grid [label  .tGui.fBottomRight.fPlanet.fRow3.lVal1 -text "36 C"] -row 1 -column 2 -sticky e
 
-grid [label  .tGui.fBottomRight.fPlanet.fRow3.lRad  -text "Radiation" -font $labelBoldFont] -row 2 -column 0
-grid [canvas .tGui.fBottomRight.fPlanet.fRow3.c2    -width 250 -height 20 -bg black] -row 2 -column 1
-grid [label  .tGui.fBottomRight.fPlanet.fRow3.lVal2 -text "63 mR"] -row 2 -column 2
+grid [label  .tGui.fBottomRight.fPlanet.fRow3.lRad  -text "Radiation" -font $labelBoldFont] -row 2 -column 0 -sticky e
+grid [canvas .tGui.fBottomRight.fPlanet.fRow3.c2    -width $updateBottomRight::width -height 20 -bg black] -row 2 -column 1
+grid [label  .tGui.fBottomRight.fPlanet.fRow3.lVal2 -text "63 mR"] -row 2 -column 2 -sticky e
+
+grid [label  .tGui.fBottomRight.fPlanet.fRow3.lIron -text "Ironium" -font $labelBoldFont] -row 4 -column 0 -sticky e
+grid [canvas .tGui.fBottomRight.fPlanet.fRow3.c3    -width $updateBottomRight::width -height 20 -bg black] -row 4 -column 1
+
+grid [label  .tGui.fBottomRight.fPlanet.fRow3.lBoron -text "Boranium" -font $labelBoldFont] -row 5 -column 0 -sticky e
+grid [canvas .tGui.fBottomRight.fPlanet.fRow3.c4    -width $updateBottomRight::width -height 20 -bg black] -row 5 -column 1
+
+grid [label  .tGui.fBottomRight.fPlanet.fRow3.lGerm -text "Germanium" -font $labelBoldFont] -row 6 -column 0 -sticky e
+grid [canvas .tGui.fBottomRight.fPlanet.fRow3.c5    -width $updateBottomRight::width -height 20 -bg black] -row 6 -column 1
 
 pack .tGui.fBottomRight.fPlanet.fRow1 -side top -expand 1 -fill x
 pack .tGui.fBottomRight.fPlanet.fRow2 -side top -expand 1 -fill x
