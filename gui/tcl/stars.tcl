@@ -852,11 +852,29 @@ proc remapCargoXMLtoCode {i} {
 	}
 }
 
+proc cancelXfer {t} {
+	for {set i 0} {$i < 5} {incr i} {
+		set nsGui::xferAmt($i) 0
+	}
+	destroy $t
+}
+
 # transfer cargo from currently selected fleet to the one in the
 # "Other Fleets" combox
-proc cargoXfer {} {
-   set fid $::allFleetMap($::walkNum)
-	set fid2 [findOtherFid]
+proc cargoXfer {w} {
+	if {$w eq "FLEET"} {
+		set fid $::allFleetMap($::walkNum)
+		set fid2 [findOtherFid]
+	} elseif {$w eq "PLANET"} {
+		set fid $::allFleetMap($::walkNum)
+		set fid2 [newStars $::ns_planet $fid $::ns_getPlanetId]
+	} elseif {$w eq "FPLANET"} {
+		set fid $::planetMap($::walkNum)
+		set idx [.tGui.lbFleetList curselection]
+		if {$idx eq ""} {set idx 0}
+		set numFleetsHere [newStars $::ns_planet $fid $::ns_getNumFleets]
+      set fid2 [newStars $::ns_planet $fid $::ns_getFleetIdFromIndex $idx]
+	}
 
 	set t [toplevel .tCargoXfer]
 	grid [label $t.lF1 -text [newStars $::ns_planet $fid  $::ns_getName] -wraplength 60] \
@@ -894,6 +912,10 @@ proc cargoXfer {} {
 	grid [button $t.bFuelSub -text ">" -command [list xfer 4 -1]] -row 5 -column 3
 	grid [label  $t.l4V2 -text 0]                                 -row 5 -column 4
 
+	grid [frame $t.fButtons] -row 6 -column 0 -columnspan 5
+	pack [button $t.fButtons.bOk -text "Ok" -command [list destroy $t]] -side left
+	pack [button $t.fButtons.bCl -text "Cancel" -command [list cancelXfer $t]] -side left
+
    set fleetXML [xml2list [newStars $::ns_planet $fid $::ns_getXML]]
    set mainXML  [lindex $fleetXML 2]
    set cargoXML [findXMLbyTag "CARGOMANIFEST" $mainXML 2]
@@ -915,7 +937,13 @@ proc cargoXfer {} {
 	for {set i 0} {$i < 5} {incr i} {
 		newStars $::ns_planet $fid  $::ns_orderTransport $fid2 $i $nsGui::xferAmt($i)
 	}
-	updateFleet
+
+	if {$w ne "FPLANET"} {
+		updateFleet
+	} else {
+		calcPlanet $fid
+		calcCargo $fid2
+	}
 }
 
 # switch the gui from displaying a planet to displaying a fleet
@@ -1124,6 +1152,7 @@ proc updateFleet {} {
    if {$location eq ""} {
       .tGui.fFleetLocation.lFLname configure -text "In Deep Space"
       .tGui.fFleetLocation.bGoto configure -state disabled
+      .tGui.fFleetLocation.bXfer configure -state disabled
       set x [newStars $::ns_planet $fleetId $::ns_getX]
       set y [newStars $::ns_planet $fleetId $::ns_getY]
       .tGui.fWaypoints.lbWaypoints insert end "Space ($x, $y)"
@@ -1131,6 +1160,7 @@ proc updateFleet {} {
       set pname [newStars $::ns_planet $location $::ns_getName]
       .tGui.fFleetLocation.lFLname configure -text "Orbiting $pname"
       .tGui.fFleetLocation.bGoto configure -state normal
+      .tGui.fFleetLocation.bXfer configure -state normal
       .tGui.fWaypoints.lbWaypoints insert end "$pname"
    }
 
@@ -2494,7 +2524,7 @@ pack [label .tGui.fMsg.msgPaneBdy.lMsg -textvariable nsGui::msgTxt -width 54 -wr
 #############################################
 frame  .tGui.fFleetLocation
 label  .tGui.fFleetLocation.lFLname -text "Orbiting Somewhere" -relief raised -bd 1 -width 25
-button .tGui.fFleetLocation.bGoto   -text Goto -command {
+button .tGui.fFleetLocation.bGoto   -text "Goto" -command {
    set fleetId $::allFleetMap($::walkNum)
    set location [newStars $::ns_planet $fleetId $::ns_getPlanetId]
    if {$location eq ""} { return }
@@ -2502,6 +2532,7 @@ button .tGui.fFleetLocation.bGoto   -text Goto -command {
    set walkNum    [findPlanetWalkFromId $location]
    set nsGui::walkPlanet 1
 }
+button .tGui.fFleetLocation.bXfer -text "Xfer" -command [list cargoXfer PLANET]
 
 #############################################
 frame  .tGui.pfWalker -height 40 -bd 1 -relief raised
@@ -2537,6 +2568,15 @@ button .tGui.fLeftTopRight.fButtons.bGoto -text Goto -command {
 }
 
 button .tGui.fLeftTopRight.fButtons.bCargo -text Cargo -command {
+   set idx [.tGui.lbFleetList curselection]
+   if {$idx eq ""} {set idx 0}
+
+   set planetId $::planetMap($::walkNum)
+   set numFleetsHere [newStars $::ns_planet $planetId $::ns_getNumFleets]
+   if {$idx < $numFleetsHere} {
+		set fleetId [newStars $::ns_planet $planetId $::ns_getFleetIdFromIndex $idx]
+		cargoXfer "FPLANET"
+   }
 }
 
 #############################################
@@ -2638,7 +2678,7 @@ pack [frame  .tGui.fOtherFleet.fBut] -side top -expand 1 -fill x
 pack [button .tGui.fOtherFleet.fBut.bGoto  -text "Goto" -command gotoOther] -side left
 pack [button .tGui.fOtherFleet.fBut.bMerge -text "Merge Ships" -command fleetToFleetMerge
      ] -side left -padx 50
-pack [button .tGui.fOtherFleet.fBut.bCargo -text "Cargo" -command cargoXfer] -side left
+pack [button .tGui.fOtherFleet.fBut.bCargo -text "Cargo" -command [list cargoXfer FLEET]] -side left
 
 #############################################
 frame   .tGui.fWaypoints -bd 1 -relief raised
@@ -2725,7 +2765,8 @@ pack .tGui.fProduction.lbPlanetQueue -side top
 pack .tGui.fProduction.bChange       -side top -anchor nw
 
 pack .tGui.fFleetLocation.lFLname -side top
-pack .tGui.fFleetLocation.bGoto   -side top
+pack .tGui.fFleetLocation.bGoto   -side left
+pack .tGui.fFleetLocation.bXfer   -side left
 
 pack .tGui.fWaypoints.lTitle -side top
 pack .tGui.fWaypoints.lbWaypoints

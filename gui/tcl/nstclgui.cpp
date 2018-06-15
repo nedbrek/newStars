@@ -1874,14 +1874,16 @@ bool NewStarsTcl::planet(Parms &p)
 	{
 		const uint64_t tgtFid = p[3];
 		PlaceableObject *tfplace = gameData_->getTargetObject(tgtFid);
-		Fleet *tgtF = dynamic_cast<Fleet*>(tfplace);
-		if( !tgtF ) return false;
+		if( !tfplace ) return false;
 
 		const unsigned itemIdx = unsigned(p[4]);
 		if( itemIdx >= _numCargoTypes ) return false;
 
-		const int64_t amt = int64_t(p[5]);
-		tgtF->cargoList.cargoDetail[itemIdx].amount += amt;
+		int64_t amt = int64_t(p[5]);
+		if( pop ->cargoList.cargoDetail[itemIdx].amount < amt )
+			amt = pop ->cargoList.cargoDetail[itemIdx].amount;
+
+		tfplace->cargoList.cargoDetail[itemIdx].amount += amt;
 		pop ->cargoList.cargoDetail[itemIdx].amount -= amt;
 
 		return true;
