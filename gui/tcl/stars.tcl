@@ -1325,8 +1325,8 @@ proc enumCargoId {d} {
    switch $d {
       0  { return 4 }
       1  { return 1 }
-      2  { return 2 }
-      3  { return 3 }
+      2  { return 3 }
+      3  { return 2 }
       4  { return 0 }
    }
 }
