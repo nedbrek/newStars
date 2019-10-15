@@ -19,7 +19,6 @@ if {[namespace exists starkit]} {
 # all the Tcl sources we need
 set externalSources {
 	"cmpmap.tcl"
-	"combobox.tcl"
 	"draw.tcl"
 	"libxml.tcl"
 	"ngwiz.tcl"
@@ -500,14 +499,13 @@ proc updateViewFleet2 {n1 n2 op} {
    }
 }
 
-proc updateViewFleet {path val} {
+proc updateViewFleet {} {
    if {!$nsGui::walkPlanet} { return }
    set planNum $::walkNum
 
    set planetId $::planetMap($planNum)
    set numFleetsHere [newStars $::ns_planet $planetId $::ns_getNumFleets]
 
-   set ::fleetSelect $val
    for {set i 0} {$i < $numFleetsHere} {incr i} {
       set fleetId [newStars $::ns_planet $planetId $::ns_getFleetIdFromIndex $i]
       if {[newStars $::ns_planet $fleetId $::ns_getName] eq $::fleetSelect} {
@@ -681,7 +679,7 @@ proc doSplit {} {
 
 # return the fid of the fleet in the "Other Fleets Here" combox
 proc findOtherFid {} {
-	set idx [.tGui.fOtherFleet.cb curselection]
+	set idx [.tGui.fOtherFleet.cb current]
 	set fid $::allFleetMap($::walkNum)
 
    set nf [newStars $::ns_planet $fid $::ns_getNumFleets]
@@ -870,7 +868,7 @@ proc cargoXfer {w} {
 		set fid2 [newStars $::ns_planet $fid $::ns_getPlanetId]
 	} elseif {$w eq "FPLANET"} {
 		set fid $::planetMap($::walkNum)
-		set idx [.tGui.lbFleetList curselection]
+		set idx [.tGui.lbFleetList current]
 		if {$idx eq ""} {set idx 0}
 		set numFleetsHere [newStars $::ns_planet $fid $::ns_getNumFleets]
       set fid2 [newStars $::ns_planet $fid $::ns_getFleetIdFromIndex $idx]
@@ -1054,14 +1052,12 @@ proc updatePlanet {planNum} {
 
    set fleetList [getFleetListAtPlanet $planetId]
 
-   .tGui.lbFleetList list delete 0 end
-
    if {$fleetList eq ""} {
-      .tGui.lbFleetList list insert end {<none>}
+      .tGui.lbFleetList configure -values {<none>}
       set ::fleetSelect {<none>}
       .tGui.fLeftTopRight.fButtons.bGoto configure -state disabled
    } else {
-      eval [subst ".tGui.lbFleetList list insert end $fleetList"]
+      .tGui.lbFleetList configure -values $fleetList
       set ::fleetSelect [lindex $fleetList 0]
       .tGui.fLeftTopRight.fButtons.bGoto configure -state normal
    }
@@ -1109,16 +1105,16 @@ proc fillShips {fleetId} {
 }
 
 proc fillOther {fid} {
-   .tGui.fOtherFleet.cb list delete 0 end
-
+	set other_fleets [list]
    set nf [newStars $::ns_planet $fid $::ns_getNumFleets]
 	for {set i 0} {$i < $nf} {incr i} {
 	   set f [newStars $::ns_planet $fid $::ns_getFleetIdFromIndex $i]
 		if {$f == $fid} { continue }
 		set name [newStars $::ns_planet $f $::ns_getName]
-		.tGui.fOtherFleet.cb list insert end $name
+		lappend other_fleets $name
 	}
-	.tGui.fOtherFleet.cb select 0
+	.tGui.fOtherFleet.cb configure -values $other_fleets
+	.tGui.fOtherFleet.cb current 0
 }
 
 # update the gui to represent the current fleet (walkNum)
@@ -1140,7 +1136,7 @@ proc updateFleet {} {
    }
    .tGui.fWaypoints.lbWaypoints delete 0 end
 
-   .tGui.fWayPtTask.cbTask select 0
+   .tGui.fWayPtTask.cbTask current 0
    set nsGui::internalCbTask 0
 
    set ::ltrFuel "Fuel [getFuel $fleetId] mg"
@@ -1293,7 +1289,7 @@ proc getItemId {itemStr} {
 }
 
 # select transport which action (currently disabled)
-proc selectTWA {path val} {
+proc selectTWA {} {
 }
 
 proc wptEntry {newE} {
@@ -1311,9 +1307,7 @@ proc wptEntry {newE} {
 
    set cargo     [lindex [findXMLbyTag "CARGOMANIFEST" $mainXML 2] 1]
 
-   set val [enumCargoId [.tGui.fWayPtTask.fExtras.cbTranWhich curselection]]
-
-   set amt       [lindex $cargo $val]
+   set val [enumCargoId [.tGui.fWayPtTask.fExtras.cbTranWhich current]]
 
    if {$newE eq ""} {return 1}
    newStars $::ns_orders $fleetId $wpNum $::ns_orderTransport $val $newE
@@ -1351,10 +1345,11 @@ proc findIndexFromCargo {cstr} {
    }
 }
 
-proc selectTW {path val} {
+proc selectTW {} {
    set wpNum [.tGui.fWaypoints.lbWaypoints curselection]
    if {$wpNum == 0} {return}
 
+	set val [.tGui.fWayPtTask.fExtras.cbTranWhich get]
    set nsGui::internalCbTask 1
    .tGui.fWayPtTask.fExtras.eAmt delete 0 end
 
@@ -1383,14 +1378,15 @@ proc packExtrasByTask {task} {
 
       "Transfer Fleet" {
          pack .tGui.fWayPtTask.fExtras.cbTgtPlayer -side top
-         .tGui.fWayPtTask.fExtras.cbTgtPlayer select 0
+         .tGui.fWayPtTask.fExtras.cbTgtPlayer current 0
       }
    }
 }
 # with cargo
 #         pack .tGui.fWayPtTask.fExtras.cbAction    -side top
 
-proc selectWPT {path val} {
+proc selectWPT {} {
+	set val [.tGui.fWayPtTask.cbTask get]
    set slaves [pack slaves .tGui.fWayPtTask.fExtras]
    if {$slaves ne ""} {
       eval [list pack forget {*}$slaves]
@@ -1475,7 +1471,7 @@ proc hndWayPtSel {} {
 
    set remapOrderEnum [remapOrderEnum $orderEnum]
    set nsGui::internalCbTask 1
-   .tGui.fWayPtTask.cbTask select $remapOrderEnum
+   .tGui.fWayPtTask.cbTask current $remapOrderEnum
    set nsGui::internalCbTask 0
 
    .tGui.fWayDetails.fWarp.s set [newStars $::ns_planet $fleetId $::ns_speed $wpNum]
@@ -1487,14 +1483,14 @@ proc hndWayPtSel {} {
       for {set i 0} {$i < 5} {incr i} {
          set amt [lindex $cargo $i]
          if {$amt} {
-            .tGui.fWayPtTask.fExtras.cbTranWhich select [remapCargoId $i]
+            .tGui.fWayPtTask.fExtras.cbTranWhich current [remapCargoId $i]
             if {$orderEnum == 5} {
-               .tGui.fWayPtTask.fExtras.cbAction select 4
+               .tGui.fWayPtTask.fExtras.cbAction current 4
             } else {
-               .tGui.fWayPtTask.fExtras.cbAction select 3
+               .tGui.fWayPtTask.fExtras.cbAction current 3
             }
 
-				selectTW  "" [.tGui.fWayPtTask.fExtras.cbTranWhich get]
+				selectTW
             break
          }
       }
@@ -2115,12 +2111,13 @@ proc doOpen {{fname ""}} {
    set fchn [open $ofile]
    set nsGui::turnRoot [dom parse -channel $fchn]
 
-   .tGui.fWayPtTask.fExtras.cbTgtPlayer list delete 0 end
+	set other_players [list]
    for {set i 1} {$i <= $::numPlayers} {incr i} {
       if {$i != $nsGui::playerNum} {
-         .tGui.fWayPtTask.fExtras.cbTgtPlayer list insert end $i
+         lappend other_players $i
       }
    }
+   .tGui.fWayPtTask.fExtras.cbTgtPlayer configure -values $other_players
 
    buildMyPlanetMap
 
@@ -2169,6 +2166,7 @@ proc doSave {} {
 }
 
 proc updateCurResearch {n1 n2 op} {
+	if {$::curResearch eq ""} { return }
    .tTechDlg.fR.fT.lWhat configure -text "$nsGui::techName($::curResearch), Tech Level \
 [expr $::currentTech($::curResearch) + 1]"
 }
@@ -2182,9 +2180,9 @@ proc researchTax {amt} {
    newStars $::ns_player $::ns_researchTax $curVal
 }
 
-proc setNextResearch {wnd val} {
-	if {[$wnd curselection] eq ""} { return }
-	set ::nextResearch [$wnd curselection]
+proc setNextResearch {wnd} {
+	if {[$wnd current] eq ""} { return }
+	set ::nextResearch [$wnd current]
 }
 
 # create the research dialog
@@ -2232,14 +2230,16 @@ proc doTech {} {
    pack [label      .tTechDlg.fR.fT.lTime -text "Estimated time to completion: 1 year"] -side top
    pack [frame      .tTechDlg.fR.fT.fNext] -side top
    pack [label      .tTechDlg.fR.fT.fNext.l -text "Next field to research:"] -side left
-	pack [combobox::combobox .tTechDlg.fR.fT.fNext.cb -width 13 \
-	   -editable false -command setNextResearch]
+	pack [ttk::combobox .tTechDlg.fR.fT.fNext.cb -width 13 -state readonly]
+	bind .tTechDlg.fR.fT.fNext.cb <<ComboboxSelected>> {setNextResearch %W}
+	set next_vals [list]
 	foreach t [lsort -integer [array names nsGui::techName]] {
-		.tTechDlg.fR.fT.fNext.cb list insert end $nsGui::techName($t)
+		lappend next_vals $nsGui::techName($t)
 	}
-	.tTechDlg.fR.fT.fNext.cb list insert end "<Same field>"
-	.tTechDlg.fR.fT.fNext.cb list insert end "<Lowest field>"
-	.tTechDlg.fR.fT.fNext.cb select $::nextResearch
+	lappend next_vals "<Same field>"
+	lappend next_vals "<Lowest field>"
+	.tTechDlg.fR.fT.fNext.cb configure -values $next_vals
+	.tTechDlg.fR.fT.fNext.cb current $::nextResearch
 
    pack [labelframe .tTechDlg.fR.fB -text "Research Allocation"] -side top
    pack [label      .tTechDlg.fR.fB.lCurRes -text "Annual resources from all planets: 0"] -side top
@@ -2543,8 +2543,8 @@ button .tGui.pfWalker.bNext -text Next   -width 8 -command nextWalk
 button .tGui.pfWalker.bRen  -text Rename -width 8
 
 #############################################
-combobox::combobox .tGui.lbFleetList -textvariable fleetSelect -editable false -command updateViewFleet \
-   -width 32
+ttk::combobox .tGui.lbFleetList -textvariable fleetSelect -state readonly -width 32
+bind .tGui.lbFleetList <<ComboboxSelected>> updateViewFleet
 
 #############################################
 frame  .tGui.fLeftTopRight -height 45 -bd 1 -relief raised
@@ -2555,7 +2555,7 @@ frame  .tGui.fLeftTopRight.fButtons
 
 # on planet, goto fleet in orbit indicated by combobox
 button .tGui.fLeftTopRight.fButtons.bGoto -text Goto -command {
-   set idx [.tGui.lbFleetList curselection]
+   set idx [.tGui.lbFleetList current]
    if {$idx eq ""} {set idx 0}
 
    set planetId $::planetMap($::walkNum)
@@ -2568,7 +2568,7 @@ button .tGui.fLeftTopRight.fButtons.bGoto -text Goto -command {
 }
 
 button .tGui.fLeftTopRight.fButtons.bCargo -text Cargo -command {
-   set idx [.tGui.lbFleetList curselection]
+   set idx [.tGui.lbFleetList current]
    if {$idx eq ""} {set idx 0}
 
    set planetId $::planetMap($::walkNum)
@@ -2651,8 +2651,8 @@ pack [frame .tGui.fFleetComp.fRange]    -side top -expand 1 -fill x
 pack [frame .tGui.fFleetComp.fCloak]    -side top -expand 1 -fill x
 pack [frame .tGui.fFleetComp.fButtons]  -side top -expand 1 -fill x
 
-pack [label              .tGui.fFleetComp.fBattPlan.lT -text "Battle Plan:"] -side left
-pack [combobox::combobox .tGui.fFleetComp.fBattPlan.cb -width 12 -editable false] -side right
+pack [label         .tGui.fFleetComp.fBattPlan.lT -text "Battle Plan:"] -side left
+pack [ttk::combobox .tGui.fFleetComp.fBattPlan.cb -width 12 -state readonly] -side right
 
 pack [label .tGui.fFleetComp.fRange.lT -text "Est. Range"] -side left
 pack [label .tGui.fFleetComp.fRange.lV -text "0 l.y."] -side right
@@ -2668,7 +2668,7 @@ pack [button .tGui.fFleetComp.fButtons.bMerge  -text "Merge Fleets"] -side right
 #############################################
 frame .tGui.fOtherFleet -bd 1 -relief raised
 pack [label .tGui.fOtherFleet.lT -text "Other Fleets Here" -width 35 -bd 1 -relief raised] -side top
-pack [combobox::combobox .tGui.fOtherFleet.cb -width 38 -editable false] -side top
+pack [ttk::combobox .tGui.fOtherFleet.cb -width 38 -state readonly] -side top
 pack [frame .tGui.fOtherFleet.fFuel] -side top -expand 1 -fill x
 pack [label .tGui.fOtherFleet.fFuel.l -text "Fuel"] -side left
 pack [frame .tGui.fOtherFleet.fCargo] -side top -expand 1 -fill x
@@ -2694,21 +2694,25 @@ pack [spinbox .tGui.fWayDetails.fWarp.s -from 0 -to 11 -width 2 -command fleetSp
 #############################################
 frame   .tGui.fWayPtTask -bd 1 -relief raised
 pack [label .tGui.fWayPtTask.lTitle -text "Waypoint Task" -width 25 -bd 1 -relief raised]
-pack [combobox::combobox .tGui.fWayPtTask.cbTask -editable false -command selectWPT]
-.tGui.fWayPtTask.cbTask list insert 0 "(no task here)" "Unload Cargo" "Load Cargo" "Colonize" \
-    "Remote Mining" "Merge with Fleet" "Scrap Fleet" "Lay Mine Field" "Patrol" \
-    "Route" "Transfer Fleet"
+pack [ttk::combobox .tGui.fWayPtTask.cbTask -state readonly]
+bind .tGui.fWayPtTask.cbTask <<ComboboxSelected>> selectWPT
+.tGui.fWayPtTask.cbTask configure -values {"(no task here)" "Unload Cargo" "Load Cargo" "Colonize"
+    "Remote Mining" "Merge with Fleet" "Scrap Fleet" "Lay Mine Field" "Patrol"
+    "Route" "Transfer Fleet"}
 
 #############################################
 pack [frame .tGui.fWayPtTask.fExtras]
-combobox::combobox .tGui.fWayPtTask.fExtras.cbTranWhich -editable false -command selectTW
-.tGui.fWayPtTask.fExtras.cbTranWhich list insert 0 "Fuel" "Ironium" "Boranium" "Germanium" "Colonists"
-combobox::combobox .tGui.fWayPtTask.fExtras.cbAction -editable false -command selectTWA
-.tGui.fWayPtTask.fExtras.cbAction list insert 0 "(no action)" "Load All Available" "Unload All" \
-    "Load Exactly..." "Unload Exactly..." "Fill Up to %..." "Wait for %..." "Load Dunnage" \
-    "Set Amount to..." "Set Waypoint to..."
+ttk::combobox .tGui.fWayPtTask.fExtras.cbTranWhich -state readonly -values {
+    "Fuel" "Ironium" "Boranium" "Germanium" "Colonists"}
+bind .tGui.fWayPtTask.fExtras.cbTranWhich <<ComboboxSelected>> selectTW
+ttk::combobox .tGui.fWayPtTask.fExtras.cbAction -state readonly -values {
+    "(no action)" "Load All Available" "Unload All"
+    "Load Exactly..." "Unload Exactly..." "Fill Up to %..." "Wait for %..." "Load Dunnage"
+    "Set Amount to..." "Set Waypoint to..."}
+bind .tGui.fWayPtTask.fExtras.cbAction <<ComboboxSelected>> selectTWA
 entry .tGui.fWayPtTask.fExtras.eAmt -vcmd "wptEntry %P" -validate key
-combobox::combobox .tGui.fWayPtTask.fExtras.cbTgtPlayer -editable false -command selectTFP
+ttk::combobox .tGui.fWayPtTask.fExtras.cbTgtPlayer -state readonly
+bind .tGui.fWayPtTask.fExtras.cbTgtPlayer <<ComboboxSelected>> selectTFP
 
 #############################################
 frame .tGui.fMinerals -bd 1 -relief raised

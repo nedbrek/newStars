@@ -193,17 +193,17 @@ proc doneDesign {} {
 
    switch $shipDes::viewSel {
    0 {
-     set hullCpIdx $::designMap([.tShipDes.fRightSide.cbShipList curselection])
+     set hullCpIdx $::designMap([.tShipDes.fRightSide.cbShipList current])
      set shipXML [xml2list [newStars $::ns_planet $hullCpIdx $::ns_getXML]]
      }
 
    1 {
-     set hullCpIdx $::hullMap([.tShipDes.fRightSide.cbShipList curselection])
+     set hullCpIdx $::hullMap([.tShipDes.fRightSide.cbShipList current])
      set shipXML [xml2list [newStars $::ns_hull $hullCpIdx $::ns_getXML]]
      }
 
    2 {
-     set hullCpIdx $::enemyDesMap([.tShipDes.fRightSide.cbShipList curselection])
+     set hullCpIdx $::enemyDesMap([.tShipDes.fRightSide.cbShipList current])
      set shipXML [xml2list [newStars $::ns_hull $hullCpIdx $::ns_getXML]]
      }
    }
@@ -215,15 +215,15 @@ proc doneDesign {} {
 proc copyDesign {} {
    switch $shipDes::viewSel {
    0 {
-     set hullCpIdx $::designMap([.tShipDes.fRightSide.cbShipList curselection])
+     set hullCpIdx $::designMap([.tShipDes.fRightSide.cbShipList current])
      }
 
    1 {
-     set hullCpIdx $::hullMap([.tShipDes.fRightSide.cbShipList curselection])
+     set hullCpIdx $::hullMap([.tShipDes.fRightSide.cbShipList current])
      }
 
    2 {
-     set hullCpIdx $::enemyDesMap([.tShipDes.fRightSide.cbShipList curselection])
+     set hullCpIdx $::enemyDesMap([.tShipDes.fRightSide.cbShipList current])
      }
    }
 
@@ -246,22 +246,22 @@ proc copyDesign {} {
 #      -dropcmd shipDiscard -text "Discard" -width 20 -height 10 \
 #      -droptypes [list NS_COMP [list copy {} move shift link control]]] -side bottom
 
-proc selectDesign {wnd val} {
-   if {[$wnd curselection] eq ""} { return }
+proc selectDesign {wnd} {
+   if {[$wnd current] eq ""} { return }
 
    switch $shipDes::viewSel {
    0 {
-     set hullCpIdx $::designMap([.tShipDes.fRightSide.cbShipList curselection])
+     set hullCpIdx $::designMap([.tShipDes.fRightSide.cbShipList current])
      set shipXML [xml2list [newStars $::ns_planet $hullCpIdx $::ns_getXML]]
      }
 
    1 {
-     set hullCpIdx $::hullMap([.tShipDes.fRightSide.cbShipList curselection])
+     set hullCpIdx $::hullMap([.tShipDes.fRightSide.cbShipList current])
      set shipXML [xml2list [newStars $::ns_hull $hullCpIdx $::ns_getXML]]
      }
 
    2 {
-     set hullCpIdx $::enemyDesMap([.tShipDes.fRightSide.cbShipList curselection])
+     set hullCpIdx $::enemyDesMap([.tShipDes.fRightSide.cbShipList current])
      set shipXML [xml2list [newStars $::ns_planet $hullCpIdx $::ns_getXML]]
      }
    }
@@ -272,18 +272,19 @@ proc selectDesign {wnd val} {
 }
 
 proc fillPlayerDesigns {} {
-   .tShipDes.fRightSide.cbShipList list delete 0 end
    eval "destroy [pack slaves .tShipDes.fRightSide.fCurShip]"
    set shipDes::shipCB ""
 
+	set ship_des [list]
    for {set i 0} {$i < $::numDesigns} {incr i} {
-      .tShipDes.fRightSide.cbShipList list insert end \
-         [newStars $::ns_planet $::designMap($i) $::ns_getName]
+		lappend ship_des [newStars $::ns_planet $::designMap($i) $::ns_getName]
    }
-   if {$::numDesigns > 0} {
-      .tShipDes.fRightSide.cbShipList select 0
+	.tShipDes.fRightSide.cbShipList configure -values $ship_des
 
-      set hullCpIdx $::designMap([.tShipDes.fRightSide.cbShipList curselection])
+   if {$::numDesigns > 0} {
+      .tShipDes.fRightSide.cbShipList current 0
+
+      set hullCpIdx $::designMap([.tShipDes.fRightSide.cbShipList current])
       set shipXML [xml2list [newStars $::ns_planet $hullCpIdx $::ns_getXML]]
       set mainXML [lindex $shipXML 2]
 
@@ -292,19 +293,19 @@ proc fillPlayerDesigns {} {
 }
 
 proc fillHullDesigns {} {
-   .tShipDes.fRightSide.cbShipList list delete 0 end
    eval "destroy [pack slaves .tShipDes.fRightSide.fCurShip]"
    set shipDes::shipCB ""
 
+	set hull_list [list]
    for {set i 0} {$i < $::numHulls} {incr i} {
-      .tShipDes.fRightSide.cbShipList list insert end \
-         [newStars $::ns_hull $::hullMap($i) $::ns_getName]
+		lappend hull_list [newStars $::ns_hull $::hullMap($i) $::ns_getName]
    }
+   .tShipDes.fRightSide.cbShipList configure -values $hull_list
 
    if {$::numHulls > 0} {
-      .tShipDes.fRightSide.cbShipList select 0
+      .tShipDes.fRightSide.cbShipList current 0
 
-      set hullCpIdx $::hullMap([.tShipDes.fRightSide.cbShipList curselection])
+      set hullCpIdx $::hullMap([.tShipDes.fRightSide.cbShipList current])
       set shipXML [xml2list [newStars $::ns_hull $hullCpIdx $::ns_getXML]]
       set mainXML [lindex $shipXML 2]
 
@@ -313,19 +314,19 @@ proc fillHullDesigns {} {
 }
 
 proc fillEnemyDesigns {} {
-   .tShipDes.fRightSide.cbShipList list delete 0 end
    eval "destroy [pack slaves .tShipDes.fRightSide.fCurShip]"
    set shipDes::shipCB ""
 
+	set enemy_list [list]
    foreach i [lsort [array names ::enemyDesMap]] {
-      .tShipDes.fRightSide.cbShipList list insert end \
-         [newStars $::ns_planet $::enemyDesMap($i) $::ns_getName]
+		lappend enemy_list [newStars $::ns_planet $::enemyDesMap($i) $::ns_getName]
    }
+	.tShipDes.fRightSide.cbShipList configure -values $enemy_list
 
    if {$::numEnemyDesigns > 0} {
-      .tShipDes.fRightSide.cbShipList select 0
+		.tShipDes.fRightSide.cbShipList current 0
 
-      set hullCpIdx $::enemyDesMap([.tShipDes.fRightSide.cbShipList curselection])
+      set hullCpIdx $::enemyDesMap([.tShipDes.fRightSide.cbShipList current])
       set shipXML [xml2list [newStars $::ns_planet $hullCpIdx $::ns_getXML]]
       set mainXML [lindex $shipXML 2]
 
@@ -414,8 +415,9 @@ proc shipDesigner {} {
 
    frame .tShipDes.fRightSide
    entry .tShipDes.fRightSide.eShipName
-   pack [combobox::combobox .tShipDes.fRightSide.cbShipList \
-      -textvariable shipDes::shipCB -editable false -command selectDesign] -side top
+   pack [ttk::combobox .tShipDes.fRightSide.cbShipList \
+      -textvariable shipDes::shipCB -state readonly] -side top
+	bind .tShipDes.fRightSide.cbShipList <<ComboboxSelected>> {selectDesign %W}
    pack [frame .tShipDes.fRightSide.fCurShip] -side top
    pack [frame .tShipDes.fRightSide.fCost] -side bottom -expand 1 -fill x
    pack [label .tShipDes.fRightSide.fCost.l] -side top
@@ -487,7 +489,7 @@ proc shipDesigner {} {
             buildAvailList
          }
 
-         .tShipDes.fRightSide.cbShipList select end
+         .tShipDes.fRightSide.cbShipList current end
          set shipDes::viewSel 0
          doneDesign
       } else {
