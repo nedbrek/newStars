@@ -13,7 +13,7 @@ int go(void);
 // construct game
 int main(int argc, const char *argv[])
 {
-	mxmlSetWrapMargin(200);
+	//mxmlSetWrapMargin(200);
 
    GameData gameData;
    // initialize static names
@@ -39,7 +39,7 @@ int main(int argc, const char *argv[])
    //else
 
    // check for error in arguments
-   if( argv[i] == '\0' )
+   if( argv[i][0] == '\0' )
    {
       const char *progname = (argv[0] && *(argv[0]) != '\0') ?
                                argv[0] : "newStars";

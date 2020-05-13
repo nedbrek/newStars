@@ -2597,13 +2597,21 @@ void GameData::dumpPlayerFile(PlayerData *whichPlayer) const
     mxml_node_t *unformatedTree;
     char        *formattedTree;
 
+	 // XML version
+	 fileOut << "<?xml version=\"1.0\"?>" << std::endl;
+
     unformatedTree = mxmlLoadString(NULL,finalString.c_str(),MXML_NO_CALLBACK);
 
     formattedTree = mxmlSaveAllocString(unformatedTree,whitespace_cb);
+    if (!formattedTree)
+    {
+    	fileOut << finalString;
+    }
+    else
+    {
+    	fileOut << formattedTree;
+    }
 
-	 // XML version
-	 fileOut << "<?xml version=\"1.0\"?>" << std::endl;
-    fileOut <<formattedTree;
     fileOut.close();
    theUniverse->masterCopy = true;
 }
@@ -2659,6 +2667,11 @@ void GameData::dumpXMLToString(string &theString) const
     char        *formattedTree;
 
     unformatedTree = mxmlLoadString(NULL,finalString.c_str(),MXML_NO_CALLBACK);
+    if (!unformatedTree)
+    {
+    	 theString = finalString;
+    	 return;
+    }
 
     formattedTree = mxmlSaveAllocString(unformatedTree,whitespace_cb);
 
