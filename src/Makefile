@@ -1,6 +1,6 @@
 .PHONY: all clean reg
 
-MXML:=(User supplied)
+MXML:=../mxml-2.2.2j
 
 CC=g++
 CPPFLAGS+=-c -g -Wall -fPIC -I$(MXML)
