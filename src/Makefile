@@ -3,8 +3,9 @@
 MXML:=../mxml-2.2.2j
 
 CC=g++
-CPPFLAGS+=-c -g -Wall -fPIC -I$(MXML)
-LDFLAGS+=-L$(MXML)
+CPPFLAGS+=-c -g -Wall -fPIC
+#CPPFLAGS+=-I$(MXML)
+#LDFLAGS+=-L$(MXML)
 
 HEADERS=reconcile.h newStars.h planet.h classDef.h race.h opt.h actionDispatcher.h
 SOURCES=newStars.cpp planet.cpp race.cpp opt.cpp actionDispatcher.cpp \

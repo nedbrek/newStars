@@ -13,7 +13,7 @@ int go(void);
 // construct game
 int main(int argc, const char *argv[])
 {
-	//mxmlSetWrapMargin(200);
+	mxmlSetWrapMargin(200);
 
    GameData gameData;
    // initialize static names

@@ -7,8 +7,9 @@ TCL_INC:=/usr/include/tcl8.6
 
 CC=g++
 SRCPATH=../../src
-CFLAGS=-c -g -Wall -I$(SRCPATH) -I$(TCL_INC) -I$(MXML) -DUSE_TCL_STUBS -fPIC
-LDFLAGS+=-L$(MXML)
+CFLAGS+=-c -g -Wall -I$(SRCPATH) -I$(TCL_INC) -DUSE_TCL_STUBS -fPIC
+#CFLAGS+=-I$(MXML)
+#LDFLAGS+=-L$(MXML)
 
 SOURCES=newStars.cpp planet.cpp race.cpp opt.cpp \
  universe.cpp fleet.cpp orders.cpp placeableObject.cpp technology.cpp \
