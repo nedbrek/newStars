@@ -295,8 +295,8 @@
             </SHIPLIST>
          </FLEET>
          <FLEET>
-            <NAME>Smaugarian Peeping Tom #2199369552318</NAME>
-            <OBJECTID>2199369552318</OBJECTID>
+         <NAME>Smaugarian Peeping Tom #2348064826217</NAME>
+         <OBJECTID>2348064826217</OBJECTID>
             <OWNERID>2</OWNERID>
             <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
             <X_COORD>197</X_COORD>
@@ -316,7 +316,7 @@
             <SHIPLIST>
                <HULL>
                   <NAME>Smaugarian Peeping Tom</NAME>
-                  <OBJECTID>2199369552318</OBJECTID>
+               <OBJECTID>2348064826217</OBJECTID>
                   <OWNERID>2</OWNERID>
                   <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
                   <FLEETABLE>1 </FLEETABLE>
