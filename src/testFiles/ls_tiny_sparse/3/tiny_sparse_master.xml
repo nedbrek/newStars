@@ -43,13 +43,13 @@
             </RACE>
          </RACELIST>
          <CURRENTTECHLEVEL>3 3 3 3 3 3</CURRENTTECHLEVEL>
-         <CURRENTRESEARCH>0 0 0 49 0 0</CURRENTRESEARCH>
+         <CURRENTRESEARCH>0 0 0 50 0 0</CURRENTRESEARCH>
          <RESEARCHALLOCATION>0 0 0 100 0 0</RESEARCHALLOCATION>
          <RESEARCHNEXTSAME>0</RESEARCHNEXTSAME>
          <RESEARCHNEXTLOWEST>1</RESEARCHNEXTLOWEST>
          <RESEARCHNEXTID>0</RESEARCHNEXTID>
          <RESEARCHTECHHOLDBACK>15</RESEARCHTECHHOLDBACK>
-         <RESOURCESALLOCATEDTORESEARCH>18</RESOURCESALLOCATEDTORESEARCH>
+         <RESOURCESALLOCATEDTORESEARCH>19</RESOURCESALLOCATEDTORESEARCH>
          <RESEARCHTECHID>3</RESEARCHTECHID>
          <FLEET>
             <NAME>Long Range Scout #1274205627917</NAME>
@@ -86,10 +86,10 @@
                   <FUELCAPACITY>300</FUELCAPACITY>
                   <CARGOCAPACITY>0</CARGOCAPACITY>
                   <MASS>25</MASS>
-                  <BASERESOURCECOST>23</BASERESOURCECOST>
-                  <TOTALRESOURCECOST>23</TOTALRESOURCECOST>
-                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</MINERALCOSTBASE>
-                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</TOTALMINERALCOST>
+                  <BASERESOURCECOST>22</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>22</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">17 2 7 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">17 2 7 0 0</TOTALMINERALCOST>
                   <INITIATIVE>1</INITIATIVE>
                   <BASEINITIATIVE>1</BASEINITIATIVE>
                   <CLOAK>0</CLOAK>
@@ -167,8 +167,8 @@
                   <FUELCAPACITY>50</FUELCAPACITY>
                   <CARGOCAPACITY>0</CARGOCAPACITY>
                   <MASS>23</MASS>
-                  <BASERESOURCECOST>25</BASERESOURCECOST>
-                  <TOTALRESOURCECOST>25</TOTALRESOURCECOST>
+                  <BASERESOURCECOST>24</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>24</TOTALRESOURCECOST>
                   <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">12 8 7 0 0</MINERALCOSTBASE>
                   <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">12 8 7 0 0</TOTALMINERALCOST>
                   <INITIATIVE>1</INITIATIVE>
@@ -233,10 +233,10 @@
                   <FUELCAPACITY>200</FUELCAPACITY>
                   <CARGOCAPACITY>25</CARGOCAPACITY>
                   <MASS>61</MASS>
-                  <BASERESOURCECOST>36</BASERESOURCECOST>
-                  <TOTALRESOURCECOST>36</TOTALRESOURCECOST>
-                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">27 10 26 0 0</MINERALCOSTBASE>
-                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">27 10 26 0 0</TOTALMINERALCOST>
+                  <BASERESOURCECOST>33</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>33</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">25 9 23 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">25 9 23 0 0</TOTALMINERALCOST>
                   <INITIATIVE>0</INITIATIVE>
                   <BASEINITIATIVE>0</BASEINITIATIVE>
                   <CLOAK>0</CLOAK>
@@ -380,10 +380,10 @@
                   <FUELCAPACITY>530</FUELCAPACITY>
                   <CARGOCAPACITY>0</CARGOCAPACITY>
                   <MASS>186</MASS>
-                  <BASERESOURCECOST>91</BASERESOURCECOST>
-                  <TOTALRESOURCECOST>91</TOTALRESOURCECOST>
-                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">50 12 26 0 0</MINERALCOSTBASE>
-                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">50 12 26 0 0</TOTALMINERALCOST>
+                  <BASERESOURCECOST>89</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>89</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">48 12 24 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">48 12 24 0 0</TOTALMINERALCOST>
                   <INITIATIVE>4</INITIATIVE>
                   <BASEINITIATIVE>3</BASEINITIATIVE>
                   <CLOAK>0</CLOAK>
@@ -446,10 +446,10 @@
                   <FUELCAPACITY>0</FUELCAPACITY>
                   <CARGOCAPACITY>0</CARGOCAPACITY>
                   <MASS>0</MASS>
-                  <BASERESOURCECOST>744</BASERESOURCECOST>
-                  <TOTALRESOURCECOST>744</TOTALRESOURCECOST>
-                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</MINERALCOSTBASE>
-                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</TOTALMINERALCOST>
+                  <BASERESOURCECOST>656</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>656</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">122 151 236 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">122 151 236 0 0</TOTALMINERALCOST>
                   <INITIATIVE>14</INITIATIVE>
                   <BASEINITIATIVE>14</BASEINITIATIVE>
                   <CLOAK>0</CLOAK>
@@ -478,8 +478,8 @@
             </SHIPLIST>
          </FLEET>
          <FLEET>
-            <NAME>Long Range Scout #1099857924542</NAME>
-            <OBJECTID>1099857924542</OBJECTID>
+         <NAME>Long Range Scout #1248553198441</NAME>
+         <OBJECTID>1248553198441</OBJECTID>
             <OWNERID>1</OWNERID>
             <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
             <X_COORD>78</X_COORD>
@@ -499,7 +499,7 @@
             <SHIPLIST>
                <HULL>
                   <NAME>Long Range Scout</NAME>
-                  <OBJECTID>1099857924542</OBJECTID>
+               <OBJECTID>1248553198441</OBJECTID>
                   <OWNERID>1</OWNERID>
                   <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
                   <FLEETABLE>1 </FLEETABLE>
@@ -512,10 +512,10 @@
                   <FUELCAPACITY>300</FUELCAPACITY>
                   <CARGOCAPACITY>0</CARGOCAPACITY>
                   <MASS>25</MASS>
-                  <BASERESOURCECOST>23</BASERESOURCECOST>
-                  <TOTALRESOURCECOST>23</TOTALRESOURCECOST>
-                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</MINERALCOSTBASE>
-                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</TOTALMINERALCOST>
+                  <BASERESOURCECOST>22</BASERESOURCECOST>
+                  <TOTALRESOURCECOST>22</TOTALRESOURCECOST>
+                  <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">17 2 7 0 0</MINERALCOSTBASE>
+                  <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">17 2 7 0 0</TOTALMINERALCOST>
                   <INITIATIVE>1</INITIATIVE>
                   <BASEINITIATIVE>1</BASEINITIATIVE>
                   <CLOAK>0</CLOAK>
@@ -573,10 +573,10 @@
                <FUELCAPACITY>0</FUELCAPACITY>
                <CARGOCAPACITY>0</CARGOCAPACITY>
                <MASS>0</MASS>
-               <BASERESOURCECOST>744</BASERESOURCECOST>
-               <TOTALRESOURCECOST>744</TOTALRESOURCECOST>
-               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</MINERALCOSTBASE>
-               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">136 176 266 0 0</TOTALMINERALCOST>
+               <BASERESOURCECOST>656</BASERESOURCECOST>
+               <TOTALRESOURCECOST>656</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">122 151 236 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">122 151 236 0 0</TOTALMINERALCOST>
                <INITIATIVE>14</INITIATIVE>
                <BASEINITIATIVE>14</BASEINITIATIVE>
                <CLOAK>0</CLOAK>
@@ -617,10 +617,10 @@
                <FUELCAPACITY>300</FUELCAPACITY>
                <CARGOCAPACITY>0</CARGOCAPACITY>
                <MASS>25</MASS>
-               <BASERESOURCECOST>23</BASERESOURCECOST>
-               <TOTALRESOURCECOST>23</TOTALRESOURCECOST>
-               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</MINERALCOSTBASE>
-               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">18 2 7 0 0</TOTALMINERALCOST>
+               <BASERESOURCECOST>22</BASERESOURCECOST>
+               <TOTALRESOURCECOST>22</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">17 2 7 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">17 2 7 0 0</TOTALMINERALCOST>
                <INITIATIVE>1</INITIATIVE>
                <BASEINITIATIVE>1</BASEINITIATIVE>
                <CLOAK>0</CLOAK>
@@ -661,8 +661,8 @@
                <FUELCAPACITY>50</FUELCAPACITY>
                <CARGOCAPACITY>0</CARGOCAPACITY>
                <MASS>23</MASS>
-               <BASERESOURCECOST>25</BASERESOURCECOST>
-               <TOTALRESOURCECOST>25</TOTALRESOURCECOST>
+               <BASERESOURCECOST>24</BASERESOURCECOST>
+               <TOTALRESOURCECOST>24</TOTALRESOURCECOST>
                <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">12 8 7 0 0</MINERALCOSTBASE>
                <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">12 8 7 0 0</TOTALMINERALCOST>
                <INITIATIVE>1</INITIATIVE>
@@ -705,10 +705,10 @@
                <FUELCAPACITY>200</FUELCAPACITY>
                <CARGOCAPACITY>25</CARGOCAPACITY>
                <MASS>61</MASS>
-               <BASERESOURCECOST>36</BASERESOURCECOST>
-               <TOTALRESOURCECOST>36</TOTALRESOURCECOST>
-               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">27 10 26 0 0</MINERALCOSTBASE>
-               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">27 10 26 0 0</TOTALMINERALCOST>
+               <BASERESOURCECOST>33</BASERESOURCECOST>
+               <TOTALRESOURCECOST>33</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">25 9 23 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">25 9 23 0 0</TOTALMINERALCOST>
                <INITIATIVE>0</INITIATIVE>
                <BASEINITIATIVE>0</BASEINITIATIVE>
                <CLOAK>0</CLOAK>
@@ -793,10 +793,10 @@
                <FUELCAPACITY>210</FUELCAPACITY>
                <CARGOCAPACITY>0</CARGOCAPACITY>
                <MASS>574</MASS>
-               <BASERESOURCECOST>259</BASERESOURCECOST>
-               <TOTALRESOURCECOST>259</TOTALRESOURCECOST>
-               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">93 0 23 0 0</MINERALCOSTBASE>
-               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">93 0 23 0 0</TOTALMINERALCOST>
+               <BASERESOURCECOST>249</BASERESOURCECOST>
+               <TOTALRESOURCECOST>249</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">90 0 23 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">90 0 23 0 0</TOTALMINERALCOST>
                <INITIATIVE>0</INITIATIVE>
                <BASEINITIATIVE>0</BASEINITIATIVE>
                <CLOAK>0</CLOAK>
@@ -837,10 +837,10 @@
                <FUELCAPACITY>530</FUELCAPACITY>
                <CARGOCAPACITY>0</CARGOCAPACITY>
                <MASS>186</MASS>
-               <BASERESOURCECOST>91</BASERESOURCECOST>
-               <TOTALRESOURCECOST>91</TOTALRESOURCECOST>
-               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">50 12 26 0 0</MINERALCOSTBASE>
-               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">50 12 26 0 0</TOTALMINERALCOST>
+               <BASERESOURCECOST>89</BASERESOURCECOST>
+               <TOTALRESOURCECOST>89</TOTALRESOURCECOST>
+               <MINERALCOSTBASE TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">48 12 24 0 0</MINERALCOSTBASE>
+               <TOTALMINERALCOST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">48 12 24 0 0</TOTALMINERALCOST>
                <INITIATIVE>4</INITIATIVE>
                <BASEINITIATIVE>3</BASEINITIATIVE>
                <CLOAK>0</CLOAK>
@@ -1013,7 +1013,7 @@
                <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
                <X_COORD>78</X_COORD>
                <Y_COORD>80</Y_COORD>
-               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">793 904 701 0 1322</CARGOMANIFEST>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">792 904 701 0 1322</CARGOMANIFEST>
                <ORDERLIST>
                </ORDERLIST>
                <IS_HOMEWORLD>1</IS_HOMEWORLD>
@@ -1803,8 +1803,8 @@
             </SHIPLIST>
          </FLEET>
          <FLEET>
-            <NAME>Smaugarian Peeping Tom #2199369552318</NAME>
-            <OBJECTID>2199369552318</OBJECTID>
+         <NAME>Smaugarian Peeping Tom #2348064826217</NAME>
+         <OBJECTID>2348064826217</OBJECTID>
             <OWNERID>2</OWNERID>
             <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
             <X_COORD>197</X_COORD>
@@ -1824,7 +1824,7 @@
             <SHIPLIST>
                <HULL>
                   <NAME>Smaugarian Peeping Tom</NAME>
-                  <OBJECTID>2199369552318</OBJECTID>
+               <OBJECTID>2348064826217</OBJECTID>
                   <OWNERID>2</OWNERID>
                   <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
                   <FLEETABLE>1 </FLEETABLE>
@@ -1887,7 +1887,7 @@
                <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
                <X_COORD>164</X_COORD>
                <Y_COORD>175</Y_COORD>
-               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 239 0</CARGOMANIFEST>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
                <ORDERLIST>
                </ORDERLIST>
                <BATTLE_ORDER_ID>0</BATTLE_ORDER_ID>
@@ -2905,7 +2905,7 @@
             <GAMEOBJECTTYPE>7</GAMEOBJECTTYPE>
             <X_COORD>78</X_COORD>
             <Y_COORD>80</Y_COORD>
-            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">793 904 701 0 1322</CARGOMANIFEST>
+            <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">792 904 701 0 1322</CARGOMANIFEST>
             <ORDERLIST>
             </ORDERLIST>
             <IS_HOMEWORLD>1</IS_HOMEWORLD>

@@ -19,8 +19,8 @@ newStars $::ns_planet $fid $::ns_speed 1 6
 newStars $::ns_planet $fid $::ns_addAtIndex 2 $::ns_orderColonize
 
 # send out new scout
-set fid [findFleetByName "Long Range Scout #1099857924542"]
-sendFleetToPlanet "Long Range Scout #1099857924542" \
+set fid [findFleetByName "Long Range Scout #1274205627917"]
+sendFleetToPlanet "Long Range Scout #1274205627917" \
    [findPlanetByName "Zarquon"]
 newStars $::ns_planet $fid $::ns_speed 0 7
 
