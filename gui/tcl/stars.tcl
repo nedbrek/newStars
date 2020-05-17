@@ -1114,7 +1114,9 @@ proc fillOther {fid} {
 		lappend other_fleets $name
 	}
 	.tGui.fOtherFleet.cb configure -values $other_fleets
-	.tGui.fOtherFleet.cb current 0
+	if {[llength $other_fleets]} {
+		.tGui.fOtherFleet.cb current 0
+	}
 }
 
 # update the gui to represent the current fleet (walkNum)
