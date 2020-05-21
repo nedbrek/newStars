@@ -2070,8 +2070,12 @@ bool NewStarsTcl::planet(Parms &p)
       //else
       if( c == Enum_DeleteAtIndex )
       {
-         delete pop->currentOrders[size_t(p[3])];
-         vectorDelete(pop->currentOrders, unsigned(p[3]));
+         const unsigned idx = p[3];
+         if (pop->currentOrders.size() > idx)
+         {
+         	delete pop->currentOrders[idx];
+         	vectorDelete(pop->currentOrders, idx);
+         }
          return true;
       }
 		//else

@@ -9,9 +9,9 @@ buildMyPlanetMap
 set hwPID $nsGui::myPlanetMap(0)
 
 # change orders lrs
-set fid [findFleetByName "Long Range Scout #1099857924542"]
+set fid [findFleetByName "Long Range Scout #1248553198441"]
 newStars $::ns_planet $fid $::ns_deleteAtIndex 0
-sendFleetToPlanet "Long Range Scout #1099857924542" \
+sendFleetToPlanet "Long Range Scout #1248553198441" \
    [findPlanetByName "409"]
 newStars $::ns_planet $fid $::ns_speed 0 6
 
