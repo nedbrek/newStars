@@ -250,8 +250,8 @@
             </SHIPLIST>
          </FLEET>
          <FLEET>
-            <NAME>Smaugarian Peeping Tom #2199369552318</NAME>
-            <OBJECTID>2199369552318</OBJECTID>
+         <NAME>Smaugarian Peeping Tom #2348064826217</NAME>
+         <OBJECTID>2348064826217</OBJECTID>
             <OWNERID>2</OWNERID>
             <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
             <X_COORD>197</X_COORD>
@@ -271,7 +271,7 @@
             <SHIPLIST>
                <HULL>
                   <NAME>Smaugarian Peeping Tom</NAME>
-                  <OBJECTID>2199369552318</OBJECTID>
+               <OBJECTID>2348064826217</OBJECTID>
                   <OWNERID>2</OWNERID>
                   <GAMEOBJECTTYPE>2</GAMEOBJECTTYPE>
                   <FLEETABLE>1 </FLEETABLE>
@@ -334,7 +334,7 @@
                <GAMEOBJECTTYPE>3</GAMEOBJECTTYPE>
                <X_COORD>165</X_COORD>
                <Y_COORD>287</Y_COORD>
-               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 204 0</CARGOMANIFEST>
+               <CARGOMANIFEST TYPE="Ironium Boranium Germanium Fuel Colonists" SCALE="KiloTons">0 0 0 0 0</CARGOMANIFEST>
                <ORDERLIST>
                </ORDERLIST>
                <BATTLE_ORDER_ID>0</BATTLE_ORDER_ID>
