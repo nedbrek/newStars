@@ -2286,23 +2286,27 @@ bool NewStarsTcl::planet(Parms &p)
       std::string orderName = orderp->orderDescriptorString;
       orderName += " ";
 
-      uint64_t tmp64 = formXYhash(orderp->destination.getX(),
-                                orderp->destination.getY());
-      std::map<uint64_t, Planet*>::iterator pm = planetMap_.find(tmp64);
-      if( pm == planetMap_.end() )
+      if (orderp->myOrderID == move_order)
       {
-         orderName += "(";
-         char buf[512];
-         sprintf(buf, "%d", orderp->destination.getX());
-         orderName += buf;
-         orderName += ", ";
-         sprintf(buf, "%d", orderp->destination.getY());
-         orderName += buf;
-         orderName += ")";
-      }
-      else
-      {
-         orderName += pm->second->getName();
+         // show destination
+         const uint64_t tmp64 = formXYhash(orderp->destination.getX(),
+                                     orderp->destination.getY());
+         std::map<uint64_t, Planet*>::iterator pm = planetMap_.find(tmp64);
+         if( pm == planetMap_.end() )
+         {
+               orderName += "(";
+               char buf[512];
+               sprintf(buf, "%d", orderp->destination.getX());
+               orderName += buf;
+               orderName += ", ";
+               sprintf(buf, "%d", orderp->destination.getY());
+               orderName += buf;
+               orderName += ")";
+         }
+         else
+         {
+            orderName += pm->second->getName();
+         }
       }
 
       Tcl_Obj *res = Tcl_NewStringObj(orderName.c_str(),
@@ -2310,13 +2314,15 @@ bool NewStarsTcl::planet(Parms &p)
       Tcl_SetObjResult(p.getInterp(), res);
       return true;
    }
-	if( c == Cmd_Generate )
-	{
-		uint64_t ret = IdGen::getInstance()->makeFleet(
-		    self->race->ownerID, true, self->objectMap);
 
-		// return the new fleet id
-		Tcl_Obj *res = Tcl_NewWideIntObj(ret);
+   // generate (new fleet?)
+   if( c == Cmd_Generate )
+   {
+      uint64_t ret = IdGen::getInstance()->makeFleet(
+          self->race->ownerID, true, self->objectMap);
+
+      // return the new fleet id
+      Tcl_Obj *res = Tcl_NewWideIntObj(ret);
 
 		// create the empty fleet
 		Fleet *newFleet = new Fleet;

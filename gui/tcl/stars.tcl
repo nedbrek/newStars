@@ -1,4 +1,4 @@
-#!/usr/bin/wish8.5
+#!/usr/bin/env wish
 package require BWidget
 package require tablelist
 package require tdom
