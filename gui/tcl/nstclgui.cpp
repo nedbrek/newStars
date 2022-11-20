@@ -1004,6 +1004,7 @@ bool NewStarsTcl::design(Parms &p)
 		}
 
 		gameData_->playerDesigns.push_back(newDesign_);
+		newDesign_ = nullptr;
 
       pdp->designList = gameData_->playerDesigns;
 
