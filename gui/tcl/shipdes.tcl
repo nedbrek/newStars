@@ -489,7 +489,8 @@ proc shipDesigner {} {
             buildAvailList
          }
 
-         .tShipDes.fRightSide.cbShipList current end
+         set sl_idx [llength [.tShipDes.fRightSide.cbShipList cget -values]]
+         .tShipDes.fRightSide.cbShipList current [expr {$sl_idx-1}]
          set shipDes::viewSel 0
          doneDesign
       } else {
