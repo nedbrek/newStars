@@ -1004,14 +1004,16 @@ bool NewStarsTcl::design(Parms &p)
 		}
 
 		gameData_->playerDesigns.push_back(newDesign_);
-		newDesign_ = nullptr;
 
       pdp->designList = gameData_->playerDesigns;
+      pdp->objectMap.insert(std::make_pair(newDesign_->objectId, newDesign_));
 
       setupDesigns(p, gameData_->playerDesigns, "designMap", "numDesigns");
 
       Tcl_Obj *res = Tcl_NewStringObj("", 0);
 	   Tcl_SetObjResult(p.getInterp(), res);
+
+		newDesign_ = nullptr;
 		return true;
    }
    //else
